@@ -1,0 +1,1116 @@
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+- Am I talking to a human
+- are you human
+
+## intent:complex_request
+- What [movies](type:movie) has the [actor](role) [Matt Damon](PERSON) been in?
+- Tell me about [action](genre) [movies](type:movie) from [2017](DATE)
+
+## intent:confirm
+- that's correct
+- yes that's it
+- correct
+- yes
+- yes thank you
+- Yes thank you
+
+## intent:action_request
+- what [movies](type) has [Aamir Khan](actor) [starred](action) in?
+- what [movies](type) has [Aaron Eckhart](actor) [been](action:starred) in?
+- what [movies](type) has [Aaron Poole](actor) [acted](action:starred) in?
+- what [movies](type) has [Aaron Taylor-Johnson](actor) [starred](action) in?
+- what [movies](type) has [Anthony Hopkins](actor) [been](action:starred) in?
+- what [movies](type) has [Ben Affleck](actor) [acted](action:starred) in?
+- what [movies](type) has [Bill Murray](actor) [starred](action) in?
+- what [movies](type) has [Brad Pitt](actor) [been](action:starred) in?
+- what [movies](type) has [Brendan Gleeson](actor) [acted](action:starred) in?
+- what [movies](type) has [Bryce Dallas Howard](actor) [starred](action) in?
+- what [movies](type) has [Carey Mulligan](actor) [been](action:starred) in?
+- what [movies](type) has [Christoph Waltz](actor) [acted](action:starred) in?
+- what [movies](type) has [Colin Firth](actor) [starred](action) in?
+- what [movies](type) has [Chris Pine](actor) [been](action:starred) in?
+- what [movies](type) has [Charlize Theron](actor) [acted](action:starred) in?
+- what [movies](type) has [Dave Franco](actor) [starred](action) in?
+- what [movies](type) has [Danny DeVito](actor) [been](action:starred) in?
+- what [movies](type) has [Dev Patel](actor) [acted](action:starred) in?
+- what [movies](type) has [Daniel Zovatto](actor) [starred](action) in?
+- what [movies](type) has [Domhnall Gleeson](actor) [been](action:starred) in?
+- what [movies](type) has [Eddie Redmayne](actor) [acted](action:starred) in?
+- what [movies](type) has [Elizabeth Debicki](actor) [starred](action) in?
+- what [movies](type) has [Emily Blunt](actor) [been](action:starred) in?
+- what [movies](type) has [Eric Stonestreet](actor) [acted](action:starred) in?
+- what [movies](type) has [Eva Mendes](actor) [starred](action) in?
+- what [movies](type) has [Felicity Jones](actor) [been](action:starred) in?
+- what [movies](type) has [Fiona Gordon](actor) [acted](action:starred) in?
+- what [movies](type) has [Forest Whitaker](actor) [starred](action) in?
+- what [movies](type) has [Gabriel Chavarria](actor) [been](action:starred) in?
+- what [movies](type) has [Emma Booth](actor) [acted](action:starred) in?
+- what [movies](type) has [Gerard Butler](actor) [starred](action) in?
+- what [movies](type) has [Guy Pearce](actor) [been](action:starred) in?
+- what [movies](type) has [Gugu Mbatha-Raw](actor) [acted](action:starred) in?
+- what [movies](type) has [Ginnifer Goodwin](actor) [starred](action) in?
+- what [movies](type) has [Gil Birmingham](actor) [been](action:starred) in?
+- what [movies](type) has [Hermione Corfield](actor) [acted](action:starred) in?
+- what [movies](type) has [Henry Cavill](actor) [starred](action) in?
+- what [movies](type) has [Heath Ledger](actor) [been](action:starred) in?
+- what [movies](type) has [Hugh Jackman](actor) [acted](action:starred) in?
+- what [movies](type) has [Haley Bennett](actor) [starred](action) in?
+- what [movies](type) has [Karl Urban](actor) [been](action:starred) in?
+- what [movies](type) has [Keanu Reeves](actor) [acted](action:starred) in?
+- what [movies](type) has [Leonard Nimoy](actor) [starred](action) in?
+- what [movies](type) has [Leonardo DiCaprio](actor) [been](action:starred) in?
+- what [movies](type) has [Mark Wahlberg](actor) [acted](action:starred) in?
+- what [movies](type) has [Matthew McConaughey](actor) [starred](action) in?
+- what [movies](type) has [Michael Keaton](actor) [been](action:starred) in?
+- what [movies](type) has [Nick Offerman](actor) [acted](action:starred) in?
+- what [movies](type) has [Temuera Morrison](actor) [starred](action) in?
+- what [movies](type) has [Teodora Duhovnikova](actor) [been](action:starred) in?
+- who [starred](action) in [Guardians of the Galaxy](title)?
+- who [starred](action) in [Prometheus](title)?
+- who [starred](action) in [Split](title)?
+- who [starred](action) in [Sing](title)?
+- who [starred](action) in [Suicide Squad](title)?
+- who [starred](action) in [The Great Wall](title)?
+- who [starred](action) in [La La Land](title)?
+- who [starred](action) in [Mindhorn](title)?
+- who [starred](action) in [The Lost City of Z](title)?
+- who [starred](action) in [Passengers](title)?
+- who [starred](action) in [Fantastic Beasts and Where to Find Them](title)?
+- who [starred](action) in [Hidden Figures](title)?
+- who [starred](action) in [Rogue One](title)?
+- who [starred](action) in [Moana](title)?
+- who [starred](action) in [Colossal](title)?
+- who [starred](action) in [The Secret Life of Pets](title)?
+- who [starred](action) in [Hacksaw Ridge](title)?
+- who [starred](action) in [Jason Bourne](title)?
+- who [starred](action) in [Lion](title)?
+- who [starred](action) in [Arrival](title)?
+- who [starred](action) in [Gold](title)?
+- who [starred](action) in [Manchester by the Sea](title)?
+- who [starred](action) in [Hounds of Love](title)?
+- who [starred](action) in [Trolls](title)?
+- who [starred](action) in [Independence Day: Resurgence](title)?
+- who [starred](action) in [Paris pieds nus](title)?
+- who [starred](action) in [Bahubali: The Beginning](title)?
+- who [starred](action) in [Dead Awake](title)?
+- who [starred](action) in [Bad Moms](title)?
+- who [starred](action) in [Assassin's Creed](title)?
+- who [starred](action) in [Why Him?](title)?
+- who [starred](action) in [Nocturnal Animals](title)?
+- who [starred](action) in [X-Men: Apocalypse](title)?
+- who [starred](action) in [Deadpool](title)?
+- who [starred](action) in [Resident Evil: The Final Chapter](title)?
+- who [starred](action) in [Captain America: Civil War](title)?
+- who [starred](action) in [Interstellar](title)?
+- who [starred](action) in [Doctor Strange](title)?
+- who [starred](action) in [The Magnificent Seven](title)?
+- who [starred](action) in [Don't Breathe](title)?
+- who [starred](action) in [Sausage Party](title)?
+- who [starred](action) in [Moonlight](title)?
+- who [starred](action) in [Don't Fuck in the Woods](title)?
+- who [starred](action) in [The Founder](title)?
+- who [starred](action) in [Lowriders](title)?
+- who [starred](action) in [Pirates of the Caribbean: On Stranger Tides](title)?
+- who [starred](action) in [Miss Sloane](title)?
+- who [starred](action) in [Fallen](title)?
+- who [starred](action) in [Star Trek Beyond](title)?
+- who [starred](action) in [The Last Face](title)?
+
+## intent:date_request
+- what [show](type) came out on the [1st of January](DATE)?
+- which [movie](type) released on the [2nd of February](DATE)?
+- what [series](type:show) was released on the [3rd of March](DATE)?
+- which [tv show](type:show) came out on the [4th of April](DATE)?
+- what [tv series](type:show) released on the [5th of May](DATE)?
+- which [movies](type:movie) was released on the [6th of June](DATE)?
+- what [show](type) came out on the [7th of July](DATE)?
+- which [movie](type) released on the [8th of August](DATE)?
+- what [series](type:show) was released on the [9th of September](DATE)?
+- which [tv show](type:show) came out on the [10th of October](DATE)?
+- what [show](type) released on the [11th of November](DATE)?
+- which [movie](type) was released on the [12th of December](DATE)?
+- what [series](type:show) came out on the [13th of January](DATE)?
+- what [show](type) released on the [14th of February](DATE)?
+- which [movie](type) was released on the [15th of March](DATE)?
+- what [series](type:show) came out on the [16th of April](DATE)?
+- which [tv show](type:show) released on the [17th of May](DATE)?
+- what [tv series](type:show) was released on the [18th of June](DATE)?
+- which [movies](type:movie) came out on the [19th of July](DATE)?
+- what [show](type) released on the [20th of August](DATE)?
+- which [movie](type) was released on the [21st of September](DATE)?
+- what [series](type:show) came out on the [22nd of October](DATE)?
+- which [tv show](type:show) released on the [23rd of November](DATE)?
+- what [show](type) was released on the [24th of December](DATE)?
+- which [movie](type) came out on the [25th of January](DATE)?
+- what [show](type) released on the [26th of February](DATE)?
+- which [movie](type) was released on the [27th of March](DATE)?
+- what [series](type:show) came out on the [28th of April](DATE)?
+- which [tv show](type:show) released on the [29th of May](DATE)?
+- what [tv series](type:show) was released on the [30th of June](DATE)?
+- which [movies](type:movie) came out on the [31st of July](DATE)?
+- what [comedy](genre) [show](type) came out on the [1st of January](DATE)?
+- which [drama](genre) [movie](type) released on the [2nd of February](DATE)?
+- what [action](genre) [series](type:show) was released on the [3rd of March](DATE)?
+- which [adventure](genre) [tv show](type:show) came out on the [4th of April](DATE)?
+- what [romance](genre) [tv series](type:show) released on the [5th of May](DATE)?
+- which [science fiction](genre) [movies](type:movie) was released on the [6th of June](DATE)?
+- what [fantasy](genre) [show](type) came out on the [7th of July](DATE)?
+- which [animated](genre) [movie](type) released on the [8th of August](DATE)?
+- what [crime](genre) [series](type:show) was released on the [9th of September](DATE)?
+- which [thriller](genre) [tv show](type:show) came out on the [10th of October](DATE)?
+- what [documentary](genre) [show](type) released on the [11th of November](DATE)?
+- which [horror](genre) [movie](type) was released on the [12th of December](DATE)?
+- what [family](genre) [series](type:show) came out on the [13th of January](DATE)?
+- which [mystery](genre) [show](type) released on the [14th of February](DATE)?
+- what [war](genre) [movie](type) was released on the [15th of March](DATE)?
+- which [western](genre) [series](type:show) came out on the [16th of April](DATE)?
+- what [history](genre) [tv show](type:show) released on the [17th of May](DATE)?
+- which [comedy](genre) [tv series](type:show) was released on the [18th of June](DATE)?
+- what [drama](genre) [movies](type:movie) came out on the [19th of July](DATE)?
+- which [action](genre) [show](type) released on the [20th of August](DATE)?
+- what [adventure](genre) [movie](type) was released on the [21st of September](DATE)?
+- which [romance](genre) [series](type:show) came out on the [22nd of October](DATE)?
+- what [science fiction](genre) [tv show](type:show) released on the [23rd of November](DATE)?
+- which [fantasy](genre) [show](type) was released on the [24th of December](DATE)?
+- what [animated](genre) [movie](type) came out on the [25th of January](DATE)?
+- which [crime](genre) [show](type) released on the [26th of February](DATE)?
+- what [thriller](genre) [movie](type) was released on the [27th of March](DATE)?
+- which [documentary](genre) [series](type:show) came out on the [28th of April](DATE)?
+- what [horror](genre) [tv show](type:show) released on the [29th of May](DATE)?
+- which [family](genre) [tv series](type:show) was released on the [30th of June](DATE)?
+- what [mystery](genre) [movies](type:movie) came out on the [31st of July](DATE)?
+- what [comedy](genre) [show](type) came out on [January 1st 2020](DATE)?
+- which [drama](genre) [movie](type) released on [February 2nd 2019](DATE)?
+- what [action](genre) [series](type:show) was released on [March 3rd 2018](DATE)?
+- which [adventure](genre) [tv show](type:show) came out on [April 4th 2017](DATE)?
+- what [romance](genre) [tv series](type:show) released on [May 5th 2016](DATE)?
+- which [science fiction](genre) [movies](type:movie) was released on [June 6th 2015](DATE)?
+- what [fantasy](genre) [show](type) came out on [July 7th 2014](DATE)?
+- which [animated](genre) [movie](type) released on [August 8th 2013](DATE)?
+- what [crime](genre) [series](type:show) was released on [September 9th 2012](DATE)?
+- which [thriller](genre) [tv show](type:show) came out on [October 10th 2011](DATE)?
+- what [documentary](genre) [show](type) released on [November 11th 2010](DATE)?
+- which [horror](genre) [movie](type) was released on [December 12th 2009](DATE)?
+- what [family](genre) [series](type:show) came out on [January 13th 2008](DATE)?
+- what [mystery](genre) [show](type) released on [February 14th 2007](DATE)?
+- which [war](genre) [movie](type) was released on [March 15th 2006](DATE)?
+- what [western](genre) [series](type:show) came out on [April 16th 2005](DATE)?
+- which [history](genre) [tv show](type:show) released on [May 17th 2004](DATE)?
+- what [comedy](genre) [tv series](type:show) was released on [June 18th 2003](DATE)?
+- which [drama](genre) [movies](type:movie) came out on [July 19th 2002](DATE)?
+- what [action](genre) [show](type) released on [August 20th 2001](DATE)?
+- which [adventure](genre) [movie](type) was released on [September 21st 2000](DATE)?
+- what [romance](genre) [series](type:show) came out on [October 22nd 1999](DATE)?
+- which [science fiction](genre) [tv show](type:show) released on [November 23rd 1998](DATE)?
+- what [fantasy](genre) [show](type) was released on [December 24th 1997](DATE)?
+- which [animated](genre) [movie](type) came out on [January 25th 1996](DATE)?
+- what [crime](genre) [show](type) released on [February 26th 1995](DATE)?
+- which [thriller](genre) [movie](type) was released on [March 27th 1994](DATE)?
+- what [documentary](genre) [series](type:show) came out on [April 28th 1993](DATE)?
+- which [horror](genre) [tv show](type:show) released on [May 29th 1992](DATE)?
+- what [family](genre) [tv series](type:show) was released on [June 30th 1991](DATE)?
+- which [mystery](genre) [movies](type:movie) came out on [July 31st 1990](DATE)?
+- what [comedy](genre) [show](type) released on [August 1st 1989](DATE)?
+- which [drama](genre) [movie](type) was released on [September 2nd 1988](DATE)?
+- what [action](genre) [series](type:show) came out on [October 3rd 1987](DATE)?
+- which [adventure](genre) [tv show](type:show) released on [November 4th 1986](DATE)?
+- what [romance](genre) [tv series](type:show) was released on [December 5th 1985](DATE)?
+- which [science fiction](genre) [movies](type:movie) came out on [January 6th 1984](DATE)?
+- what [fantasy](genre) [show](type) released on [February 7th 1983](DATE)?
+- which [animated](genre) [movie](type) was released on [March 8th 1982](DATE)?
+- what [crime](genre) [series](type:show) came out on [April 9th 1981](DATE)?
+- which [thriller](genre) [tv show](type:show) released on [May 10th 1980](DATE)?
+
+## intent:deny
+- that's wrong
+- that's not what I am looking for
+- that's not correct
+- no
+- nope
+- no that's not it
+
+## intent:gen_request
+- Tell me about the [movie](type) [batman](title)
+- Tell me about the [series](type:show) [the Simpsons](title)
+- Tell me about the [show](type) [the Simpsons](title)
+- What [comedy](genre) was released on [January 5th](DATE)
+- What [drama](genre) was released on [February 6th](DATE)
+- What [action](genre) movie was released on [March 7th](DATE)
+- What [adventure](genre) was released on [April 8th](DATE)
+- What [romance](genre) was released on [May 9th](DATE)
+- What [sci-fi](genre) movie was released on [June 10th](DATE)
+- What [fantasy](genre) movie was released on [July 11th](DATE)
+- What [drama](genre) [tv series](type:show) was released on the [17th of January](DATE)
+- what [drama](genre) [movies](type:movie) came out in [2013](DATE)?
+- What is the [movie](type) [Avengers](title) about?
+- Yes. What year did the movie [Joker](title) release?
+- tell me about the [movie](type) [Superman](title:superman)
+- get me information on the [movie](type) [Superman](title:superman)
+- Tell me about the [movie](type) [Superman](title:superman)
+- tell me about the [movie](type) [superman](title)
+- what [show](type) released on the [20th of December](DATE)?
+- What [show](type) came out on the [5th of march](DATE)
+- What [comedy](genre) was released on [April 5th](DATE)
+- Tell me about the movie [Prometheus](title)
+- Tell me about the movie [Guardians of the Galaxy](title)
+- Tell me about the movie [Split](title)
+- Tell me about the movie [Sing](title)
+- Tell me about the movie [Suicide Squad](title)
+- Tell me about the movie [The Great Wall](title)
+- Tell me about the movie [La La Land](title)
+- Tell me about the movie [Mindhorn](title)
+- Tell me about the movie [The Lost City of Z](title)
+- Tell me about the movie [Passengers](title)
+- Tell me about the movie [Fantastic Beasts and Where to Find Them](title)
+- Tell me about the movie [Hidden Figures](title)
+- Tell me about the movie [Rogue One](title)
+- Tell me about the movie [Moana](title)
+- Tell me about the movie [Colossal](title)
+- Tell me about the movie [The Secret Life of Pets](title)
+- Tell me about the movie [Hacksaw Ridge](title)
+- Tell me about the movie [Jason Bourne](title)
+- Tell me about the movie [Lion](title)
+- Tell me about the movie [Arrival](title)
+- Tell me about the movie [Gold](title)
+- Tell me about the movie [Manchester by the Sea](title)
+- Tell me about the movie [Hounds of Love](title)
+- Tell me about the movie [Trolls](title)
+- Tell me about the movie [Independence Day: Resurgence](title)
+- Tell me about the movie [Paris pieds nus](title)
+- Tell me about the movie [Bahubali: The Beginning](title)
+- Tell me about the movie [Dead Awake](title)
+- Tell me about the movie [Bad Moms](title)
+- Tell me about the movie [Assassin's Creed](title)
+- Tell me about the movie [Why Him?](title)
+- Tell me about the movie [Nocturnal Animals](title)
+- Tell me about the movie [X-Men: Apocalypse](title)
+- Tell me about the movie [Deadpool](title)
+- Tell me about the movie [Resident Evil: The Final Chapter](title)
+- Tell me about the movie [Captain America: Civil War](title)
+- Tell me about the movie [Interstellar](title)
+- Tell me about the movie [Doctor Strange](title)
+- Tell me about the movie [The Magnificent Seven](title)
+- Tell me about the movie [5- 25- 77](title)
+- Tell me about the movie [Sausage Party](title)
+- Tell me about the movie [Moonlight](title)
+- Tell me about the movie [Don't Fuck in the Woods](title)
+- Tell me about the movie [The Founder](title)
+- Tell me about the movie [Lowriders](title)
+- Tell me about the movie [Pirates of the Caribbean: On Stranger Tides](title)
+- Tell me about the movie [Miss Sloane](title)
+- Tell me about the movie [Fallen](title)
+- Tell me about the movie [Star Trek Beyond](title)
+- Tell me about the movie [The Last Face](title)
+- Tell me about the movie [Star Wars: Episode VII - The Force Awakens](title)
+- Tell me about the movie [Underworld: Blood Wars](title)
+- Tell me about the movie [Mother's Day](title)
+- Tell me about the movie [John Wick](title)
+- Tell me about the movie [The Dark Knight](title)
+- Tell me about the movie [Silence](title)
+- Tell me about the movie [Don't Breathe](title)
+- Tell me about the movie [Me Before You](title)
+- Tell me about the movie [Their Finest](title)
+- Tell me about the movie [Sully](title)
+- Tell me about the movie [Batman v Superman: Dawn of Justice](title)
+- Tell me about the movie [The Autopsy of Jane Doe](title)
+- Tell me about the movie [The Girl on the Train](title)
+- Tell me about the movie [Fifty Shades of Grey](title)
+- Tell me about the movie [The Prestige](title)
+- Tell me about the movie [Kingsman: The Secret Service](title)
+- Tell me about the movie [Patriots Day](title)
+- Tell me about the movie [Mad Max: Fury Road](title)
+- Tell me about the movie [Wakefield](title)
+- Tell me about the movie [Deepwater Horizon](title)
+- Tell me about the movie [The Promise](title)
+- Tell me about the movie [Allied](title)
+- Tell me about the movie [A Monster Calls](title)
+- Tell me about the movie [Collateral Beauty](title)
+- Tell me about the movie [Zootopia](title)
+- Tell me about the movie [Pirates of the Caribbean: At World's End](title)
+- Tell me about the movie [The Avengers](title)
+- Tell me about the movie [Inglourious Basterds](title)
+- Tell me about the movie [Pirates of the Caribbean: Dead Man's Chest](title)
+- Tell me about the movie [Ghostbusters](title)
+- Tell me about the movie [Inception](title)
+- Tell me about the movie [Captain Fantastic](title)
+- Tell me about the movie [The Wolf of Wall Street](title)
+- Tell me about the movie [Gone Girl](title)
+- Tell me about the movie [Furious Seven](title)
+- Tell me about the movie [Jurassic World](title)
+- Tell me about the movie [Live by Night](title)
+- Tell me about the movie [Avatar](title)
+- Tell me about the movie [The Hateful Eight](title)
+- Tell me about the movie [The Accountant](title)
+- Tell me about the movie [Prisoners](title)
+- Tell me about the movie [Warcraft](title)
+- Tell me about the movie [The Help](title)
+- Tell me about the movie [War Dogs](title)
+- Tell me about the movie [Avengers: Age of Ultron](title)
+- Tell me about the movie [The Nice Guys](title)
+- Tell me about the movie [Kimi no na wa](title)
+- Tell me about the movie [The Void](title)
+- Tell me about the movie [Personal Shopper](title)
+- Tell me about the movie [The Departed](title)
+- Tell me about the movie [Legend](title)
+- Tell me about the movie [Thor](title)
+- Tell me about the movie [The Martian](title)
+- Tell me about the movie [Contratiempo](title)
+- Tell me about the movie [The Man from U.N.C.L.E.](title)
+- Tell me about the movie [Hell or High Water](title)
+- Tell me about the movie [The Comedian](title)
+- Tell me about the movie [The Legend of Tarzan](title)
+- Tell me about the movie [All We Had](title)
+- Tell me about the movie [Ex Machina](title)
+- Tell me about the movie [The Belko Experiment](title)
+- Tell me about the movie [12 Years a Slave](title)
+- Tell me about the movie [The Bad Batch](title)
+- Tell me about the movie [300](title)
+- Tell me about the movie [Harry Potter and the Deathly Hallows: Part 2](title)
+- Tell me about the movie [Office Christmas Party](title)
+- Tell me about the movie [The Neon Demon](title)
+- Tell me about the movie [Dangal](title)
+- Tell me about the movie [10 Cloverfield Lane](title)
+- Tell me about the movie [Finding Dory](title)
+- Tell me about the movie [Miss Peregrine's Home for Peculiar Children](title)
+- Tell me about the movie [Divergent](title)
+- Tell me about the movie [Mike and Dave Need Wedding Dates](title)
+- Tell me about the movie [Boyka: Undisputed IV](title)
+- Tell me about the movie [The Dark Knight Rises](title)
+- Tell me about the movie [The Jungle Book](title)
+- Tell me about the movie [Transformers: Age of Extinction](title)
+- Tell me about the movie [Nerve](title)
+- Tell me about the movie [Mamma Mia!](title)
+- Tell me about the movie [The Revenant](title)
+- Tell me about the movie [Fences](title)
+- Tell me about the movie [Into the Woods](title)
+- Tell me about the movie [The Shallows](title)
+- Tell me about the movie [Whiplash](title)
+- Tell me about the movie [Furious 6](title)
+- Tell me about the movie [The Place Beyond the Pines](title)
+- Tell me about the movie [No Country for Old Men](title)
+- Tell me about the movie [The Great Gatsby](title)
+- Tell me about the movie [Shutter Island](title)
+- Tell me about the movie [Brimstone](title)
+- Tell me about the movie [Star Trek](title)
+- Tell me about the movie [Diary of a Wimpy Kid](title)
+- Tell me about the movie [The Big Short](title)
+- Tell me about the movie [Room](title)
+- Tell me about the movie [Django Unchained](title)
+- Tell me about the movie [Ah-ga-ssi](title)
+- Tell me about the movie [The Edge of Seventeen](title)
+- Tell me about the movie [Watchmen](title)
+- Tell me about the movie [Superbad](title)
+- Tell me about the movie [Inferno](title)
+- Tell me about the movie [The BFG](title)
+- Tell me about the movie [The Hunger Games](title)
+- Tell me about the movie [White Girl](title)
+- Tell me about the movie [Sicario](title)
+- Tell me about the movie [Twin Peaks: The Missing Pieces](title)
+- Tell me about the movie [Aliens vs Predator - Requiem](title)
+- Tell me about the movie [Pacific Rim](title)
+- Tell me about the movie [Crazy, Stupid, Love.](title)
+- Tell me about the movie [Scott Pilgrim vs. the World](title)
+- Tell me about the movie [Hot Fuzz](title)
+- Tell me about the movie [Mine](title)
+- Tell me about the movie [Free Fire](title)
+- Tell me about the movie [X-Men: Days of Future Past](title)
+- Tell me about the movie [Jack Reacher: Never Go Back](title)
+- Tell me about the movie [Casino Royale](title)
+- Tell me about the movie [Twilight](title)
+- Tell me about the movie [Now You See Me 2](title)
+- Tell me about the movie [Woman in Gold](title)
+- Tell me about the movie [13 Hours](title)
+- Tell me about the movie [Spectre](title)
+- Tell me about the movie [Nightcrawler](title)
+- Tell me about the movie [Kubo and the Two Strings](title)
+- Tell me about the movie [Beyond the Gates](title)
+- Tell me about the movie [Her](title)
+- Tell me about the movie [Frozen](title)
+- Tell me about the movie [Tomorrowland](title)
+- Tell me about the movie [Dawn of the Planet of the Apes](title)
+- Tell me about the movie [Tropic Thunder](title)
+- Tell me about the movie [The Conjuring 2](title)
+- Tell me about the movie [Ant-Man](title)
+- Tell me about the movie [Bridget Jones's Baby](title)
+- Tell me about the movie [The VVitch: A New-England Folktale](title)
+- Tell me about the movie [Cinderella](title)
+- Tell me about the movie [Realive](title)
+- Tell me about the movie [Forushande](title)
+- Tell me about the movie [Love](title)
+- Tell me about the movie [Billy Lynn's Long Halftime Walk](title)
+- Tell me about the movie [Crimson Peak](title)
+- Tell me about the movie [Drive](title)
+- Tell me about the movie [Trainwreck](title)
+- Tell me about the movie [The Light Between Oceans](title)
+- Tell me about the movie [Below Her Mouth](title)
+- Tell me about the movie [Spotlight](title)
+- Tell me about the movie [Morgan](title)
+- Tell me about the movie [Warrior](title)
+- Tell me about the movie [Captain America: The First Avenger](title)
+- Tell me about the movie [Hacker](title)
+- Tell me about the movie [Into the Wild](title)
+- Tell me about the movie [The Imitation Game](title)
+- Tell me about the movie [Central Intelligence](title)
+- Tell me about [Edge of Tomorrow](title)
+- Tell me about [A Cure for Wellness](title)
+- Tell me about [Snowden](title)
+- Tell me about [Iron Man](title)
+- Tell me about [Allegiant](title)
+- Tell me about [X: First Class](title)
+- Tell me about [Raw (II)](title)
+- Tell me about [Paterson](title)
+- Tell me about [Bridesmaids](title)
+- Tell me about [The Girl with All the Gifts](title)
+- Tell me about [San Andreas](title)
+- Tell me about [Spring Breakers](title)
+- Tell me about [Transformers](title)
+- Tell me about [Old Boy](title)
+- Tell me about [Thor: The Dark World](title)
+- Tell me about [Gods of Egypt](title)
+- Tell me about [Captain America: The Winter Soldier](title)
+- Tell me about [Monster Trucks](title)
+- Tell me about [A Dark Song](title)
+- Tell me about [Kick-Ass](title)
+- Tell me about [Hardcore Henry](title)
+- Tell me about [Cars](title)
+- Tell me about [It Follows](title)
+- Tell me about [The Girl with the Dragon Tattoo](title)
+- Tell me about [We're the Millers](title)
+- Tell me about [American Honey](title)
+- Tell me about [The Lobster](title)
+- Tell me about [Predators](title)
+- Tell me about [Maleficent](title)
+- Tell me about [Rupture](title)
+- Tell me about [Pan's Labyrinth](title)
+- Tell me about [A Kind of Murder](title)
+- Tell me about [Apocalypto](title)
+- Tell me about [Mission: Impossible - Rogue Nation](title)
+- Tell me about [The Huntsman: Winter's War](title)
+- Tell me about [The Perks of Being a Wallflower](title)
+- Tell me about [Jackie](title)
+- Tell me about [The Disappointments Room](title)
+- Tell me about [The Grand Budapest Hotel](title)
+- Tell me about [The Host](title)
+- Tell me about [Fury](title)
+- Tell me about [Inside Out](title)
+- Tell me about [Rock Dog](title)
+- Tell me about [Terminator Genisys](title)
+- Tell me about [Percy Jackson & the Olympians: The Lightning Thief](title)
+- Tell me about [Les Misarables](title)
+- Tell me about [Children of Men](title)
+- Tell me about [20th Century Women](title)
+- Tell me about [Spy](title)
+- Tell me about [The Intouchables](title)
+- Tell me about [Bonjour Anne](title)
+- Tell me about [Kynodontas](title)
+- Tell me about [Straight Outta Compton](title)
+- Tell me about [The Amazing Spider-Man 2](title)
+- Tell me about [The Conjuring](title)
+- Tell me about [The Hangover](title)
+- Tell me about [Battleship](title)
+- Tell me about [Rise of the Planet of the Apes](title)
+- Tell me about [Lights Out](title)
+- Tell me about [Norman: The Moderate Rise and Tragic Fall of a New York Fixer](title)
+- Tell me about [Birdman or (The Unexpected Virtue of Ignorance)](title)
+- Tell me about [Black Swan](title)
+- Tell me about [Dear White People](title)
+- Tell me about [Nymphomaniac: Vol. I](title)
+- Tell me about [Teenage Mutant Ninja Turtles: Out of the Shadows](title)
+- Tell me about [Knock Knock](title)
+- Tell me about [Dirty Grandpa](title)
+- Tell me about [Cloud Atlas](title)
+- Tell me about [X-Men Origins: Wolverine](title)
+- Tell me about [Satanic](title)
+- Tell me about [Skyfall](title)
+- Tell me about [The Hobbit: An Unexpected Journey](title)
+- Tell me about [21 Jump Street](title)
+- Tell me about [Sing Street](title)
+- Tell me about [Ballerina](title)
+- Tell me about [Oblivion](title)
+- Tell me about [22 Jump Street](title)
+- Tell me about [Zodiac](title)
+- Tell me about [Everybody Wants Some!!](title)
+- Tell me about [Iron Man Three](title)
+- Tell me about [Now You See Me](title)
+- Tell me about [Sherlock Holmes](title)
+- Tell me about [Death Proof](title)
+- Tell me about [The Danish Girl](title)
+- Tell me about [Hercules](title)
+- Tell me about [Sucker Punch](title)
+- Tell me about [Keeping Up with the Joneses](title)
+- Tell me about [Jupiter Ascending](title)
+- Tell me about [Masterminds](title)
+- Tell me about [Iris](title)
+- Tell me about [Busanhaeng](title)
+- Tell me about [Pitch Perfect](title)
+- Tell me about [Neighbors 2: Sorority Rising](title)
+- Tell me about [The Exception](title)
+- Tell me about [Man of Steel](title)
+- Tell me about [The Choice](title)
+- Tell me about [Ice Age: Collision Course](title)
+- Tell me about [The Devil Wears Prada](title)
+- Tell me about [The Infiltrator](title)
+- Tell me about [There Will Be Blood](title)
+- Tell me about [The Equalizer](title)
+- Tell me about [Lone Survivor](title)
+- Tell me about [The Cabin in the Woods](title)
+- Tell me about [The House Bunny](title)
+- Tell me about [She's Out of My League](title)
+- Tell me about [Inherent Vice](title)
+- Tell me about [Alice Through the Looking Glass](title)
+- Tell me about [Vincent N Roxxy](title)
+- Tell me about [The Fast and the Furious: Tokyo Drift](title)
+- Tell me about [How to Be Single](title)
+- Tell me about [The Blind Side](title)
+- Tell me about [The Babadook](title)
+- Tell me about [The Hobbit: The Battle of the Five Armies](title)
+- Tell me about [Harry Potter and the Order of the Phoenix](title)
+- Tell me about [Snowpiercer](title)
+- Tell me about [The 5th Wave](title)
+- Tell me about [The Stakelander](title)
+- Tell me about [The Visit](title)
+- Tell me about [Fast Five](title)
+- Tell me about [Step Up](title)
+- Tell me about [Lovesong](title)
+- Tell me about [RocknRolla](title)
+- Tell me about [In Time](title)
+- Tell me about [The Social Network](title)
+- Tell me about [The Last Witch Hunter](title)
+- Tell me about [Victor Frankenstein](title)
+- Tell me about [A Street Cat Named Bob](title)
+- Tell me about [Green Room](title)
+- Tell me about [Blackhat](title)
+- Tell me about [Storks](title)
+- Tell me about [American Sniper](title)
+- Tell me about [Dallas Buyers Club](title)
+- Tell me about [Lincoln](title)
+- Tell me about [Rush](title)
+- Tell me about [Before I Wake](title)
+- Tell me about [Silver Linings Playbook](title)
+- Tell me about [Tracktown](title)
+- Tell me about [The Fault in Our Stars](title)
+- Tell me about [Blended](title)
+- Tell me about [Fast & Furious](title)
+- Tell me about [Looper](title)
+- Tell me about [White House Down](title)
+- Tell me about [Pete's Dragon](title)
+- Tell me about [Spider-Man 3](title)
+- Tell me about [The Three Musketeers](title)
+- Tell me about [Stardust](title)
+- Tell me about [American Hustle](title)
+- Tell me about [Jennifer's Body](title)
+- Tell me about [Midnight in Paris](title)
+- Tell me about [Lady Macbeth](title)
+- Tell me about [Joy](title)
+- Tell me about [The Dressmaker](title)
+- Tell me about [Insurgent](title)
+- Tell me about [Seventh Son](title)
+- Tell me about [Demain tout commence](title)
+- Tell me about [The Theory of Everything](title)
+- Tell me about [This Is the End](title)
+- Tell me about [About Time](title)
+- Tell me about [Step Brothers](title)
+- Tell me about [Clown](title)
+- Tell me about [Star Trek Into Darkness](title)
+- Tell me about [Zombieland](title)
+- Tell me about [Hail, Caesar!](title)
+- Tell me about [Slumdog Millionaire](title)
+- Tell me about [The Twilight Saga: Breaking Dawn - Part 2](title)
+- Tell me about [American Wrestler: The Wizard](title)
+- Tell me about [The Amazing Spider-Man](title)
+- Tell me about [Ben-Hur](title)
+- Tell me about [Sleight](title)
+- Tell me about [The Maze Runner](title)
+- Tell me about [Criminal](title)
+- Tell me about [Wanted](title)
+- Tell me about [Florence Foster Jenkins](title)
+- Tell me about [Collide](title)
+- Tell me about [Black Mass](title)
+- Tell me about [Creed](title)
+- Tell me about [Swiss Army Man](title)
+- Tell me about [The Expendables 3](title)
+- Tell me about [What We Do in the Shadows](title)
+- Tell me about [Southpaw](title)
+- Tell me about [Hush](title)
+- Tell me about [Bridge of Spies](title)
+- Tell me about [The Lego Movie](title)
+- Tell me about [Everest](title)
+- Tell me about [Pixels](title)
+- Tell me about [Robin Hood](title)
+- Tell me about [The Wolverine](title)
+- Tell me about [John Carter](title)
+- Tell me about [Keanu](title)
+- Tell me about [The Gunman](title)
+- Tell me about [Steve Jobs](title)
+- Tell me about [Whisky Galore](title)
+- Tell me about [Grown Ups 2](title)
+- Tell me about [The Age of Adaline](title)
+- Tell me about [The Incredible Hulk](title)
+- Tell me about [Couples Retreat](title)
+- Tell me about [Absolutely Anything](title)
+- Tell me about [Magic Mike](title)
+- What is [The Black Room](title)?
+- What is [Bronson](title)?
+- What is [Despicable Me](title)?
+- What is [The Best of Me](title)?
+- What is [The Invitation](title)?
+- What is [Zero Dark Thirty](title)?
+- What is [Tangled](title)?
+- What is [The Hunger Games: Mockingjay - Part 2](title)?
+- What is [Vacation](title)?
+- What is [Taken](title)?
+- What is [Pitch Perfect 2](title)?
+- What is [Monsters University](title)?
+- What is [Elle](title)?
+- What is [Mechanic: Resurrection](title)?
+- What is [Tusk](title)?
+- What is [The Headhunter's Calling](title)?
+- What is [Atonement](title)?
+- What is [Harry Potter and the Deathly Hallows: Part 1](title)?
+- What is [Shame](title)?
+- What is [Hanna](title)?
+- What is [The Babysitters](title)?
+- What is [Pride and Prejudice and Zombies](title)?
+- What is [300: Rise of an Empire](title)?
+- What is [London Has Fallen](title)?
+- What is [The Curious Case of Benjamin Button](title)?
+- What is [Sin City: A Dame to Kill For](title)?
+- What is [The Bourne Ultimatum](title)?
+- What is [Srpski film](title)?
+- What is [The Purge: Election Year](title)?
+- What is [3 Idiots](title)?
+- What is [Zoolander 2](title)?
+- What is [World War Z](title)?
+- What is [Mission: Impossible - Ghost Protocol](title)?
+- What is [Let Me Make You a Martyr](title)?
+- What is [Filth](title)?
+- What is [The Longest Ride](title)?
+- What is [The imposible](title)?
+- What is [Kick-Ass 2](title)?
+- What is [Folk Hero & Funny Guy](title)?
+- What is [Oz the Great and Powerful](title)?
+- What is [Brooklyn](title)?
+- What is [Coraline](title)?
+- What is [Blue Valentine](title)?
+- What is [The Thinning](title)?
+- What is [Silent Hill](title)?
+- What is [Dredd](title)?
+- What is [Hunt for the Wilderpeople](title)?
+- What is [Big Hero 6](title)?
+- What is [Carrie](title)?
+- What is [Iron Man 2](title)?
+- What is [Demolition](title)?
+- What is [Pandorum](title)?
+- What is [Olympus Has Fallen](title)?
+- What is [I Am Number Four](title)?
+- What is [Jagten](title)?
+- What is [The Proposal](title)?
+- What is [Get Hard](title)?
+- What is [Just Go with It](title)?
+- What is [Revolutionary Road](title)?
+- What is [The Town](title)?
+- What is [The Boy](title)?
+- What is [Denial](title)?
+- What is [Predestination](title)?
+- What is [Goosebumps](title)?
+- What is [Sherlock Holmes: A Game of Shadows](title)?
+- What is [Salt](title)?
+- What is [Enemy](title)?
+- What is [District 9](title)?
+- What is [The Other Guys](title)?
+- What is [American Gangster](title)?
+- What is [Marie Antoinette](title)?
+- What is [2012](title)?
+- What is [Harry Potter and the Half-Blood Prince](title)?
+- What is [Argo](title)?
+- What is [Eddie the Eagle](title)?
+- What is [The Lives of Others](title)?
+- What is [Pet](title)?
+- What is [Paint It Black](title)?
+- What is [Macbeth](title)?
+- What is [Forgetting Sarah Marshall](title)?
+- What is [The Giver](title)?
+- What is [Triple 9](title)?
+- What is [Perfetti sconosciuti](title)?
+- What is [Angry Birds](title)?
+- What is [Moonrise Kingdom](title)?
+- What is [Hairspray](title)?
+- What is [Safe Haven](title)?
+- What is [Focus](title)?
+- What is [Ratatouille](title)?
+- What is [Stake Land](title)?
+- What is [The Book of Eli](title)?
+- What is [Cloverfield](title)?
+- What is [Point Break](title)?
+- What is [Under the Skin](title)?
+- What is [I Am Legend](title)?
+- What is [Men in Black 3](title)?
+- What is [Super 8](title)?
+- What is [Law Abiding Citizen](title)?
+- What is [Up](title)?
+- Tell me about [war of the worlds](title)
+- tell me about [deadpool](title)
+- tell me about [avatar](title)
+- tell me about the [movie](type) [avatar](title)
+- Tell me about the movie [avatar](title)
+- tell me about [powerrangers](title)
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- see ya
+- bye bye
+
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- hello there
+- Hi
+
+## intent:have_request
+- I have a request
+- I have a question
+- i have a question
+- i have a request
+
+## intent:help
+- what questions can I ask?
+- what do you do?
+- what can you do?
+- help
+- help me
+
+## intent:person_request
+- Tell me about the [director](role) [Christopher Nolan](PERSON)
+- Tell me about the [director](role) [Aaden Smith](PERSON)
+- Tell me about the [writer](role) [Aarav Johnson](PERSON)
+- Tell me about the [actor](role) [Aaron Williams](PERSON)
+- Who is [John krasinski](PERSON)?
+- who is [Christopher Nolan](PERSON)?
+- Who is [Aarush Jones](PERSON)?
+- What does [Aaryan Brown](PERSON) do?
+- Is [Aayan Davis](PERSON) an actor?
+- Is [Abdul Miller](PERSON) an writer?
+- Is [Abdulaziz Wilson](PERSON) a director?
+- Tell me who is [Abdullah Moore](PERSON)?
+- Tell me about the [director](role) [Abel Taylor](PERSON)
+- Tell me about the [writer](role) [Abhijot Anderson](PERSON)
+- Tell me about the [actor](role) [Abraham Thomas](PERSON)
+- Who is [Ace Jackson](PERSON)?
+- What does [Adam White](PERSON) do?
+- Is [Addison Harris](PERSON) an actor?
+- Is [Aden Martin](PERSON) an writer?
+- Is Aditya Thompson an director?
+- Tell me who is [Adrian Garcia](PERSON)?
+- Tell me about the [director] (role) [Adriano Martinez](PERSON)
+- Tell me about the [writer] (role) [Adriel Robinson](PERSON)
+- Tell me about the [actor] (role) [Adrien Clark](PERSON)
+- Who is [Aedan Rodriguez](PERSON)?
+- What does [Agam Lewis](PERSON) do?
+- Is [Ahmad Lee](PERSON) an actor?
+- Is [Ahmed Walker](PERSON) an writer?
+- Is [Aidan Hall](PERSON) a director?
+- Tell me who is [Aiden Allen](PERSON)?
+- Tell me about the [director] (role) [Aikam Young](PERSON)
+- Tell me about the [writer] (role) [Ajay Hernandez](PERSON)
+- Tell me about the [actor] (role) [Ajeet King](PERSON)
+- Who is [Ajit Wright](PERSON)?
+- What does [Akash Lopez](PERSON) do?
+- Is [Akashdeep Hill](PERSON) an actor?
+- Is [Akio Scott](PERSON) an writer?
+- Is [Akira Green](PERSON) an director?
+- Tell me who is [Aksel Adams](PERSON)?
+- Tell me about the [director] (role) [Alain Baker](PERSON)
+- Tell me about the [writer] (role) [Alan Gonzalez](PERSON)
+- Tell me about the [actor] (role) [Alaric Nelson](PERSON)
+- Who is [Alastair Carter](PERSON)?
+- What does [Albert Mitchell](PERSON) do?
+- Is [Alden Perez](PERSON) an actor?
+- Is [Alec Roberts](PERSON) an writer?
+- Is [Alejandro Turner](PERSON) a director?
+- Tell me who is [Aleksandar Phillips](PERSON)?
+- Tell me about the [director](role) [Aleksander Campbell](PERSON)
+- Tell me about the [writer](role) [Alessandro Parker](PERSON)
+- Tell me about the [actor](role) [Alex Evans](PERSON)
+- Who is [Alexander Edwards](PERSON)?
+- What does [Alexandre Collins](PERSON) do?
+- Is [Alexis Stewart](PERSON) an actor?
+- Is [Alexzander Sanchez](PERSON) an writer?
+- Is [Alfie Morris](PERSON) a director?
+- Tell me who is [Alfred Rogers](PERSON)?
+- Tell me about the [director](role) [Ali Reed](PERSON)
+- Tell me about the [writer](role) [Alistair Cook](PERSON)
+- Tell me about the [actor](role) [Alister Morgan](PERSON)
+- Who is [Allan Bell](PERSON)?
+- What does [Allen Murphy](PERSON) do?
+- Is [Alvin Bailey](PERSON) an actor?
+- Is [Aly Rivera](PERSON) an writer?
+- Is [Aman Cooper](PERSON) a director?
+- Tell me who is [Amandeep Richardson](PERSON)?
+- Tell me about the [director] (role) [Amanpreet Cox](PERSON)
+- Tell me about the [writer] (role) [Amar Howard](PERSON)
+- Tell me about the [actor] (role) [Amardeep Ward](PERSON)
+- Who is [Amarjit Torres](PERSON)?
+- What does [Amarpreet Peterson](PERSON) do?
+- Is [Amir Gray](PERSON) an actor?
+- Is [Amit Ramirez](PERSON) an writer?
+- Is [Ammar James](PERSON) a director?
+- Tell me who is [Amos Watson](PERSON)?
+- Tell me about the [director] (role) [Amrinder Brooks](PERSON)
+- Tell me about the [writer] (role) [Amrit Kelly](PERSON)
+- Tell me about the [actor] (role) [Amritpal Sanders](PERSON)
+- Who is [Amritpaul Price](PERSON)?
+- What does [Anders Bennett](PERSON) do?
+- Is [Anderson Wood](PERSON) an actor?
+- Is [Andre Barnes](PERSON) a writer?
+- Is [Andreas Ross](PERSON) a director?
+- Tell me who is [Andrei Henderson](PERSON)?
+- Tell me about the [director](role) [Andrew Coleman](PERSON)
+- Tell me about the [writer](role) [André Jenkins](PERSON)
+- Tell me about the [actor](role) [Andy Perry](PERSON)
+- Who is [Angad Powell](PERSON)?
+- What does [Angelo Long](PERSON) do?
+- Is [Angus Patterson](PERSON) an actor?
+- Is [Anhad Hughes](PERSON) a writer?
+- Is  [Anmol Flores](PERSON) an director?
+- Tell me who is [Anoop Washington](PERSON)?
+- Tell me about the [director](role) [Ansh Butler](PERSON)
+- Tell me about the [writer](role) [Anson Simmons](PERSON)
+- Tell me about the [actor](role) [Ante Foster](PERSON)
+- Who is [Anthony Gonzales](PERSON)?
+- What does [Antoine Bryant](PERSON) do?
+- Is [Anton Alexander](PERSON) an actor?
+- Is [Antonio Russell](PERSON) a writer?
+- Is [Antony Griffin](PERSON) an director?
+- Tell me who is [Apollo Diaz](PERSON)?
+- Tell me about the [director](role) [Arad Hayes](PERSON)
+- Tell me about the [writer](role) [Arav Myers](PERSON)
+- Tell me about the [actor](role) [Archer Ford](PERSON)
+- Who is [Archibald Hamilton](PERSON)?
+- What does [Archie Graham](PERSON) do?
+- Is [Arden Sullivan](PERSON) an actor?
+- Is [Ares Wallace](PERSON) a writer?
+- Is [Ari Woods](PERSON) a director?
+- Tell me who is [Arian Cole](PERSON)?
+- Tell me about the [director] (role) [Arie West](PERSON)
+- Tell me about the [writer] (role) [Ariel Jordan](PERSON)
+- Tell me about the [actor] (role) [Aries Owens](PERSON)
+- Who is [Ariyan Reynolds](PERSON)?
+- What does [Arjan Fisher](PERSON) do?
+- Is [Arjun Ellis](PERSON) an actor?
+- Is [Arlen Harrison](PERSON) a writer?
+- Is [Arlo Gibson](PERSON) an director?
+- Tell me who is [Armaan Mcdonald](PERSON)?
+- Tell me about the [director](role) [Arman Cruz](PERSON)
+- Tell me about the [writer](role) [Armand Marshall](PERSON)
+- Tell me about the [actor](role) [Armin Ortiz](PERSON)
+- Who is [Arnav Gomez](PERSON)?
+- What does [Arne Murray](PERSON) do?
+- Is [Arnold Freeman](PERSON) an actor?
+- Is [Aron Wells](PERSON) a writer?
+- Is [Arron Webb]{PERSON) a director?
+- Tell me who is [Arshdeep Simpson](PERSON)?
+- Tell me about the [director](role) [Arthur Stevens](PERSON)
+- Tell me about the [writer](role) [Artin Tucker](PERSON)
+- Tell me about the [actor](role) [Arvin Porter](PERSON)
+- Who is [Arvind Hunter](PERSON)?
+- What does [Arya Hicks](PERSON) do?
+- Is [Aryan Crawford](PERSON) an actor?
+- Is [Ash Henry](PERSON) a writer?
+- Is [Ashaan Boyd](PERSON) a director?
+- Tell me who is [Asher Mason](PERSON)?
+- Tell me about the [director] (role) [Ashley Morales](PERSON)
+- Tell me about the [writer] (role) [Ashton Kennedy](PERSON)
+- Tell me about the [actor] (role) [Ashwin Warren](PERSON)
+- Who is [Aston Dixon](PERSON)?
+- What does [Atlas Ramos](PERSON) do?
+- Is [Atlin Reyes](PERSON) an actor?
+- Is [Atticus Burns](PERSON) a writer?
+- Is [Attila Gordon](PERSON) a director?
+- Tell me who is [Aubrey Shaw](PERSON)?
+- Tell me about the [director](role) [August Holmes](PERSON)
+- Tell me about the [writer](role) [Augustine Rice](PERSON)
+- Tell me about the [actor](role) [Augustus Robertson](PERSON)
+- Who is [Austen Hunt](PERSON)?
+- What does [Austin Black](PERSON) do?
+- Is [Austyn Daniels](PERSON) an actor?
+- Is [Aveer Palmer](PERSON) a writer?
+- Is [Avery Mills](PERSON) a director?
+- Tell me who is [Avijot Nichols](PERSON)?
+- Tell me about the [director](role) [Avin Grant](PERSON)
+- Tell me about the [writer](role) [Aviraj Knight](PERSON)
+- Tell me about the [actor](role) [Avraj Ferguson](PERSON)
+- Who is [Axel Rose](PERSON)?
+- What does [Axl Stone](PERSON) do?
+- Is [Axton Hawkins](PERSON) an actor?
+- Is [Ayaan Dunn](PERSON) a writer?
+- Is [Ayan Perkins](PERSON) a director?
+- Tell me who is [Aydan Hudson](PERSON)?
+- Tell me about the [director](role) [Ayden Spencer](PERSON)
+- Tell me about the [writer](role) [Aydin Gardner](PERSON)
+- Tell me about the [actor](role) [Bailey Stephens](PERSON)
+- Who is [Baldeep Payne](PERSON)?
+- What does [Baljinder Pierce](PERSON) do?
+- Is [Baljit Berry](PERSON) an actor?
+- Is [Balkaran Matthews](PERSON) a writer?
+- Is [Balraj Arnold](PERSON) a director?
+- Tell me who is [Barney Wagner](PERSON)?
+- Tell me about the [director](role) [Baron Willis](PERSON)
+- Tell me about the [writer](role) [Barrett Ray](PERSON)
+- Tell me about the [actor](role) [Barrie Watkins](PERSON)
+- Who is [Barry Olson](PERSON)?
+- What does [Bart Carroll](PERSON) do?
+- Is [Barton Duncan](PERSON) an actor?
+- Is [Basil Snyder](PERSON) a writer?
+- Is [Beau Hart](PERSON) a director?
+- Tell me who is [Beck Cunningham](PERSON)?
+- Tell me about the [director](role) [Beckett Bradley](PERSON)
+- Tell me about the [writer](role) [Beckham Lane](PERSON)
+- Tell me about the [actor](role) [Bellamy Andrews](PERSON)
+- Who is [Ben Ruiz](PERSON)?
+- What does [Benedict Harper](PERSON) do?
+- Is [Benjamin Fox](PERSON) an actor?
+- Is [Benjy Riley](PERSON) a writer?
+- Is [Bennett Armstrong](PERSON) a director?
+- Tell me who is [Benny Carpenter](PERSON)?
+- Tell me about the [director](role) [Benoit Weaver](PERSON)
+- Tell me about the [writer](role) [Benson Greene](PERSON)
+- Tell me about the [actor](role) [Bentley Lawrence](PERSON)
+- Who is [Bernard Elliott](PERSON)?
+- What does [Bernhard Chavez](PERSON) do?
+- Is [Bernie Sims](PERSON) an actor?
+- Is [Bert Austin](PERSON) a writer?
+- Is [Bertram Peters](PERSON) a director?
+- Tell me who is [Bhupinder Kelley](PERSON)?
+- Tell me about the [director](role) [Bikram Franklin](PERSON)
+- Tell me about the [writer](role) [Bilal Lawson](PERSON)
+- Tell me about the [actor](role) [Bill Fields](PERSON)
+- Who is [Billy Gutierrez](PERSON)?
+- What does [Bishop Ryan](PERSON) do?
+- Is [Bjorn Schmidt](PERSON) an actor?
+- Is [Blain Carr](PERSON) a writer?
+- Is [Blaine Vasquez](PERSON) a director?
+- Tell me who is [Blair Castillo](PERSON)?
+- Tell me about the [director](role) [Blaise Wheeler](PERSON)
+- Tell me about the [writer](role) [Blake Chapman](PERSON)
+- Tell me about the [actor](role) [Blaze Oliver](PERSON)
+- Who is [Bo Montgomery](PERSON)?
+- What does [Boaz Richard](PERSON) do?
+- Is [Bobby Williamson](PERSON) an actor?
+- Is [Boden Johnston](PERSON) a writer?
+- Is [Bodhi Banks](PERSON) a director?
+- Tell me who is [Bodie Meyer](PERSON)?
+- Tell me about the [director](role) [Boone Bishop](PERSON)
+- Tell me about the [writer](role) [Boris Mccoy](PERSON)
+- Tell me about the [actor](role) [Bosco Howell](PERSON)
+- Who is [Boston Alvarez](PERSON)?
+- What does [Bowen Morrison](PERSON) do?
+- Is [Bowie Hansen](PERSON) an actor?
+- Is [Boyd Fernandez](PERSON) a writer?
+- Is [Brad Garza](PERSON) a director?
+- Tell me who is [Braden Harvey](PERSON)?
+- Tell me about the [director](role) [Bradford Little](PERSON)
+- Tell me about the [writer](role) [Bradley Burton](PERSON)
+- Tell me about the [actor](role) [Bradly Stanley](PERSON)
+- Who is [Brady Nguyen](PERSON)?
+- What does [Bradyn George](PERSON) do?
+- Is [Braedan Jacobs](PERSON) an actor?
+- Is [Braeden Reid](PERSON) a writer?
+- Is [Braedon Kim](PERSON) a director?
+- Tell me who is [Braiden Fuller](PERSON)?
+- Tell me about the [director](role) [Brandan Lynch](PERSON)
+- Tell me about the [writer](role) [Branden Dean](PERSON)
+- Tell me about the [actor](role) [Brandon Gilbert](PERSON)
+- Who is [Brandyn Garrett](PERSON)?
+- What does [Brant Romero](PERSON) do?
+- Is [Brantley Welch](PERSON) an actor?
+- Is [Braxton Larson](PERSON) a writer?
+- Is [Brayden Frazier](PERSON) a director?
+- Tell me who is [Braydon Burke](PERSON)?
+- Tell me about the [director](role) [Brendan Hanson](PERSON)
+- Tell me about the [writer](role) [Brenden Day](PERSON)
+- Tell me about the [actor](role) [Brendon Mendoza](PERSON)
+- Who is [Brennan Moreno](PERSON)?
+- What does [Brennen Bowman](PERSON) do?
+- Is [Brent Medina](PERSON) an actor?
+- Is [Brenton Fowler](PERSON) a writer?
+- Is [Bret Brewer](PERSON) a director?
+- Tell me who is [Brett Hoffman](PERSON)?
+- Tell me about the [director](role) [Brian Carlson](PERSON)
+- Tell me about the [writer](role) [Brighton Silva](PERSON)
+- Tell me about the [actor](role) [Brixton Pearson](PERSON)
+- Who is [Brock Holland](PERSON)?
+- What does [Broderick Douglas](PERSON) do?
+- Is [Brodie Fleming](PERSON) an actor?
+- Is [Brody Jensen](PERSON) a writer?
+- Is [Brogan Vargas](PERSON) a director?
+- Tell me who is [Bronson Byrd](PERSON)?
+- Tell me about the [director](role) [Brook Davidson](PERSON)
+- Tell me about the [writer](role) [Brooks Hopkins](PERSON)
+- Tell me about the [actor](role) [Bruce May](PERSON)
+- Who is [Bruno Terry](PERSON)?
+- What does [Bryan Herrera](PERSON) do?
+- Is [Bryant Wade](PERSON) an actor?
+- Is [Bryce Soto](PERSON) a writer?
+- Is [Brycen Walters](PERSON) a director?
+- Tell me who is [Bryden Curtis](PERSON)?
+- Tell me about the [director](role) [Bryn Neal](PERSON)
+- Tell me about the [writer](role) [Bryon Caldwell](PERSON)
+- Tell me about the [actor](role) [Bryson Lowe](PERSON)
+- Who is [Bryton Jennings](PERSON)?
+- What does [Buddy Barnett](PERSON) do?
+- Is [Burton Graves](PERSON) an actor?
+- Is [Byron Jimenez](PERSON) a writer?
+- Is [Cache Horton] a director?
+- Tell me who is [Cade Shelton](PERSON)?
+- Tell me about the [director](role) [Caden Barrett](PERSON)
+- Tell me about the [writer](role) [Caeden Obrien](PERSON)
+- Tell me about the [actor](role) [Cael Castro](PERSON)
+- Who is [Caelan Sutton](PERSON)?
+- What does [Caelum Gregory](PERSON) do?
+- Is [Caiden Mckinney](PERSON) an actor?
+- Is [Cairo Lucas](PERSON) a writer?
+- Is [Caius Miles](PERSON) a director?
+- Tell me who is [Cal Craig](PERSON)?
+- Tell me about the [director](role) [Calder Rodriquez](PERSON)
+- Tell me about the [writer](role) [Cale Chambers](PERSON)
+- Tell me about the [actor](role) [Caleb Holt](PERSON)
+- Who is [Calen Lambert](PERSON)?
+- What does [Callan Fletcher](PERSON) do?
+- Is [Callen Watts](PERSON) an actor?
+- Is [Callum Bates](PERSON) a writer?
+- Is [Calum Hale](PERSON) a director?
+- Tell me who is [Calvin Rhodes](PERSON)?
+- Tell me about the [director](role) [Camden Pena](PERSON)
+- Tell me about the [writer](role) [Cameron Beck](PERSON)
+- Tell me about the [actor](role) [Campbell Newman](PERSON)
+- Who is [Camron Haynes](PERSON)?
+- who is [john stamos](PERSON)?
+- who is stephen king
+- who is matt damon?
+- Who is matt damon?
+
+## synonym:movie
+- movies
+
+## synonym:show
+- tv show
+- tv series
+- series
+
+## synonym:starred
+- been
+- acted
+
+## synonym:superman
+- Superman

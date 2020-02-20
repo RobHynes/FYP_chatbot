@@ -1,0 +1,111 @@
+session_config:
+  session_expiration_time: 0.0
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- bot_challenge
+- gen_request
+- complex_request
+- person_request
+- date_request
+- have_request
+- confirm
+- deny
+- help
+- action_request
+entities:
+- DATE
+- type
+- genre
+- role
+- PERSON
+- title
+- year
+- question_type
+- actor
+- action
+slots:
+  DATE:
+    type: text
+  PERSON:
+    type: text
+  genre:
+    type: categorical
+    values:
+    - comedy
+    - drama
+    - action
+    - adventure
+    - romance
+    - science fiction
+    - fantasy
+    - animated
+    - crime
+    - thriller
+    - documentary
+    - horror
+    - family
+    - mystery
+    - war
+    - western
+    - history
+  question_type:
+    type: categorical
+    values:
+    - who
+    - what
+    - when
+    - how
+  role:
+    type: categorical
+    values:
+    - actor
+    - director
+    - writer
+  title:
+    type: text
+  type:
+    type: categorical
+    values:
+    - movie
+    - show
+  year:
+    type: unfeaturized
+responses:
+  utter_greet:
+  - text: Hey! How can I help you?
+  - text: Hi! Do you have a question?
+  - text: Hi! Ask me a question!
+  utter_goodbye:
+  - text: Bye
+  - text: Goodbye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_what_question:
+  - text: What is your question?
+  utter_correct:
+  - text: Is that what you were looking for?
+  - text: Does that answer your question?
+  - text: Did that answer your question?
+  utter_help:
+  - text: I can answer your questions on movies and tv shows. You can ask me about
+      people, movies, tv, genres and release dates
+  utter_any_more_questions:
+  - text: Do you have any more questions?
+  - text: Do you have more questions?
+  - text: Anything else I can help you with?
+  utter_don't_understand:
+  - text: I'm sorry, I don't understand your question. Try asking again
+actions:
+- utter_greet
+- utter_goodbye
+- utter_iamabot
+- utter_what_question
+- utter_correct
+- action_omdb_api_call
+- action_tmdb_api_call
+- action_person_tmdb
+- utter_help
+- utter_any_more_questions
+- utter_don't_understand
