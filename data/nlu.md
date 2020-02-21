@@ -1096,17 +1096,15 @@
 - Tell me about the [actor](role) [Campbell Newman](PERSON)
 - Who is [Camron Haynes](PERSON)?
 - who is [john stamos](PERSON)?
-- who is stephen king
-- who is matt damon?
-- Who is matt damon?
+- who is [stephen king](PERSON)
 
 ## synonym:movie
 - movies
 
 ## synonym:show
 - tv show
-- tv series
 - series
+- tv series
 
 ## synonym:starred
 - been
