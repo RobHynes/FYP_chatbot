@@ -4,9 +4,6 @@
 # See this guide on how to implement these action:
 # https://rasa.com/docs/rasa/core/actions/#custom-actions/
 
-
-# This is a simple example for a custom action which utters "Hello World!"
-
 from typing import Any, Text, Dict, List
 
 import json
@@ -16,7 +13,6 @@ from rasa_sdk.events import SlotSet
 
 import omdb
 import tmdbsimple as tmdb
-import requests
 
 
 # Actor/writer/director question: "Who is Robert Downey Jr?" / "Who is Quentin Tarantino?"
