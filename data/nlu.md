@@ -7,7 +7,6 @@
 - are you human
 
 ## intent:complex_request
-- What [movies](type:movie) has the [actor](role) [Matt Damon](PERSON) been in?
 - Tell me about [action](genre) [movies](type:movie) from [2017](DATE)
 
 ## intent:confirm
@@ -119,6 +118,708 @@
 - who [starred](action) in [Fallen](title)?
 - who [starred](action) in [Star Trek Beyond](title)?
 - who [starred](action) in [The Last Face](title)?
+- What [movies](type) has [James Gunn](PERSON) [directed](action)?
+- What [movies](type) has [Ridley Scott](PERSON) [directed](action)?
+- What [movies](type) has [M. Night Shyamalan](PERSON) [directed](action)?
+- What [movies](type) has [Christophe Lourdelet](PERSON) [directed](action)?
+- What [movies](type) has [David Ayer](PERSON) [directed](action)?
+- What [movies](type) has [Yimou Zhang](PERSON) [directed](action)?
+- What [movies](type) has [Damien Chazelle](PERSON) [directed](action)?
+- What [movies](type) has [Sean Foley](PERSON) [directed](action)?
+- What [movies](type) has [James Gray](PERSON) [directed](action)?
+- What [movies](type) has [Morten Tyldum](PERSON) [directed](action)?
+- What [movies](type) has [David Yates](PERSON) [directed](action)?
+- What [movies](type) has [Theodore Melfi](PERSON) [directed](action)?
+- What [movies](type) has [Gareth Edwards](PERSON) [directed](action)?
+- What [movies](type) has [Ron Clements](PERSON) [directed](action)?
+- What [movies](type) has [Nacho Vigalondo](PERSON) [directed](action)?
+- What [movies](type) has [Chris Renaud](PERSON) [directed](action)?
+- What [movies](type) has [Mel Gibson](PERSON) [directed](action)?
+- What [movies](type) has [Paul Greengrass](PERSON) [directed](action)?
+- What [movies](type) has [Garth Davis](PERSON) [directed](action)?
+- What [movies](type) has [Denis Villeneuve](PERSON) [directed](action)?
+- What [movies](type) has [Stephen Gaghan](PERSON) [directed](action)?
+- What [movies](type) has [Kenneth Lonergan](PERSON) [directed](action)?
+- What [movies](type) has [Ben Young](PERSON) [directed](action)?
+- What [movies](type) has [Walt Dohrn](PERSON) [directed](action)?
+- What [movies](type) has [Roland Emmerich](PERSON) [directed](action)?
+- What [movies](type) has [Dominique Abel](PERSON) [directed](action)?
+- What [movies](type) has [S.S. Rajamouli](PERSON) [directed](action)?
+- What [movies](type) has [Phillip Guzman](PERSON) [directed](action)?
+- What [movies](type) has [Jon Lucas](PERSON) [directed](action)?
+- What [movies](type) has [Justin Kurzel](PERSON) [directed](action)?
+- What [movies](type) has [John Hamburg](PERSON) [directed](action)?
+- What [movies](type) has [Tom Ford](PERSON) [directed](action)?
+- What [movies](type) has [Bryan Singer](PERSON) [directed](action)?
+- What [movies](type) has [Tim Miller](PERSON) [directed](action)?
+- What [movies](type) has [Paul W.S. Anderson](PERSON) [directed](action)?
+- What [movies](type) has [Anthony Russo](PERSON) [directed](action)?
+- What [movies](type) has [Christopher Nolan](PERSON) [directed](action)?
+- What [movies](type) has [Scott Derrickson](PERSON) [directed](action)?
+- What [movies](type) has [Antoine Fuqua](PERSON) [directed](action)?
+- What [movies](type) has [Patrick Read Johnson](PERSON) [directed](action)?
+- What [movies](type) has [Greg Tiernan](PERSON) [directed](action)?
+- What [movies](type) has [Barry Jenkins](PERSON) [directed](action)?
+- What [movies](type) has [Shawn Burkett](PERSON) [directed](action)?
+- What [movies](type) has [John Lee Hancock](PERSON) [directed](action)?
+- What [movies](type) has [Ricardo de Montreuil](PERSON) [directed](action)?
+- What [movies](type) has [Rob Marshall](PERSON) [directed](action)?
+- What [movies](type) has [John Madden](PERSON) [directed](action)?
+- What [movies](type) has [Scott Hicks](PERSON) [directed](action)?
+- What [movies](type) has [Justin Lin](PERSON) [directed](action)?
+- What [movies](type) has [Sean Penn](PERSON) [directed](action)?
+- What [movies](type) has [J.J. Abrams](PERSON) [directed](action)?
+- What [movies](type) has [Anna Foerster](PERSON) [directed](action)?
+- What [movies](type) has [Garry Marshall](PERSON) [directed](action)?
+- What [movies](type) has [Chad Stahelski](PERSON) [directed](action)?
+- What [movies](type) has [Martin Scorsese](PERSON) [directed](action)?
+- What [movies](type) has [Fede Alvarez](PERSON) [directed](action)?
+- What [movies](type) has [Thea Sharrock](PERSON) [directed](action)?
+- What [movies](type) has [Lone Scherfig](PERSON) [directed](action)?
+- What [movies](type) has [Clint Eastwood](PERSON) [directed](action)?
+- What [movies](type) has [Zack Snyder](PERSON) [directed](action)?
+- What [movies](type) has [Tate Taylor](PERSON) [directed](action)?
+- What [movies](type) has [Sam Taylor-Johnson](PERSON) [directed](action)?
+- What [movies](type) has [Matthew Vaughn](PERSON) [directed](action)?
+- What [movies](type) has [Peter Berg](PERSON) [directed](action)?
+- What [movies](type) has [George Miller](PERSON) [directed](action)?
+- What [movies](type) has [Robin Swicord](PERSON) [directed](action)?
+- What [movies](type) has [Terry George](PERSON) [directed](action)?
+- What [movies](type) has [Robert Zemeckis](PERSON) [directed](action)?
+- What [movies](type) has [J.A. Bayona](PERSON) [directed](action)?
+- What [movies](type) has [David Frankel](PERSON) [directed](action)?
+- What [movies](type) has [Byron Howard](PERSON) [directed](action)?
+- What [movies](type) has [Gore Verbinski](PERSON) [directed](action)?
+- What [movies](type) has [Joss Whedon](PERSON) [directed](action)?
+- What [movies](type) has [Quentin Tarantino](PERSON) [directed](action)?
+- What [movies](type) has [Paul Feig](PERSON) [directed](action)?
+- What [movies](type) has [Matt Ross](PERSON) [directed](action)?
+- What [movies](type) has [David Fincher](PERSON) [directed](action)?
+- What [movies](type) has [James Wan](PERSON) [directed](action)?
+- What [movies](type) has [Colin Trevorrow](PERSON) [directed](action)?
+- What [movies](type) has [Ben Affleck](PERSON) [directed](action)?
+- What [movies](type) has [James Cameron](PERSON) [directed](action)?
+- What [movies](type) has [Gavin O'Connor](PERSON) [directed](action)?
+- What [movies](type) has [Duncan Jones](PERSON) [directed](action)?
+- What [movies](type) has [Todd Phillips](PERSON) [directed](action)?
+- What [movies](type) has [Shane Black](PERSON) [directed](action)?
+- What [movies](type) has [Makoto Shinkai](PERSON) [directed](action)?
+- What [movies](type) has [Jeremy Gillespie](PERSON) [directed](action)?
+- What [movies](type) has [Olivier Assayas](PERSON) [directed](action)?
+- What [movies](type) has [Brian Helgeland](PERSON) [directed](action)?
+- What [movies](type) has [Kenneth Branagh](PERSON) [directed](action)?
+- What [movies](type) has [Oriol Paulo](PERSON) [directed](action)?
+- What [movies](type) has [Guy Ritchie](PERSON) [directed](action)?
+- What [movies](type) has [David Mackenzie](PERSON) [directed](action)?
+- What [movies](type) has [Taylor Hackford](PERSON) [directed](action)?
+- What [movies](type) has [Katie Holmes](PERSON) [directed](action)?
+- What [movies](type) has [Alex Garland](PERSON) [directed](action)?
+- What [movies](type) has [Greg McLean](PERSON) [directed](action)?
+- What [movies](type) has [Steve McQueen](PERSON) [directed](action)?
+- What [movies](type) has [Ana Lily Amirpour](PERSON) [directed](action)?
+- who [directed](action) [Harry Potter and the Deathly Hallows: Part 2](movie)?
+- who [wrote](action) [Office Christmas Party](movie)?
+- who [directed](action) [The Neon Demon](movie)?
+- who [wrote](action) [Dangal](movie)?
+- who [directed](action) [10 Cloverfield Lane](movie)?
+- who [wrote](action) [Finding Dory](movie)?
+- who [directed](action) [Miss Peregrine's Home for Peculiar Children](movie)?
+- who [wrote](action) [Divergent](movie)?
+- who [directed](action) [Mike and Dave Need Wedding Dates](movie)?
+- who [wrote](action) [Boyka: Undisputed IV](movie)?
+- who [directed](action) [The Dark Knight Rises](movie)?
+- who [wrote](action) [The Jungle Book](movie)?
+- who [directed](action) [Transformers: Age of Extinction](movie)?
+- who [wrote](action) [Nerve](movie)?
+- who [directed](action) [Mamma Mia!](movie)?
+- who [wrote](action) [The Revenant](movie)?
+- who [directed](action) [Fences](movie)?
+- who [wrote](action) [Into the Woods](movie)?
+- who [directed](action) [The Shallows](movie)?
+- who [wrote](action) [Whiplash](movie)?
+- who [directed](action) [Furious 6](movie)?
+- who [wrote](action) [The Place Beyond the Pines](movie)?
+- who [directed](action) [No Country for Old Men](movie)?
+- who [wrote](action) [The Great Gatsby](movie)?
+- who [directed](action) [Shutter Island](movie)?
+- who [wrote](action) [Brimstone](movie)?
+- who [directed](action) [Star Trek](movie)?
+- who [wrote](action) [Diary of a Wimpy Kid](movie)?
+- who [directed](action) [The Big Short](movie)?
+- who [wrote](action) [Room](movie)?
+- who [directed](action) [Django Unchained](movie)?
+- who [wrote](action) [Ah-ga-ssi](movie)?
+- who [directed](action) [The Edge of Seventeen](movie)?
+- who [wrote](action) [Watchmen](movie)?
+- who [directed](action) [Superbad](movie)?
+- who [wrote](action) [Inferno](movie)?
+- who [directed](action) [The BFG](movie)?
+- who [wrote](action) [The Hunger Games](movie)?
+- who [directed](action) [White Girl](movie)?
+- who [wrote](action) [Sicario](movie)?
+- who [directed](action) [Twin Peaks: The Missing Pieces](movie)?
+- who [wrote](action) [Aliens vs Predator - Requiem](movie)?
+- who [directed](action) [Pacific Rim](movie)?
+- who [wrote](action) [Crazy, Stupid, Love.](movie)?
+- who [directed](action) [Scott Pilgrim vs. the World](movie)?
+- who [wrote](action) [Hot Fuzz](movie)?
+- who [directed](action) [Mine](movie)?
+- who [wrote](action) [Free Fire](movie)?
+- who [directed](action) [X-Men: Days of Future Past](movie)?
+- who [wrote](action) [Jack Reacher: Never Go Back](movie)?
+- who [directed](action) [Casino Royale](movie)?
+- who [wrote](action) [Twilight](movie)?
+- who [directed](action) [Now You See Me 2](movie)?
+- who [wrote](action) [Woman in Gold](movie)?
+- who [directed](action) [13 Hours](movie)?
+- who [wrote](action) [Spectre](movie)?
+- who [directed](action) [Nightcrawler](movie)?
+- who [wrote](action) [Kubo and the Two Strings](movie)?
+- who [directed](action) [Beyond the Gates](movie)?
+- who [wrote](action) [Her](movie)?
+- who [directed](action) [Frozen](movie)?
+- who [wrote](action) [Tomorrowland](movie)?
+- who [directed](action) [Dawn of the Planet of the Apes](movie)?
+- who [wrote](action) [Tropic Thunder](movie)?
+- who [directed](action) [The Conjuring 2](movie)?
+- who [wrote](action) [Ant-Man](movie)?
+- who [directed](action) [Bridget Jones's Baby](movie)?
+- who [wrote](action) [The VVitch: A New-England Folktale](movie)?
+- who [directed](action) [Cinderella](movie)?
+- who [wrote](action) [Realive](movie)?
+- who [directed](action) [Forushande](movie)?
+- who [wrote](action) [Love](movie)?
+- who [directed](action) [Billy Lynn's Long Halftime Walk](movie)?
+- who [wrote](action) [Crimson Peak](movie)?
+- who [directed](action) [Drive](movie)?
+- who [wrote](action) [Trainwreck](movie)?
+- who [directed](action) [The Light Between Oceans](movie)?
+- who [wrote](action) [Below Her Mouth](movie)?
+- who [directed](action) [Spotlight](movie)?
+- who [wrote](action) [Morgan](movie)?
+- who [directed](action) [Warrior](movie)?
+- who [wrote](action) [Captain America: The First Avenger](movie)?
+- who [directed](action) [Hacker](movie)?
+- who [wrote](action) [Into the Wild](movie)?
+- who [directed](action) [The Imitation Game](movie)?
+- who [wrote](action) [Central Intelligence](movie)?
+- who [directed](action) [Edge of Tomorrow](movie)?
+- who [wrote](action) [A Cure for Wellness](movie)?
+- who [directed](action) [Snowden](movie)?
+- who [wrote](action) [Iron Man](movie)?
+- who [directed](action) [Allegiant](movie)?
+- who [wrote](action) [X: First Class](movie)?
+- who [directed](action) [Raw (II)](movie)?
+- who [wrote](action) [Paterson](movie)?
+- who [directed](action) [Bridesmaids](movie)?
+- who [wrote](action) [The Girl with All the Gifts](movie)?
+- who [directed](action) [San Andreas](movie)?
+- who [wrote](action) [Spring Breakers](movie)?
+- who [directed](action) [Transformers](movie)?
+- who [wrote](action) [Old Boy](movie)?
+- who [directed](action) [Thor: The Dark World](movie)?
+- who [wrote](action) [Gods of Egypt](movie)?
+- who [directed](action) [Captain America: The Winter Soldier](movie)?
+- who [wrote](action) [Monster Trucks](movie)?
+- who [directed](action) [A Dark Song](movie)?
+- who [wrote](action) [Kick-Ass](movie)?
+- who [directed](action) [Hardcore Henry](movie)?
+- who [wrote](action) [Cars](movie)?
+- who [directed](action) [It Follows](movie)?
+- who [wrote](action) [The Girl with the Dragon Tattoo](movie)?
+- who [directed](action) [We're the Millers](movie)?
+- who [wrote](action) [American Honey](movie)?
+- who [directed](action) [The Lobster](movie)?
+- who [wrote](action) [Predators](movie)?
+- who [directed](action) [Maleficent](movie)?
+- who [wrote](action) [Rupture](movie)?
+- who [directed](action) [Pan's Labyrinth](movie)?
+- who [wrote](action) [A Kind of Murder](movie)?
+- who [directed](action) [Apocalypto](movie)?
+- who [wrote](action) [Mission: Impossible - Rogue Nation](movie)?
+- who [directed](action) [The Huntsman: Winter's War](movie)?
+- who [wrote](action) [The Perks of Being a Wallflower](movie)?
+- who [directed](action) [Jackie](movie)?
+- who [wrote](action) [The Disappointments Room](movie)?
+- who [directed](action) [The Grand Budapest Hotel](movie)?
+- who [wrote](action) [The Host](movie)?
+- who [directed](action) [Fury](movie)?
+- who [wrote](action) [Inside Out](movie)?
+- who [directed](action) [Rock Dog](movie)?
+- who [wrote](action) [Terminator Genisys](movie)?
+- who [directed](action) [Percy Jackson & the Olympians: The Lightning Thief](movie)?
+- who [directed](action) [Children of Men](movie)?
+- who [wrote](action) [20th Century Women](movie)?
+- who [directed](action) [Spy](movie)?
+- who [wrote](action) [The Intouchables](movie)?
+- who [directed](action) [Bonjour Anne](movie)?
+- who [wrote](action) [Kynodontas](movie)?
+- who [directed](action) [Straight Outta Compton](movie)?
+- who [wrote](action) [The Amazing Spider-Man 2](movie)?
+- who [directed](action) [The Conjuring](movie)?
+- who [wrote](action) [The Hangover](movie)?
+- who [directed](action) [Battleship](movie)?
+- who [wrote](action) [Rise of the Planet of the Apes](movie)?
+- who [directed](action) [Lights Out](movie)?
+- who [wrote](action) [Norman: The Moderate Rise and Tragic Fall of a New York Fixer](movie)?
+- who [directed](action) [Birdman or (The Unexpected Virtue of Ignorance)](movie)?
+- who [wrote](action) [Black Swan](movie)?
+- who [directed](action) [Dear White People](movie)?
+- who [wrote](action) [Nymphomaniac: Vol. I](movie)?
+- who [directed](action) [Teenage Mutant Ninja Turtles: Out of the Shadows](movie)?
+- who [wrote](action) [Knock Knock](movie)?
+- who [directed](action) [Dirty Grandpa](movie)?
+- who [wrote](action) [Cloud Atlas](movie)?
+- who [directed](action) [X-Men Origins: Wolverine](movie)?
+- who [wrote](action) [Satanic](movie)?
+- who [directed](action) [Skyfall](movie)?
+- who [wrote](action) [The Hobbit: An Unexpected Journey](movie)?
+- who [directed](action) [21 Jump Street](movie)?
+- who [wrote](action) [Sing Street](movie)?
+- who [directed](action) [Ballerina](movie)?
+- who [wrote](action) [Oblivion](movie)?
+- who [directed](action) [22 Jump Street](movie)?
+- who [wrote](action) [Zodiac](movie)?
+- who [directed](action) [Everybody Wants Some!!](movie)?
+- who [wrote](action) [Iron Man Three](movie)?
+- who [directed](action) [Now You See Me](movie)?
+- who [wrote](action) [Sherlock Holmes](movie)?
+- who [directed](action) [Death Proof](movie)?
+- who [wrote](action) [The Danish Girl](movie)?
+- who [directed](action) [Hercules](movie)?
+- who [wrote](action) [Sucker Punch](movie)?
+- who [directed](action) [Keeping Up with the Joneses](movie)?
+- who [wrote](action) [Jupiter Ascending](movie)?
+- who [directed](action) [Masterminds](movie)?
+- who [wrote](action) [Iris](movie)?
+- who [directed](action) [Busanhaeng](movie)?
+- who [wrote](action) [Pitch Perfect](movie)?
+- who [directed](action) [Neighbors 2: Sorority Rising](movie)?
+- who [wrote](action) [The Exception](movie)?
+- who [directed](action) [Man of Steel](movie)?
+- who [wrote](action) [The Choice](movie)?
+- who [directed](action) [Ice Age: Collision Course](movie)?
+- who [wrote](action) [The Devil Wears Prada](movie)?
+- who [directed](action) [The Infiltrator](movie)?
+- who [wrote](action) [There Will Be Blood](movie)?
+- who [directed](action) [The Equalizer](movie)?
+- who [wrote](action) [Lone Survivor](movie)?
+- who [directed](action) [The Cabin in the Woods](movie)?
+- who [wrote](action) [The House Bunny](movie)?
+- who [directed](action) [She's Out of My League](movie)?
+- who [wrote](action) [Inherent Vice](movie)?
+- who [directed](action) [Alice Through the Looking Glass](movie)?
+- who [wrote](action) [Vincent N Roxxy](movie)?
+- who [directed](action) [The Fast and the Furious: Tokyo Drift](movie)?
+- who [wrote](action) [How to Be Single](movie)?
+- who [directed](action) [The Blind Side](movie)?
+- who [directed](action) [The Babadook](movie)?
+- who [wrote](action) [The Hobbit: The Battle of the Five Armies](movie)?
+- who [directed](action) [Harry Potter and the Order of the Phoenix](movie)?
+- What [movies](type) did [Josh Gordon](PERSON) [direct](action:directed)?
+- What [movies](type) did [Nicolas Winding Refn](PERSON) [direct](action:directed)?
+- What [movies](type) did [Nitesh Tiwari](PERSON) [direct](action:directed)?
+- What [movies](type) did [Dan Trachtenberg](PERSON) [direct](action:directed)?
+- What [movies](type) did [Andrew Stanton](PERSON) [direct](action:directed)?
+- What [movies](type) did [Tim Burton](PERSON) [direct](action:directed)?
+- What [movies](type) did [Neil Burger](PERSON) [direct](action:directed)?
+- What [movies](type) did [Jake Szymanski](PERSON) [direct](action:directed)?
+- What [movies](type) did [Todor Chapkanov](PERSON) [direct](action:directed)?
+- What [movies](type) did [Jon Favreau](PERSON) [direct](action:directed)?
+- What [movies](type) did [Michael Bay](PERSON) [direct](action:directed)?
+- What [movies](type) did [Henry Joost](PERSON) [direct](action:directed)?
+- What [movies](type) did [Phyllida Lloyd](PERSON) [direct](action:directed)?
+- What [movies](type) did [Denzel Washington](PERSON) [direct](action:directed)?
+- What [movies](type) did [Jaume Collet-Serra](PERSON) [direct](action:directed)?
+- What [movies](type) did [Derek Cianfrance](PERSON) [direct](action:directed)?
+- What [movies](type) did [Ethan Coen](PERSON) [direct](action:directed)?
+- What [movies](type) did [Baz Luhrmann](PERSON) [direct](action:directed)?
+- What [movies](type) did [Martin Koolhoven](PERSON) [direct](action:directed)?
+- What [movies](type) did [Thor Freudenthal](PERSON) [direct](action:directed)?
+- What [movies](type) did [Adam McKay](PERSON) [direct](action:directed)?
+- What [movies](type) did [Lenny Abrahamson](PERSON) [direct](action:directed)?
+- What [movies](type) did [Chan-wook Park](PERSON) [direct](action:directed)?
+- What [movies](type) did [Kelly Fremon Craig](PERSON) [direct](action:directed)?
+- What [movies](type) did [Greg Mottola](PERSON) [direct](action:directed)?
+- What [movies](type) did [Ron Howard](PERSON) [direct](action:directed)?
+- What [movies](type) did [Steven Spielberg](PERSON) [direct](action:directed)?
+- What [movies](type) did [Gary Ross](PERSON) [direct](action:directed)?
+- What [movies](type) did [Elizabeth Wood](PERSON) [direct](action:directed)?
+- What [movies](type) did [David Lynch](PERSON) [direct](action:directed)?
+- What [movies](type) did [Colin Strause](PERSON) [direct](action:directed)?
+- What [movies](type) did [Guillermo del Toro](PERSON) [direct](action:directed)?
+- What [movies](type) did [Glenn Ficarra](PERSON) [direct](action:directed)?
+- What [movies](type) did [Edgar Wright](PERSON) [direct](action:directed)?
+- What [movies](type) did [Fabio Guaglione](PERSON) [direct](action:directed)?
+- What [movies](type) did [Ben Wheatley](PERSON) [direct](action:directed)?
+- What [movies](type) did [Edward Zwick](PERSON) [direct](action:directed)?
+- What [movies](type) did [Martin Campbell](PERSON) [direct](action:directed)?
+- What [movies](type) did [Catherine Hardwicke](PERSON) [direct](action:directed)?
+- What [movies](type) did [Jon M. Chu](PERSON) [direct](action:directed)?
+- What [movies](type) did [Simon Curtis](PERSON) [direct](action:directed)?
+- What [movies](type) did [Sam Mendes](PERSON) [direct](action:directed)?
+- What [movies](type) did [Dan Gilroy](PERSON) [direct](action:directed)?
+- What [movies](type) did [Travis Knight](PERSON) [direct](action:directed)?
+- What [movies](type) did [Jackson Stewart](PERSON) [direct](action:directed)?
+- What [movies](type) did [Spike Jonze](PERSON) [direct](action:directed)?
+- What [movies](type) did [Chris Buck](PERSON) [direct](action:directed)?
+- What [movies](type) did [Brad Bird](PERSON) [direct](action:directed)?
+- What [movies](type) did [Matt Reeves](PERSON) [direct](action:directed)?
+- What [movies](type) did [Ben Stiller](PERSON) [direct](action:directed)?
+- What [movies](type) did [Peyton Reed](PERSON) [direct](action:directed)?
+- What [movies](type) did [Sharon Maguire](PERSON) [direct](action:directed)?
+- What [movies](type) did [Robert Eggers](PERSON) [direct](action:directed)?
+- What [movies](type) did [Mateo Gil](PERSON) [direct](action:directed)?
+- What [movies](type) did [Asghar Farhadi](PERSON) [direct](action:directed)?
+- What [movies](type) did [Ang Lee](PERSON) [direct](action:directed)?
+- What [movies](type) did [Judd Apatow](PERSON) [direct](action:directed)?
+- What [movies](type) did [April Mullen](PERSON) [direct](action:directed)?
+- What [movies](type) did [Tom McCarthy](PERSON) [direct](action:directed)?
+- What [movies](type) did [Luke Scott](PERSON) [direct](action:directed)?
+- What [movies](type) did [Joe Johnston](PERSON) [direct](action:directed)?
+- What [movies](type) did [Akan Satayev](PERSON) [direct](action:directed)?
+- What [movies](type) did [Rawson Marshall Thurber](PERSON) [direct](action:directed)?
+- What [movies](type) did [Doug Liman](PERSON) [direct](action:directed)?
+- What [movies](type) did [Oliver Stone](PERSON) [direct](action:directed)?
+- What [movies](type) did [Robert Schwentke](PERSON) [direct](action:directed)?
+- What [movies](type) did [Julia Ducournau](PERSON) [direct](action:directed)?
+- What [movies](type) did [Jim Jarmusch](PERSON) [direct](action:directed)?
+- What [movies](type) did [Colm McCarthy](PERSON) [direct](action:directed)?
+- What [movies](type) did [Brad Peyton](PERSON) [direct](action:directed)?
+- What [movies](type) did [Harmony Korine](PERSON) [direct](action:directed)?
+- What [movies](type) did [Spike Lee](PERSON) [direct](action:directed)?
+- What [movies](type) did [Alan Taylor](PERSON) [direct](action:directed)?
+- What [movies](type) did [Alex Proyas](PERSON) [direct](action:directed)?
+- What [movies](type) did [Chris Wedge](PERSON) [direct](action:directed)?
+- What [movies](type) did [Liam Gavin](PERSON) [direct](action:directed)?
+- What [movies](type) did [Ilya Naishuller](PERSON) [direct](action:directed)?
+- What [movies](type) did [John Lasseter](PERSON) [direct](action:directed)?
+- What [movies](type) did [David Robert Mitchell](PERSON) [direct](action:directed)?
+- What [movies](type) did [Andrea Arnold](PERSON) [direct](action:directed)?
+- What [movies](type) did [Yorgos Lanthimos](PERSON) [direct](action:directed)?
+- What [movies](type) did [Robert Stromberg](PERSON) [direct](action:directed)?
+- What [movies](type) did [Steven Shainberg](PERSON) [direct](action:directed)?
+- What [movies](type) did [Andy Goddard](PERSON) [direct](action:directed)?
+- What [movies](type) did [Christopher McQuarrie](PERSON) [direct](action:directed)?
+- What [movies](type) did [Cedric Nicolas-Troyan](PERSON) [direct](action:directed)?
+- What [movies](type) did [Stephen Chbosky](PERSON) [direct](action:directed)?
+- What [movies](type) did [D.J. Caruso](PERSON) [direct](action:directed)?
+- What [movies](type) did [Wes Anderson](PERSON) [direct](action:directed)?
+- What [movies](type) did [Andrew Niccol](PERSON) [direct](action:directed)?
+- What [movies](type) did [Pete Docter](PERSON) [direct](action:directed)?
+- What [movies](type) did [Ash Brannon](PERSON) [direct](action:directed)?
+- What [movies](type) did [Chris Columbus](PERSON) [direct](action:directed)?
+- What [movies](type) did [Tom Hooper](PERSON) [direct](action:directed)?
+- What [movies](type) did [Mike Mills](PERSON) [direct](action:directed)?
+- What [movies](type) did [Olivier Nakache](PERSON) [direct](action:directed)?
+- What [movies](type) did [Eleanor Coppola](PERSON) [direct](action:directed)?
+- What [movies](type) did [F. Gary Gray](PERSON) [direct](action:directed)?
+- What [movies](type) did [Marc Webb](PERSON) [direct](action:directed)?
+- What [movies](type) has [Gregory Walls](PERSON) [written](action)?
+- What [movies](type) has [Greig Barr](PERSON) [written](action)?
+- What [movies](type) has [Grey Mckee](PERSON) [written](action)?
+- What [movies](type) has [Greyson Bauer](PERSON) [written](action)?
+- What [movies](type) has [Griffin Rivers](PERSON) [written](action)?
+- What [movies](type) has [Gunnar Everett](PERSON) [written](action)?
+- What [movies](type) has [Gunner Bradshaw](PERSON) [written](action)?
+- What [movies](type) has [Gurbaaz Pugh](PERSON) [written](action)?
+- What [movies](type) has [Gurbir Velez](PERSON) [written](action)?
+- What [movies](type) has [Gurdeep Rush](PERSON) [written](action)?
+- What [movies](type) has [Gurfateh Estes](PERSON) [written](action)?
+- What [movies](type) has [Gurinder Dodson](PERSON) [written](action)?
+- What [movies](type) has [Gurjaap Morse](PERSON) [written](action)?
+- What [movies](type) has [Gurjeet Sheppard](PERSON) [written](action)?
+- What [movies](type) has [Gurjit Weeks](PERSON) [written](action)?
+- What [movies](type) has [Gurjot Camacho](PERSON) [written](action)?
+- What [movies](type) has [Gurkaran Bean](PERSON) [written](action)?
+- What [movies](type) has [Gurkirat Barron](PERSON) [written](action)?
+- What [movies](type) has [Gurman Livingston](PERSON) [written](action)?
+- What [movies](type) has [Gurminder Middleton](PERSON) [written](action)?
+- What [movies](type) has [Gurnoor Spears](PERSON) [written](action)?
+- What [movies](type) has [Gurpreet Branch](PERSON) [written](action)?
+- What [movies](type) has [Gurshaan Blevins](PERSON) [written](action)?
+- What [movies](type) has [Gurshan Chen](PERSON) [written](action)?
+- What [movies](type) has [Gurshawn Kerr](PERSON) [written](action)?
+- What [movies](type) has [Gursimran Mcconnell](PERSON) [written](action)?
+- What [movies](type) has [Gurtaj Hatfield](PERSON) [written](action)?
+- What [movies](type) has [Gurtej Harding](PERSON) [written](action)?
+- What [movies](type) has [Gurveer Ashley](PERSON) [written](action)?
+- What [movies](type) has [Gurvinder Solis](PERSON) [written](action)?
+- What [movies](type) has [Gurvir Herman](PERSON) [written](action)?
+- What [movies](type) has [Gus Frost](PERSON) [written](action)?
+- What [movies](type) has [Guy Giles](PERSON) [written](action)?
+- What [movies](type) has [Hadi Blackburn](PERSON) [written](action)?
+- What [movies](type) has [Haiden William](PERSON) [written](action)?
+- What [movies](type) has [Hal Pennington](PERSON) [written](action)?
+- What [movies](type) has [Hamish Woodward](PERSON) [written](action)?
+- What [movies](type) has [Hamza Finley](PERSON) [written](action)?
+- What [movies](type) has [Hank Mcintosh](PERSON) [written](action)?
+- What [movies](type) has [Hans Koch](PERSON) [written](action)?
+- What [movies](type) has [Hanson Best](PERSON) [written](action)?
+- What [movies](type) has [Hao Solomon](PERSON) [written](action)?
+- What [movies](type) has [Harbir Mccullough](PERSON) [written](action)?
+- What [movies](type) has [Hardeep Dudley](PERSON) [written](action)?
+- What [movies](type) has [Hargun Nolan](PERSON) [written](action)?
+- What [movies](type) has [Harinder Blanchard](PERSON) [written](action)?
+- What [movies](type) has [Harjan Rivas](PERSON) [written](action)?
+- What [movies](type) has [Harjap Brennan](PERSON) [written](action)?
+- What [movies](type) has [Harjas Mejia](PERSON) [written](action)?
+- What [movies](type) has [Harjit Kane](PERSON) [written](action)?
+- What [movies](type) has [Harjot Benton](PERSON) [written](action)?
+- What [movies](type) has [Harkaran Joyce](PERSON) [written](action)?
+- What [movies](type) has [Harkirat Buckley](PERSON) [written](action)?
+- What [movies](type) has [Harlan Haley](PERSON) [written](action)?
+- What [movies](type) has [Harley Valentine](PERSON) [written](action)?
+- What [movies](type) has [Harman Maddox](PERSON) [written](action)?
+- What [movies](type) has [Harmandeep Russo](PERSON) [written](action)?
+- What [movies](type) has [Harmeet Mcknight](PERSON) [written](action)?
+- What [movies](type) has [Harmen Buck](PERSON) [written](action)?
+- What [movies](type) has [Harminder Moon](PERSON) [written](action)?
+- What [movies](type) has [Harnoor Mcmillan](PERSON) [written](action)?
+- What [movies](type) has [Harold Crosby](PERSON) [written](action)?
+- What [movies](type) has [Haroon Berg](PERSON) [written](action)?
+- What [movies](type) has [Harpreet Dotson](PERSON) [written](action)?
+- What [movies](type) has [Harris Mays](PERSON) [written](action)?
+- What [movies](type) has [Harrison Roach](PERSON) [written](action)?
+- What [movies](type) has [Harry Church](PERSON) [written](action)?
+- What [movies](type) has [Harsh Chan](PERSON) [written](action)?
+- What [movies](type) has [Harshaan Richmond](PERSON) [written](action)?
+- What [movies](type) has [Harshan Meadows](PERSON) [written](action)?
+- What [movies](type) has [Harshdeep Faulkner](PERSON) [written](action)?
+- What [movies](type) has [Harsimran Oneill](PERSON) [written](action)?
+- What [movies](type) has [Hartley Knapp](PERSON) [written](action)?
+- What [movies](type) has [Haruo Kline](PERSON) [written](action)?
+- What [movies](type) has [Harveer Barry](PERSON) [written](action)?
+- What [movies](type) has [Harvey Ochoa](PERSON) [written](action)?
+- What [movies](type) has [Harvin Jacobson](PERSON) [written](action)?
+- What [movies](type) has [Harvinder Gay](PERSON) [written](action)?
+- What [movies](type) has [Harvir Avery](PERSON) [written](action)?
+- What [movies](type) has [Hashim Hendricks](PERSON) [written](action)?
+- What [movies](type) has [Hassan Horne](PERSON) [written](action)?
+- What [movies](type) has [Hayden Shepard](PERSON) [written](action)?
+- What [movies](type) has [Haydn Hebert](PERSON) [written](action)?
+- What [movies](type) has [Hayes Cherry](PERSON) [written](action)?
+- What [movies](type) has [Heath Cardenas](PERSON) [written](action)?
+- What [movies](type) has [Hector Mcintyre](PERSON) [written](action)?
+- What [movies](type) has [Hendrix Whitney](PERSON) [written](action)?
+- What [movies](type) has [Henri Waller](PERSON) [written](action)?
+- What [movies](type) has [Henrik Holman](PERSON) [written](action)?
+- What [movies](type) has [Henry Donaldson](PERSON) [written](action)?
+- What [movies](type) has [Herbert Cantu](PERSON) [written](action)?
+- What [movies](type) has [Herman Terrell](PERSON) [written](action)?
+- What [movies](type) has [Hideo Morin](PERSON) [written](action)?
+- What [movies](type) has [Himmat Gillespie](PERSON) [written](action)?
+- What [movies](type) has [Hiro Fuentes](PERSON) [written](action)?
+- What [movies](type) has [Hiroshi Tillman](PERSON) [written](action)?
+- What [movies](type) has [Hisao Sanford](PERSON) [written](action)?
+- What [movies](type) has [Ho Bentley](PERSON) [written](action)?
+- What [movies](type) has [Holden Peck](PERSON) [written](action)?
+- What [movies](type) has [Horace Key](PERSON) [written](action)?
+- What [movies](type) has [Houston Salas](PERSON) [written](action)?
+- who [wrote](action) [Snowpiercer](movie)?
+- who [wrote](action) [The 5th Wave](movie)?
+- who [wrote](action) [The Stakelander](movie)?
+- who [wrote](action) [The Visit](movie)?
+- who [wrote](action) [Fast Five](movie)?
+- who [wrote](action) [Step Up](movie)?
+- who [wrote](action) [Lovesong](movie)?
+- who [wrote](action) [RocknRolla](movie)?
+- who [wrote](action) [In Time](movie)?
+- who [wrote](action) [The Social Network](movie)?
+- who [wrote](action) [The Last Witch Hunter](movie)?
+- who [wrote](action) [Victor Frankenstein](movie)?
+- who [wrote](action) [A Street Cat Named Bob](movie)?
+- who [wrote](action) [Green Room](movie)?
+- who [wrote](action) [Blackhat](movie)?
+- who [wrote](action) [Storks](movie)?
+- who [wrote](action) [American Sniper](movie)?
+- who [wrote](action) [Dallas Buyers Club](movie)?
+- who [wrote](action) [Lincoln](movie)?
+- who [wrote](action) [Rush](movie)?
+- who [wrote](action) [Before I Wake](movie)?
+- who [wrote](action) [Silver Linings Playbook](movie)?
+- who [wrote](action) [Tracktown](movie)?
+- who [wrote](action) [The Fault in Our Stars](movie)?
+- who [wrote](action) [Blended](movie)?
+- who [wrote](action) [Fast & Furious](movie)?
+- who [wrote](action) [Looper](movie)?
+- who [wrote](action) [White House Down](movie)?
+- who [wrote](action) [Pete's Dragon](movie)?
+- who [wrote](action) [Spider-Man 3](movie)?
+- who [wrote](action) [The Three Musketeers](movie)?
+- who [wrote](action) [Stardust](movie)?
+- who [wrote](action) [American Hustle](movie)?
+- who [wrote](action) [Jennifer's Body](movie)?
+- who [wrote](action) [Midnight in Paris](movie)?
+- who [wrote](action) [Lady Macbeth](movie)?
+- who [wrote](action) [Joy](movie)?
+- who [wrote](action) [The Dressmaker](movie)?
+- who [wrote](action) [CafÃ© Society](movie)?
+- who [wrote](action) [Insurgent](movie)?
+- who [wrote](action) [Seventh Son](movie)?
+- who [wrote](action) [Demain tout commence](movie)?
+- who [wrote](action) [The Theory of Everything](movie)?
+- who [wrote](action) [This Is the End](movie)?
+- who [wrote](action) [About Time](movie)?
+- who [wrote](action) [Step Brothers](movie)?
+- who [wrote](action) [Clown](movie)?
+- who [wrote](action) [Star Trek Into Darkness](movie)?
+- who [wrote](action) [Zombieland](movie)?
+- who [wrote](action) [Hail, Caesar!](movie)?
+- who [wrote](action) [Slumdog Millionaire](movie)?
+- who [wrote](action) [The Twilight Saga: Breaking Dawn - Part 2](movie)?
+- who [wrote](action) [American Wrestler: The Wizard](movie)?
+- who [wrote](action) [The Amazing Spider-Man](movie)?
+- who [wrote](action) [Ben-Hur](movie)?
+- who [wrote](action) [Sleight](movie)?
+- who [wrote](action) [The Maze Runner](movie)?
+- who [wrote](action) [Criminal](movie)?
+- who [wrote](action) [Wanted](movie)?
+- who [wrote](action) [Florence Foster Jenkins](movie)?
+- who [wrote](action) [Collide](movie)?
+- who [wrote](action) [Black Mass](movie)?
+- who [wrote](action) [Creed](movie)?
+- who [wrote](action) [Swiss Army Man](movie)?
+- who [wrote](action) [The Expendables 3](movie)?
+- who [wrote](action) [What We Do in the Shadows](movie)?
+- who [wrote](action) [Southpaw](movie)?
+- who [wrote](action) [Hush](movie)?
+- who [wrote](action) [Bridge of Spies](movie)?
+- who [wrote](action) [The Lego Movie](movie)?
+- who [wrote](action) [Everest](movie)?
+- who [wrote](action) [Pixels](movie)?
+- who [wrote](action) [Robin Hood](movie)?
+- who [wrote](action) [The Wolverine](movie)?
+- who [wrote](action) [John Carter](movie)?
+- who [wrote](action) [Keanu](movie)?
+- who [wrote](action) [The Gunman](movie)?
+- who [wrote](action) [Steve Jobs](movie)?
+- who [wrote](action) [Whisky Galore](movie)?
+- who [wrote](action) [Grown Ups 2](movie)?
+- who [wrote](action) [The Age of Adaline](movie)?
+- who [wrote](action) [The Incredible Hulk](movie)?
+- who [wrote](action) [Couples Retreat](movie)?
+- who [wrote](action) [Absolutely Anything](movie)?
+- who [wrote](action) [Magic Mike](movie)?
+- who [wrote](action) [Minions](movie)?
+- who [wrote](action) [The Black Room](movie)?
+- who [wrote](action) [Bronson](movie)?
+- who [wrote](action) [Despicable Me](movie)?
+- who [wrote](action) [The Best of Me](movie)?
+- who [wrote](action) [The Invitation](movie)?
+- who [wrote](action) [Zero Dark Thirty](movie)?
+- who [wrote](action) [Tangled](movie)?
+- who [wrote](action) [The Hunger Games: Mockingjay - Part 2](movie)?
+- who [wrote](action) [Vacation](movie)?
+- who [wrote](action) [Taken](movie)?
+- who [wrote](action) [Pitch Perfect 2](movie)?
+- who [wrote](action) [Monsters University](movie)?
+- who [wrote](action) [Elle](movie)?
+- who [wrote](action) [Mechanic: Resurrection](movie)?
+- who [wrote](action) [Tusk](movie)?
+- What [movies](type) did [Jaime Bonner](PERSON) [write](action)?
+- What [movies](type) did [Jairus Cotton](PERSON) [write](action)?
+- What [movies](type) did [Jaiveer Holder](PERSON) [write](action)?
+- What [movies](type) did [Jaivin Stark](PERSON) [write](action)?
+- What [movies](type) did [Jake Ferrell](PERSON) [write](action)?
+- What [movies](type) did [Jakob Cantrell](PERSON) [write](action)?
+- What [movies](type) did [Jakub Fulton](PERSON) [write](action)?
+- What [movies](type) did [Jalen Lynn](PERSON) [write](action)?
+- What [movies](type) did [Jamal Lott](PERSON) [write](action)?
+- What [movies](type) did [James Calderon](PERSON) [write](action)?
+- What [movies](type) did [Jameson Rosa](PERSON) [write](action)?
+- What [movies](type) did [Jamey Pollard](PERSON) [write](action)?
+- What [movies](type) did [Jamie Hooper](PERSON) [write](action)?
+- What [movies](type) did [Jamieson Burch](PERSON) [write](action)?
+- What [movies](type) did [Jamison Mullen](PERSON) [write](action)?
+- What [movies](type) did [Jan Fry](PERSON) [write](action)?
+- What [movies](type) did [Jared Riddle](PERSON) [write](action)?
+- What [movies](type) did [Jaret Levy](PERSON) [write](action)?
+- What [movies](type) did [Jarett David](PERSON) [write](action)?
+- What [movies](type) did [Jarod Duke](PERSON) [write](action)?
+- What [movies](type) did [Jaron Odonnell](PERSON) [write](action)?
+- What [movies](type) did [Jarred Guy](PERSON) [write](action)?
+- What [movies](type) did [Jarret Michael](PERSON) [write](action)?
+- What [movies](type) did [Jarrett Britt](PERSON) [write](action)?
+- What [movies](type) did [Jarrod Frederick](PERSON) [write](action)?
+- What [movies](type) did [Jasbir Daugherty](PERSON) [write](action)?
+- What [movies](type) did [Jasdeep Berger](PERSON) [write](action)?
+- What [movies](type) did [Jase Dillard](PERSON) [write](action)?
+- What [movies](type) did [Jasen Alston](PERSON) [write](action)?
+- What [movies](type) did [Jashan Jarvis](PERSON) [write](action)?
+- What [movies](type) did [Jaskaran Frye](PERSON) [write](action)?
+- What [movies](type) did [Jaskarn Riggs](PERSON) [write](action)?
+- What [movies](type) did [Jaskirat Chaney](PERSON) [write](action)?
+- What [movies](type) did [Jasman Odom](PERSON) [write](action)?
+- What [movies](type) did [Jasmeet Duffy](PERSON) [write](action)?
+- What [movies](type) did [Jason Fitzpatrick](PERSON) [write](action)?
+- What [movies](type) did [Jaspal Valenzuela](PERSON) [write](action)?
+- What [movies](type) did [Jasper Merrill](PERSON) [write](action)?
+- What [movies](type) did [Jaspreet Mayer](PERSON) [write](action)?
+- What [movies](type) did [Jasraj Alford](PERSON) [write](action)?
+- What [movies](type) did [Jasvinder Mcpherson](PERSON) [write](action)?
+- What [movies](type) did [Jatinder Acevedo](PERSON) [write](action)?
+- What [movies](type) did [Javier Donovan](PERSON) [write](action)?
+- What [movies](type) did [Jax Barrera](PERSON) [write](action)?
+- What [movies](type) did [Jaxen Albert](PERSON) [write](action)?
+- What [movies](type) did [Jaxon Cote](PERSON) [write](action)?
+- What [movies](type) did [Jaxson Reilly](PERSON) [write](action)?
+- What [movies](type) did [Jaxton Compton](PERSON) [write](action)?
+- What [movies](type) did [Jaxx Raymond](PERSON) [write](action)?
+- What [movies](type) did [Jaxxon Mooney](PERSON) [write](action)?
+- What [movies](type) did [Jay Mcgowan](PERSON) [write](action)?
+- What [movies](type) did [Jayce Craft](PERSON) [write](action)?
+- What [movies](type) did [Jayden Cleveland](PERSON) [write](action)?
+- What [movies](type) did [Jaydon Clemons](PERSON) [write](action)?
+- What [movies](type) did [Jaylen Wynn](PERSON) [write](action)?
+- What [movies](type) did [Jayme Nielsen](PERSON) [write](action)?
+- What [movies](type) did [Jayson Baird](PERSON) [write](action)?
+- What [movies](type) did [Jean Stanton](PERSON) [write](action)?
+- What [movies](type) did [Jean-luc Snider](PERSON) [write](action)?
+- What [movies](type) did [Jean-paul Rosales](PERSON) [write](action)?
+- What [movies](type) did [Jeevan Bright](PERSON) [write](action)?
+- What [movies](type) did [Jeff Witt](PERSON) [write](action)?
+- What [movies](type) did [Jeffery Stuart](PERSON) [write](action)?
+- What [movies](type) did [Jeffrey Hays](PERSON) [write](action)?
+- What [movies](type) did [Jeffry Holden](PERSON) [write](action)?
+- What [movies](type) did [Jensen Rutledge](PERSON) [write](action)?
+- What [movies](type) did [Jenson Kinney](PERSON) [write](action)?
+- What [movies](type) did [Jerald Clements](PERSON) [write](action)?
+- What [movies](type) did [Jeremey Castaneda](PERSON) [write](action)?
+- What [movies](type) did [Jeremiah Slater](PERSON) [write](action)?
+- What [movies](type) did [Jeremy Hahn](PERSON) [write](action)?
+- What [movies](type) did [Jericho Emerson](PERSON) [write](action)?
+- What [movies](type) did [Jermaine Conrad](PERSON) [write](action)?
+- What [movies](type) did [Jerod Burks](PERSON) [write](action)?
+- What [movies](type) did [Jerome Delaney](PERSON) [write](action)?
+- What [movies](type) did [Jeromy Pate](PERSON) [write](action)?
+- What [movies](type) did [Jerry Lancaster](PERSON) [write](action)?
+- What [movies](type) did [Jess Sweet](PERSON) [write](action)?
+- What [movies](type) did [Jesse Justice](PERSON) [write](action)?
+- What [movies](type) did [Jessie Tyson](PERSON) [write](action)?
+- What [movies](type) did [Jessy Sharpe](PERSON) [write](action)?
+- What [movies](type) did [Jet Whitfield](PERSON) [write](action)?
+- What [movies](type) did [Jethro Talley](PERSON) [write](action)?
+- What [movies](type) did [Jett Macias](PERSON) [write](action)?
+- What [movies](type) did [Jia Irwin](PERSON) [write](action)?
+- What [movies](type) did [Jigar Burris](PERSON) [write](action)?
+- What [movies](type) did [Jim Ratliff](PERSON) [write](action)?
+- What [movies](type) did [Jimmie Mccray](PERSON) [write](action)?
+- What [movies](type) did [Jimmy Madden](PERSON) [write](action)?
+- What [movies](type) did [Joao Kaufman](PERSON) [write](action)?
+- What [movies](type) did [Joaquin Beach](PERSON) [write](action)?
+- What [movies](type) did [Joban Goff](PERSON) [write](action)?
+- What [movies](type) did [Jodh Cash](PERSON) [write](action)?
+- What [movies](type) did [Jody Bolton](PERSON) [write](action)?
+- What [movies](type) did [Joe Mcfadden](PERSON) [write](action)?
+- What [movies](type) did [Joel Levine](PERSON) [write](action)?
+- What [movies](type) did [Joesph Good](PERSON) [write](action)?
+- What [movies](type) did [Joey Byers](PERSON) [write](action)?
+- What [movies](type) did [Johan Kirkland](PERSON) [write](action)?
+- What [movies](type) did [Johann Kidd](PERSON) [write](action)?
+- What [movies](type) did [Johannes Workman](PERSON) [write](action)?
+
+
 
 ## intent:date_request
 - what [show](type) came out on the [1st of January](DATE)?
@@ -224,6 +925,18 @@
 - which [animated](genre) [movie](type) was released on [March 8th 1982](DATE)?
 - what [crime](genre) [series](type:show) came out on [April 9th 1981](DATE)?
 - which [thriller](genre) [tv show](type:show) released on [May 10th 1980](DATE)?
+- what [show](type) released on the [20th of December](DATE)?
+- What [show](type) came out on the [5th of march](DATE)?
+- What [comedy](genre) [movie](type) was released on [April 5th](DATE)?
+- What [comedy](genre) [movie](type) was released on [January 5th](DATE)?
+- What [drama](genre) [movie](type) was released on [February 6th](DATE)?
+- What [action](genre) [movie](type) was released on [March 7th](DATE)?
+- What [adventure](genre) [movie](type) was released on [April 8th](DATE)?
+- What [romance](genre) [movie](type) was released on [May 9th](DATE)?
+- What [sci-fi](genre) [movie](type) was released on [June 10th](DATE)?
+- What [fantasy](genre) [movie](type) was released on [July 11th](DATE)?
+- What [drama](genre) [tv series](type:show) was released on the [17th of January](DATE)?
+- what [drama](genre) [movies](type:movie) came out in [2013](DATE)?
 
 ## intent:deny
 - that's wrong
@@ -237,24 +950,10 @@
 - Tell me about the [movie](type) [batman](title)
 - Tell me about the [series](type:show) [the Simpsons](title)
 - Tell me about the [show](type) [the Simpsons](title)
-- What [comedy](genre) was released on [January 5th](DATE)
-- What [drama](genre) was released on [February 6th](DATE)
-- What [action](genre) movie was released on [March 7th](DATE)
-- What [adventure](genre) was released on [April 8th](DATE)
-- What [romance](genre) was released on [May 9th](DATE)
-- What [sci-fi](genre) movie was released on [June 10th](DATE)
-- What [fantasy](genre) movie was released on [July 11th](DATE)
-- What [drama](genre) [tv series](type:show) was released on the [17th of January](DATE)
-- what [drama](genre) [movies](type:movie) came out in [2013](DATE)?
-- What is the [movie](type) [Avengers](title) about?
-- Yes. What year did the movie [Joker](title) release?
 - tell me about the [movie](type) [Superman](title:superman)
 - get me information on the [movie](type) [Superman](title:superman)
 - Tell me about the [movie](type) [Superman](title:superman)
 - tell me about the [movie](type) [superman](title)
-- what [show](type) released on the [20th of December](DATE)?
-- What [show](type) came out on the [5th of march](DATE)
-- What [comedy](genre) was released on [April 5th](DATE)
 - Tell me about the movie [Prometheus](title)
 - Tell me about the movie [Guardians of the Galaxy](title)
 - Tell me about the movie [Split](title)
@@ -756,8 +1455,6 @@
 - tell me about [deadpool](title)
 - tell me about [avatar](title)
 - tell me about the [movie](type) [avatar](title)
-- Tell me about the movie [avatar](title)
-- tell me about [powerrangers](title)
 
 ## intent:goodbye
 - bye
@@ -775,6 +1472,7 @@
 - good evening
 - hey there
 - hello there
+- hello
 - Hi
 
 ## intent:have_request
@@ -809,8 +1507,8 @@
 - Who is [Ace Jackson](PERSON)?
 - What does [Adam White](PERSON) do?
 - Is [Addison Harris](PERSON) an actor?
-- Is [Aden Martin](PERSON) an writer?
-- Is Aditya Thompson an director?
+- Is [Aden Martin](PERSON) a writer?
+- Is Aditya Thompson a director?
 - Tell me who is [Adrian Garcia](PERSON)?
 - Tell me about the [director] (role) [Adriano Martinez](PERSON)
 - Tell me about the [writer] (role) [Adriel Robinson](PERSON)
@@ -818,7 +1516,7 @@
 - Who is [Aedan Rodriguez](PERSON)?
 - What does [Agam Lewis](PERSON) do?
 - Is [Ahmad Lee](PERSON) an actor?
-- Is [Ahmed Walker](PERSON) an writer?
+- Is [Ahmed Walker](PERSON) a writer?
 - Is [Aidan Hall](PERSON) a director?
 - Tell me who is [Aiden Allen](PERSON)?
 - Tell me about the [director] (role) [Aikam Young](PERSON)
@@ -827,8 +1525,8 @@
 - Who is [Ajit Wright](PERSON)?
 - What does [Akash Lopez](PERSON) do?
 - Is [Akashdeep Hill](PERSON) an actor?
-- Is [Akio Scott](PERSON) an writer?
-- Is [Akira Green](PERSON) an director?
+- Is [Akio Scott](PERSON) a writer?
+- Is [Akira Green](PERSON) a director?
 - Tell me who is [Aksel Adams](PERSON)?
 - Tell me about the [director] (role) [Alain Baker](PERSON)
 - Tell me about the [writer] (role) [Alan Gonzalez](PERSON)
@@ -836,7 +1534,7 @@
 - Who is [Alastair Carter](PERSON)?
 - What does [Albert Mitchell](PERSON) do?
 - Is [Alden Perez](PERSON) an actor?
-- Is [Alec Roberts](PERSON) an writer?
+- Is [Alec Roberts](PERSON) a writer?
 - Is [Alejandro Turner](PERSON) a director?
 - Tell me who is [Aleksandar Phillips](PERSON)?
 - Tell me about the [director](role) [Aleksander Campbell](PERSON)
@@ -845,7 +1543,7 @@
 - Who is [Alexander Edwards](PERSON)?
 - What does [Alexandre Collins](PERSON) do?
 - Is [Alexis Stewart](PERSON) an actor?
-- Is [Alexzander Sanchez](PERSON) an writer?
+- Is [Alexzander Sanchez](PERSON) a writer?
 - Is [Alfie Morris](PERSON) a director?
 - Tell me who is [Alfred Rogers](PERSON)?
 - Tell me about the [director](role) [Ali Reed](PERSON)
@@ -854,7 +1552,7 @@
 - Who is [Allan Bell](PERSON)?
 - What does [Allen Murphy](PERSON) do?
 - Is [Alvin Bailey](PERSON) an actor?
-- Is [Aly Rivera](PERSON) an writer?
+- Is [Aly Rivera](PERSON) a writer?
 - Is [Aman Cooper](PERSON) a director?
 - Tell me who is [Amandeep Richardson](PERSON)?
 - Tell me about the [director] (role) [Amanpreet Cox](PERSON)
@@ -863,7 +1561,7 @@
 - Who is [Amarjit Torres](PERSON)?
 - What does [Amarpreet Peterson](PERSON) do?
 - Is [Amir Gray](PERSON) an actor?
-- Is [Amit Ramirez](PERSON) an writer?
+- Is [Amit Ramirez](PERSON) a writer?
 - Is [Ammar James](PERSON) a director?
 - Tell me who is [Amos Watson](PERSON)?
 - Tell me about the [director] (role) [Amrinder Brooks](PERSON)
@@ -882,7 +1580,7 @@
 - What does [Angelo Long](PERSON) do?
 - Is [Angus Patterson](PERSON) an actor?
 - Is [Anhad Hughes](PERSON) a writer?
-- Is  [Anmol Flores](PERSON) an director?
+- Is [Anmol Flores](PERSON) a director?
 - Tell me who is [Anoop Washington](PERSON)?
 - Tell me about the [director](role) [Ansh Butler](PERSON)
 - Tell me about the [writer](role) [Anson Simmons](PERSON)
@@ -891,7 +1589,7 @@
 - What does [Antoine Bryant](PERSON) do?
 - Is [Anton Alexander](PERSON) an actor?
 - Is [Antonio Russell](PERSON) a writer?
-- Is [Antony Griffin](PERSON) an director?
+- Is [Antony Griffin](PERSON) a director?
 - Tell me who is [Apollo Diaz](PERSON)?
 - Tell me about the [director](role) [Arad Hayes](PERSON)
 - Tell me about the [writer](role) [Arav Myers](PERSON)
@@ -909,7 +1607,7 @@
 - What does [Arjan Fisher](PERSON) do?
 - Is [Arjun Ellis](PERSON) an actor?
 - Is [Arlen Harrison](PERSON) a writer?
-- Is [Arlo Gibson](PERSON) an director?
+- Is [Arlo Gibson](PERSON) a director?
 - Tell me who is [Armaan Mcdonald](PERSON)?
 - Tell me about the [director](role) [Arman Cruz](PERSON)
 - Tell me about the [writer](role) [Armand Marshall](PERSON)
@@ -1096,19 +1794,15 @@
 - Tell me about the [actor](role) [Campbell Newman](PERSON)
 - Who is [Camron Haynes](PERSON)?
 - who is [john stamos](PERSON)?
-- who is [stephen king](PERSON)
+
+## synonym:wrote
+- written
+- write
 
 ## synonym:movie
 - movies
 
 ## synonym:show
-- tv show
 - series
 - tv series
-
-## synonym:starred
-- been
-- acted
-
-## synonym:superman
-- Superman
+- tv show
