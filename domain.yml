@@ -13,7 +13,6 @@ intents:
 - confirm
 - deny
 - help
-- action_request
 entities:
 - DATE
 - type
@@ -22,10 +21,14 @@ entities:
 - PERSON
 - title
 - year
-- question_type
-- actor
+- question
 - action
 slots:
+  action:
+    type: categorical
+    - starred
+    - directed
+    - wrote
   DATE:
     type: text
   PERSON:
@@ -50,13 +53,11 @@ slots:
     - war
     - western
     - history
-  question_type:
+  question:
     type: categorical
     values:
-    - who
-    - what
-    - when
-    - how
+    - release
+    - make
   role:
     type: categorical
     values:
@@ -72,7 +73,7 @@ slots:
     - show
   year:
     type: unfeaturized
-responses:
+templates:
   utter_greet:
   - text: Hey! How can I help you?
   - text: Hi! Do you have a question?
@@ -89,14 +90,7 @@ responses:
   - text: Does that answer your question?
   - text: Did that answer your question?
   utter_help:
-  - text: I can answer your questions on movies and tv shows. You can ask me about
-      people, movies, tv, genres and release dates
-  utter_any_more_questions:
-  - text: Do you have any more questions?
-  - text: Do you have more questions?
-  - text: Anything else I can help you with?
-  utter_don't_understand:
-  - text: I'm sorry, I don't understand your question. Try asking again
+  - text: I can answer your questions on movies and tv shows. You can ask me about things like people, movies, tv, genres and release dates
 actions:
 - utter_greet
 - utter_goodbye
@@ -107,5 +101,3 @@ actions:
 - action_tmdb_api_call
 - action_person_tmdb
 - utter_help
-- utter_any_more_questions
-- utter_don't_understand
