@@ -8,6 +8,57 @@
 
 ## intent:complex_request
 - Tell me about [action](genre) [movies](type:movie) from [2017](DATE)
+- tell me about [action](genre) [movies](type:movie) from [1970](DATE)
+- tell me about [adventure](genre) [movies](type:movie) released in [1971](DATE)
+- tell me about [romance](genre) [movies](type:movie) from [1972](DATE)
+- tell me about [science fiction](genre) [movies](type:movie) released in [1973](DATE)
+- tell me about [fantasy](genre) [movies](type:movie) from [1974](DATE)
+- tell me about [animated](genre) [movies](type:movie) released in [1975](DATE)
+- tell me about [crime](genre) [movies](type:movie) from [1976](DATE)
+- tell me about [thriller](genre) [movies](type:movie) released in [1977](DATE)
+- tell me about [documentary](genre) [movies](type:movie) from [1978](DATE)
+- tell me about [horror](genre) [movies](type:movie) released in [1979](DATE)
+- tell me about [family](genre) [movies](type:movie) from [1980](DATE)
+- tell me about [mystery](genre) [movies](type:movie) released in [1981](DATE)
+- tell me about [war](genre) [movies](type:movie) from [1982](DATE)
+- tell me about [western](genre) [movies](type:movie) released in [1983](DATE)
+- tell me about [history](genre) [movies](type:movie) from [1984](DATE)
+- tell me about [comedy](genre) [movies](type:movie) released in [1985](DATE)
+- tell me about [drama](genre) [movies](type:movie) from [1986](DATE)
+- tell me about [action](genre) [movies](type:movie) released in [1987](DATE)
+- tell me about [adventure](genre) [movies](type:movie) from [1988](DATE)
+- tell me about [romance](genre) [movies](type:movie) released in [1989](DATE)
+- tell me about [science fiction](genre) [movies](type:movie) from [1990](DATE)
+- tell me about [fantasy](genre) [movies](type:movie) released in [1991](DATE)
+- tell me about [animated](genre) [movies](type:movie) from [1992](DATE)
+- tell me about [crime](genre) [movies](type:movie) released in [1993](DATE)
+- tell me about [thriller](genre) [movies](type:movie) from [1994](DATE)
+- tell me about [documentary](genre) [movies](type:movie) released in [1995](DATE)
+- tell me about [horror](genre) [movies](type:movie) from [1996](DATE)
+- tell me about [family](genre) [movies](type:movie) released in [1997](DATE)
+- tell me about [mystery](genre) [movies](type:movie) from [1998](DATE)
+- tell me about [war](genre) [movies](type:movie) released in [1999](DATE)
+- tell me about [western](genre) [movies](type:movie) from [2000](DATE)
+- tell me about [history](genre) [movies](type:movie) released in [2001](DATE)
+- tell me about [comedy](genre) [movies](type:movie) from [2002](DATE)
+- tell me about [drama](genre) [movies](type:movie) released in [2003](DATE)
+- tell me about [action](genre) [movies](type:movie) from [2004](DATE)
+- tell me about [adventure](genre) [movies](type:movie) released in [2005](DATE)
+- tell me about [romance](genre) [movies](type:movie) from [2006](DATE)
+- tell me about [science fiction](genre) [movies](type:movie) released in [2007](DATE)
+- tell me about [fantasy](genre) [movies](type:movie) from [2008](DATE)
+- tell me about [animated](genre) [movies](type:movie) released in [2009](DATE)
+- tell me about [crime](genre) [movies](type:movie) from [2010](DATE)
+- tell me about [thriller](genre) [movies](type:movie) released in [2011](DATE)
+- tell me about [documentary](genre) [movies](type:movie) from [2012](DATE)
+- tell me about [horror](genre) [movies](type:movie) released in [2013](DATE)
+- tell me about [family](genre) [movies](type:movie) from [2014](DATE)
+- tell me about [mystery](genre) [movies](type:movie) released in [2015](DATE)
+- tell me about [war](genre) [movies](type:movie) from [2016](DATE)
+- tell me about [western](genre) [movies](type:movie) released in [2017](DATE)
+- tell me about [history](genre) [movies](type:movie) from [2018](DATE)
+- tell me about [comedy](genre) [movies](type:movie) released in [2019](DATE)
+- tell me about [drama](genre) [movies](type:movie) from [2020](DATE)
 
 ## intent:confirm
 - that's correct
@@ -18,56 +69,56 @@
 - Yes thank you
 
 ## intent:action_request
-- what [movies](type) has [Aamir Khan](actor) [starred](action) in?
-- what [movies](type) has [Aaron Eckhart](actor) [been](action:starred) in?
-- what [movies](type) has [Aaron Poole](actor) [acted](action:starred) in?
-- what [movies](type) has [Aaron Taylor-Johnson](actor) [starred](action) in?
-- what [movies](type) has [Anthony Hopkins](actor) [been](action:starred) in?
-- what [movies](type) has [Ben Affleck](actor) [acted](action:starred) in?
-- what [movies](type) has [Bill Murray](actor) [starred](action) in?
-- what [movies](type) has [Brad Pitt](actor) [been](action:starred) in?
-- what [movies](type) has [Brendan Gleeson](actor) [acted](action:starred) in?
-- what [movies](type) has [Bryce Dallas Howard](actor) [starred](action) in?
-- what [movies](type) has [Carey Mulligan](actor) [been](action:starred) in?
-- what [movies](type) has [Christoph Waltz](actor) [acted](action:starred) in?
-- what [movies](type) has [Colin Firth](actor) [starred](action) in?
-- what [movies](type) has [Chris Pine](actor) [been](action:starred) in?
-- what [movies](type) has [Charlize Theron](actor) [acted](action:starred) in?
-- what [movies](type) has [Dave Franco](actor) [starred](action) in?
-- what [movies](type) has [Danny DeVito](actor) [been](action:starred) in?
-- what [movies](type) has [Dev Patel](actor) [acted](action:starred) in?
-- what [movies](type) has [Daniel Zovatto](actor) [starred](action) in?
-- what [movies](type) has [Domhnall Gleeson](actor) [been](action:starred) in?
-- what [movies](type) has [Eddie Redmayne](actor) [acted](action:starred) in?
-- what [movies](type) has [Elizabeth Debicki](actor) [starred](action) in?
-- what [movies](type) has [Emily Blunt](actor) [been](action:starred) in?
-- what [movies](type) has [Eric Stonestreet](actor) [acted](action:starred) in?
-- what [movies](type) has [Eva Mendes](actor) [starred](action) in?
-- what [movies](type) has [Felicity Jones](actor) [been](action:starred) in?
-- what [movies](type) has [Fiona Gordon](actor) [acted](action:starred) in?
-- what [movies](type) has [Forest Whitaker](actor) [starred](action) in?
-- what [movies](type) has [Gabriel Chavarria](actor) [been](action:starred) in?
-- what [movies](type) has [Emma Booth](actor) [acted](action:starred) in?
-- what [movies](type) has [Gerard Butler](actor) [starred](action) in?
-- what [movies](type) has [Guy Pearce](actor) [been](action:starred) in?
-- what [movies](type) has [Gugu Mbatha-Raw](actor) [acted](action:starred) in?
-- what [movies](type) has [Ginnifer Goodwin](actor) [starred](action) in?
-- what [movies](type) has [Gil Birmingham](actor) [been](action:starred) in?
-- what [movies](type) has [Hermione Corfield](actor) [acted](action:starred) in?
-- what [movies](type) has [Henry Cavill](actor) [starred](action) in?
-- what [movies](type) has [Heath Ledger](actor) [been](action:starred) in?
-- what [movies](type) has [Hugh Jackman](actor) [acted](action:starred) in?
-- what [movies](type) has [Haley Bennett](actor) [starred](action) in?
-- what [movies](type) has [Karl Urban](actor) [been](action:starred) in?
-- what [movies](type) has [Keanu Reeves](actor) [acted](action:starred) in?
-- what [movies](type) has [Leonard Nimoy](actor) [starred](action) in?
-- what [movies](type) has [Leonardo DiCaprio](actor) [been](action:starred) in?
-- what [movies](type) has [Mark Wahlberg](actor) [acted](action:starred) in?
-- what [movies](type) has [Matthew McConaughey](actor) [starred](action) in?
-- what [movies](type) has [Michael Keaton](actor) [been](action:starred) in?
-- what [movies](type) has [Nick Offerman](actor) [acted](action:starred) in?
-- what [movies](type) has [Temuera Morrison](actor) [starred](action) in?
-- what [movies](type) has [Teodora Duhovnikova](actor) [been](action:starred) in?
+- what [movies](type) has [Aamir Khan](PERSON) [starred](action) in?
+- what [movies](type) has [Aaron Eckhart](PERSON) [been](action:starred) in?
+- what [movies](type) has [Aaron Poole](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Aaron Taylor-Johnson](PERSON) [starred](action) in?
+- what [movies](type) has [Anthony Hopkins](PERSON) [been](action:starred) in?
+- what [movies](type) has [Ben Affleck](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Bill Murray](PERSON) [starred](action) in?
+- what [movies](type) has [Brad Pitt](PERSON) [been](action:starred) in?
+- what [movies](type) has [Brendan Gleeson](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Bryce Dallas Howard](PERSON) [starred](action) in?
+- what [movies](type) has [Carey Mulligan](PERSON) [been](action:starred) in?
+- what [movies](type) has [Christoph Waltz](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Colin Firth](PERSON) [starred](action) in?
+- what [movies](type) has [Chris Pine](PERSON) [been](action:starred) in?
+- what [movies](type) has [Charlize Theron](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Dave Franco](PERSON) [starred](action) in?
+- what [movies](type) has [Danny DeVito](PERSON) [been](action:starred) in?
+- what [movies](type) has [Dev Patel](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Daniel Zovatto](PERSON) [starred](action) in?
+- what [movies](type) has [Domhnall Gleeson](PERSON) [been](action:starred) in?
+- what [movies](type) has [Eddie Redmayne](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Elizabeth Debicki](PERSON) [starred](action) in?
+- what [movies](type) has [Emily Blunt](PERSON) [been](action:starred) in?
+- what [movies](type) has [Eric Stonestreet](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Eva Mendes](PERSON) [starred](action) in?
+- what [movies](type) has [Felicity Jones](PERSON) [been](action:starred) in?
+- what [movies](type) has [Fiona Gordon](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Forest Whitaker](PERSON) [starred](action) in?
+- what [movies](type) has [Gabriel Chavarria](PERSON) [been](action:starred) in?
+- what [movies](type) has [Emma Booth](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Gerard Butler](PERSON) [starred](action) in?
+- what [movies](type) has [Guy Pearce](PERSON) [been](action:starred) in?
+- what [movies](type) has [Gugu Mbatha-Raw](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Ginnifer Goodwin](PERSON) [starred](action) in?
+- what [movies](type) has [Gil Birmingham](PERSON) [been](action:starred) in?
+- what [movies](type) has [Hermione Corfield](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Henry Cavill](PERSON) [starred](action) in?
+- what [movies](type) has [Heath Ledger](PERSON) [been](action:starred) in?
+- what [movies](type) has [Hugh Jackman](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Haley Bennett](PERSON) [starred](action) in?
+- what [movies](type) has [Karl Urban](PERSON) [been](action:starred) in?
+- what [movies](type) has [Keanu Reeves](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Leonard Nimoy](PERSON) [starred](action) in?
+- what [movies](type) has [Leonardo DiCaprio](PERSON) [been](action:starred) in?
+- what [movies](type) has [Mark Wahlberg](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Matthew McConaughey](PERSON) [starred](action) in?
+- what [movies](type) has [Michael Keaton](PERSON) [been](action:starred) in?
+- what [movies](type) has [Nick Offerman](PERSON) [acted](action:starred) in?
+- what [movies](type) has [Temuera Morrison](PERSON) [starred](action) in?
+- what [movies](type) has [Teodora Duhovnikova](PERSON) [been](action:starred) in?
 - who [starred](action) in [Guardians of the Galaxy](title)?
 - who [starred](action) in [Prometheus](title)?
 - who [starred](action) in [Split](title)?
@@ -819,71 +870,69 @@
 - What [movies](type) did [Johann Kidd](PERSON) [write](action)?
 - What [movies](type) did [Johannes Workman](PERSON) [write](action)?
 
-
-
 ## intent:date_request
-- what [show](type) came out on the [1st of January](DATE)?
-- which [movie](type) released on the [2nd of February](DATE)?
-- what [series](type:show) was released on the [3rd of March](DATE)?
-- which [tv show](type:show) came out on the [4th of April](DATE)?
-- what [tv series](type:show) released on the [5th of May](DATE)?
-- which [movies](type:movie) was released on the [6th of June](DATE)?
-- what [show](type) came out on the [7th of July](DATE)?
-- which [movie](type) released on the [8th of August](DATE)?
-- what [series](type:show) was released on the [9th of September](DATE)?
-- which [tv show](type:show) came out on the [10th of October](DATE)?
-- what [show](type) released on the [11th of November](DATE)?
-- which [movie](type) was released on the [12th of December](DATE)?
-- what [series](type:show) came out on the [13th of January](DATE)?
-- what [show](type) released on the [14th of February](DATE)?
-- which [movie](type) was released on the [15th of March](DATE)?
-- what [series](type:show) came out on the [16th of April](DATE)?
-- which [tv show](type:show) released on the [17th of May](DATE)?
-- what [tv series](type:show) was released on the [18th of June](DATE)?
-- which [movies](type:movie) came out on the [19th of July](DATE)?
-- what [show](type) released on the [20th of August](DATE)?
-- which [movie](type) was released on the [21st of September](DATE)?
-- what [series](type:show) came out on the [22nd of October](DATE)?
-- which [tv show](type:show) released on the [23rd of November](DATE)?
-- what [show](type) was released on the [24th of December](DATE)?
-- which [movie](type) came out on the [25th of January](DATE)?
-- what [show](type) released on the [26th of February](DATE)?
-- which [movie](type) was released on the [27th of March](DATE)?
-- what [series](type:show) came out on the [28th of April](DATE)?
-- which [tv show](type:show) released on the [29th of May](DATE)?
-- what [tv series](type:show) was released on the [30th of June](DATE)?
-- which [movies](type:movie) came out on the [31st of July](DATE)?
-- what [comedy](genre) [show](type) came out on the [1st of January](DATE)?
-- which [drama](genre) [movie](type) released on the [2nd of February](DATE)?
-- what [action](genre) [series](type:show) was released on the [3rd of March](DATE)?
-- which [adventure](genre) [tv show](type:show) came out on the [4th of April](DATE)?
-- what [romance](genre) [tv series](type:show) released on the [5th of May](DATE)?
-- which [science fiction](genre) [movies](type:movie) was released on the [6th of June](DATE)?
-- what [fantasy](genre) [show](type) came out on the [7th of July](DATE)?
-- which [animated](genre) [movie](type) released on the [8th of August](DATE)?
-- what [crime](genre) [series](type:show) was released on the [9th of September](DATE)?
-- which [thriller](genre) [tv show](type:show) came out on the [10th of October](DATE)?
-- what [documentary](genre) [show](type) released on the [11th of November](DATE)?
-- which [horror](genre) [movie](type) was released on the [12th of December](DATE)?
-- what [family](genre) [series](type:show) came out on the [13th of January](DATE)?
-- which [mystery](genre) [show](type) released on the [14th of February](DATE)?
-- what [war](genre) [movie](type) was released on the [15th of March](DATE)?
-- which [western](genre) [series](type:show) came out on the [16th of April](DATE)?
-- what [history](genre) [tv show](type:show) released on the [17th of May](DATE)?
-- which [comedy](genre) [tv series](type:show) was released on the [18th of June](DATE)?
-- what [drama](genre) [movies](type:movie) came out on the [19th of July](DATE)?
-- which [action](genre) [show](type) released on the [20th of August](DATE)?
-- what [adventure](genre) [movie](type) was released on the [21st of September](DATE)?
-- which [romance](genre) [series](type:show) came out on the [22nd of October](DATE)?
-- what [science fiction](genre) [tv show](type:show) released on the [23rd of November](DATE)?
-- which [fantasy](genre) [show](type) was released on the [24th of December](DATE)?
-- what [animated](genre) [movie](type) came out on the [25th of January](DATE)?
-- which [crime](genre) [show](type) released on the [26th of February](DATE)?
-- what [thriller](genre) [movie](type) was released on the [27th of March](DATE)?
-- which [documentary](genre) [series](type:show) came out on the [28th of April](DATE)?
-- what [horror](genre) [tv show](type:show) released on the [29th of May](DATE)?
-- which [family](genre) [tv series](type:show) was released on the [30th of June](DATE)?
-- what [mystery](genre) [movies](type:movie) came out on the [31st of July](DATE)?
+- what [show](type) came out on the [1st January 2020](DATE)?
+- which [movie](type) released on the [2nd February 2019](DATE)?
+- what [series](type:show) was released on the [3rd March 2018](DATE)?
+- which [tv show](type:show) came out on the [4th April 2017](DATE)?
+- what [tv series](type:show) released on the [5th May 2016](DATE)?
+- which [movies](type:movie) was released on the [6th June 2015](DATE)?
+- what [show](type) came out on the [7th July 2014](DATE)?
+- which [movie](type) released on the [8th August 2013](DATE)?
+- what [series](type:show) was released on the [9th September 2012](DATE)?
+- which [tv show](type:show) came out on the [10th October 2011](DATE)?
+- what [show](type) released on the [11th November 2010](DATE)?
+- which [movie](type) was released on the [12th December 2009](DATE)?
+- what [series](type:show) came out on the [13th January 2008](DATE)?
+- what [show](type) released on the [14th February 2007](DATE)?
+- which [movie](type) was released on the [15th March 2006](DATE)?
+- what [series](type:show) came out on the [16th April 2005](DATE)?
+- which [tv show](type:show) released on the [17th May 2004](DATE)?
+- what [tv series](type:show) was released on the [18th June 2003](DATE)?
+- which [movies](type:movie) came out on the [19th July 2002](DATE)?
+- what [show](type) released on the [20th August 2001](DATE)?
+- which [movie](type) was released on the [21st September 2000](DATE)?
+- what [series](type:show) came out on the [22nd October 1999](DATE)?
+- which [tv show](type:show) released on the [23rd November 1998](DATE)?
+- what [show](type) was released on the [24th December 1997](DATE)?
+- which [movie](type) came out on the [25th January 1996](DATE)?
+- what [show](type) released on the [26th February 1995](DATE)?
+- which [movie](type) was released on the [27th March 1994](DATE)?
+- what [series](type:show) came out on the [28th April 1993](DATE)?
+- which [tv show](type:show) released on the [29th May 1992](DATE)?
+- what [tv series](type:show) was released on the [30th June 1991](DATE)?
+- which [movies](type:movie) came out on the [31st July 1990](DATE)?
+- what [comedy](genre) [show](type) came out on the [1st January 2020](DATE)?
+- which [drama](genre) [movie](type) released on the [2nd February 2019](DATE)?
+- what [action](genre) [series](type:show) was released on the [3rd March 2018](DATE)?
+- which [adventure](genre) [tv show](type:show) came out on the [4th April 2017](DATE)?
+- what [romance](genre) [tv series](type:show) released on the [5th May 2016](DATE)?
+- which [science fiction](genre) [movies](type:movie) was released on the [6th June 2015](DATE)?
+- what [fantasy](genre) [show](type) came out on the [7th July 2014](DATE)?
+- which [animated](genre) [movie](type) released on the [8th August 2013](DATE)?
+- what [crime](genre) [series](type:show) was released on the [9th September 2012](DATE)?
+- which [thriller](genre) [tv show](type:show) came out on the [10th October 2011](DATE)?
+- what [documentary](genre) [show](type) released on the [11th November 2010](DATE)?
+- which [horror](genre) [movie](type) was released on the [12th December 2009](DATE)?
+- what [family](genre) [series](type:show) came out on the [13th January 2008](DATE)?
+- which [mystery](genre) [show](type) released on the [14th February 2007](DATE)?
+- what [war](genre) [movie](type) was released on the [15th March 2006](DATE)?
+- which [western](genre) [series](type:show) came out on the [16th April 2005](DATE)?
+- what [history](genre) [tv show](type:show) released on the [17th May 2004](DATE)?
+- which [comedy](genre) [tv series](type:show) was released on the [18th June 2003](DATE)?
+- what [drama](genre) [movies](type:movie) came out on the [19th July 2002](DATE)?
+- which [action](genre) [show](type) released on the [20th August 2001](DATE)?
+- what [adventure](genre) [movie](type) was released on the [21st September 2000](DATE)?
+- which [romance](genre) [series](type:show) came out on the [22nd October 1999](DATE)?
+- what [science fiction](genre) [tv show](type:show) released on the [23rd November 1998](DATE)?
+- which [fantasy](genre) [show](type) was released on the [24th December 1997](DATE)?
+- what [animated](genre) [movie](type) came out on the [25th January 1996](DATE)?
+- which [crime](genre) [show](type) released on the [26th February 1995](DATE)?
+- what [thriller](genre) [movie](type) was released on the [27th March 1994](DATE)?
+- which [documentary](genre) [series](type:show) came out on the [28th April 1993](DATE)?
+- what [horror](genre) [tv show](type:show) released on the [29th May 1992](DATE)?
+- which [family](genre) [tv series](type:show) was released on the [30th June 1991](DATE)?
+- what [mystery](genre) [movies](type:movie) came out on the [31st July 1990](DATE)?
 - what [comedy](genre) [show](type) came out on [January 1st 2020](DATE)?
 - which [drama](genre) [movie](type) released on [February 2nd 2019](DATE)?
 - what [action](genre) [series](type:show) was released on [March 3rd 2018](DATE)?
@@ -925,18 +974,6 @@
 - which [animated](genre) [movie](type) was released on [March 8th 1982](DATE)?
 - what [crime](genre) [series](type:show) came out on [April 9th 1981](DATE)?
 - which [thriller](genre) [tv show](type:show) released on [May 10th 1980](DATE)?
-- what [show](type) released on the [20th of December](DATE)?
-- What [show](type) came out on the [5th of march](DATE)?
-- What [comedy](genre) [movie](type) was released on [April 5th](DATE)?
-- What [comedy](genre) [movie](type) was released on [January 5th](DATE)?
-- What [drama](genre) [movie](type) was released on [February 6th](DATE)?
-- What [action](genre) [movie](type) was released on [March 7th](DATE)?
-- What [adventure](genre) [movie](type) was released on [April 8th](DATE)?
-- What [romance](genre) [movie](type) was released on [May 9th](DATE)?
-- What [sci-fi](genre) [movie](type) was released on [June 10th](DATE)?
-- What [fantasy](genre) [movie](type) was released on [July 11th](DATE)?
-- What [drama](genre) [tv series](type:show) was released on the [17th of January](DATE)?
-- what [drama](genre) [movies](type:movie) came out in [2013](DATE)?
 
 ## intent:deny
 - that's wrong
@@ -1472,7 +1509,6 @@
 - good evening
 - hey there
 - hello there
-- hello
 - Hi
 
 ## intent:have_request
@@ -1795,14 +1831,24 @@
 - Who is [Camron Haynes](PERSON)?
 - who is [john stamos](PERSON)?
 
-## synonym:wrote
-- written
-- write
+## synonym:directed
+- direct
 
 ## synonym:movie
 - movies
 
 ## synonym:show
+- tv show
 - series
 - tv series
-- tv show
+
+## synonym:starred
+- acted
+- been
+
+## synonym:superman
+- Superman
+
+## synonym:wrote
+- write
+- written
