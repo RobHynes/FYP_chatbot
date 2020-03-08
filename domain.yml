@@ -26,6 +26,7 @@ entities:
 slots:
   action:
     type: categorical
+    value:
     - starred
     - directed
     - wrote
@@ -92,12 +93,17 @@ templates:
   utter_help:
   - text: I can answer your questions on movies and tv shows. You can ask me about things like people, movies, tv, genres and release dates
 actions:
-- utter_greet
-- utter_goodbye
-- utter_iamabot
-- utter_what_question
-- utter_correct
-- action_omdb_api_call
-- action_tmdb_api_call
-- action_person_tmdb
-- utter_help
+  - utter_greet
+  - utter_goodbye
+  - utter_iamabot
+  - utter_what_question
+  - utter_correct
+  - action_tmdb_api_call
+  - action_person_tmdb
+  - utter_help
+  - utter_any_more_questions
+  - utter_dont_understand
+  - action_genre_tmdb
+  - action_date_tmdb
+  - action_role_tmdb
+  
