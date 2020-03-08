@@ -9,7 +9,7 @@
 ## generic
 
 * gen_request
-    - action_omdb_api_call
+    - action_tmdb_api_call
     - utter_correct
 
 ## generic long
@@ -17,13 +17,13 @@
 * have_request
     - utter_what_question
 * gen_request
-    - action_omdb_api_call
+    - action_tmdb_api_call
     - utter_correct
 
 ## Confirm Correct
 
 * gen_request
-    - action_omdb_api_call
+    - action_tmdb_api_call
     - utter_correct
 * confirm
 	- utter_any_more_questions
@@ -31,24 +31,24 @@
 
 ## Genre, Year
 
-* gen_request{"genre":"drama","year":"2013"}
+* genre_request{"genre":"drama","DATE":"2013"}
     - slot{"genre":"drama"}
-    - slot{"year":"2013"}
-    - action_tmdb_api_call
+    - slot{"DATE":"2013"}
+    - action_genre_tmdb
     - utter_correct
 
-## Genre, Type, Date
+## Genre, Type, Date, date_request
 
-* gen_request{"genre":"comedy","type":"show","DATE":"30th of March"}
+* date_request{"genre":"comedy","type":"show","DATE":"30th of March"}
     - slot{"genre":"comedy"}
     - slot{"type":"show"}
     - slot{"DATE":"30th of March"}
-    - action_tmdb_api_call
+    - action_date_tmdb
     - utter_correct
 
 ## Role, Person
 
-* gen_request{"role":"actor","PERSON":"Matt Damon"}
+* person_request{"role":"actor","PERSON":"Matt Damon"}
     - slot{"role":"actor"}
     - slot{"PERSON":"Matt Damon"}
     - action_person_tmdb
@@ -59,13 +59,13 @@
 * gen_request{"type":"movie","title":"Joker"}
     - slot{"type":"movie"}
     - slot{"title":"Joker"}
-    - action_omdb_api_call
+    - action_tmdb_api_call
     - utter_correct
 * confirm
 
 ## Person
 
-* gen_request{"PERSON":"Matt Damon"}
+* person_request{"PERSON":"Matt Damon"}
     - slot{"PERSON":"Matt Damon"}
     - action_person_tmdb
     - utter_correct
@@ -73,20 +73,25 @@
 ## Deny
 
 * gen_request
-    - action_omdb_api_call
+    - action_tmdb_api_call
     - utter_correct
 * deny
-	- utter_don't_understand
+	- utter_dont_understand
 
-## Deny short
+## Type, Action, Person
 
-	- utter_correct
-* deny
-	- utter_don't_understand
+* action_request{"type":"movie","action":"starred","PERSON":"Brad Pitt"}
+  - slot{"type":"movie"}
+  - slot{"action":"starred"}
+  - slot{"PERSON":"Brad Pitt"}
+  - action_role_tmdb
+  - utter_correct
 
-## Confirm short
+## Genre, Type, Date, complex_request
 
+* complex_request{"genre":"action","type":"movie","DATE":"2017"}
+    - slot{"genre":"action"}
+    - slot{"type":"movie"}
+    - slot{"DATE":"2017"}
+    - action_genre_tmdb
     - utter_correct
-* confirm
-	- utter_any_more_questions
-* gen_request
