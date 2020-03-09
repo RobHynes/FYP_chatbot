@@ -62,8 +62,6 @@ slots:
     values:
     - movie
     - show
-  year:
-    type: unfeaturized
 responses:
   utter_greet:
   - text: Hey! How can I help you?
@@ -99,6 +97,6 @@ actions:
 - action_person_tmdb
 - utter_help
 - utter_any_more_questions
-- utter_don't_understand
-- action_genre_tmdb
 - utter_dont_understand
+- action_genre_tmdb
+- utter_don't_understand
