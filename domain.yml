@@ -1,5 +1,5 @@
 session_config:
-  session_expiration_time: 0.0
+  session_expiration_time: 0
   carry_over_slots_to_new_session: true
 intents:
 - greet
@@ -13,6 +13,8 @@ intents:
 - confirm
 - deny
 - help
+- action_request
+- genre_request
 entities:
 - DATE
 - type
@@ -20,16 +22,9 @@ entities:
 - role
 - PERSON
 - title
-- year
-- question
 - action
+- movie
 slots:
-  action:
-    type: categorical
-    value:
-    - starred
-    - directed
-    - wrote
   DATE:
     type: text
   PERSON:
@@ -54,11 +49,6 @@ slots:
     - war
     - western
     - history
-  question:
-    type: categorical
-    values:
-    - release
-    - make
   role:
     type: categorical
     values:
@@ -74,7 +64,7 @@ slots:
     - show
   year:
     type: unfeaturized
-templates:
+responses:
   utter_greet:
   - text: Hey! How can I help you?
   - text: Hi! Do you have a question?
@@ -91,19 +81,24 @@ templates:
   - text: Does that answer your question?
   - text: Did that answer your question?
   utter_help:
-  - text: I can answer your questions on movies and tv shows. You can ask me about things like people, movies, tv, genres and release dates
+  - text: I can answer your questions on movies and tv shows. You can ask me about
+      people, movies, tv, genres and release dates
+  utter_any_more_questions:
+  - text: Do you have any more questions?
+  - text: Do you have more questions?
+  - text: Anything else I can help you with?
+  utter_don't_understand:
+  - text: I'm sorry, I don't understand your question. Try asking again
 actions:
-  - utter_greet
-  - utter_goodbye
-  - utter_iamabot
-  - utter_what_question
-  - utter_correct
-  - action_tmdb_api_call
-  - action_person_tmdb
-  - utter_help
-  - utter_any_more_questions
-  - utter_dont_understand
-  - action_genre_tmdb
-  - action_date_tmdb
-  - action_role_tmdb
-  
+- utter_greet
+- utter_goodbye
+- utter_iamabot
+- utter_what_question
+- utter_correct
+- action_tmdb_api_call
+- action_person_tmdb
+- utter_help
+- utter_any_more_questions
+- utter_don't_understand
+- action_genre_tmdb
+- utter_dont_understand

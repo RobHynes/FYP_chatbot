@@ -1839,16 +1839,16 @@
 
 ## synonym:show
 - tv show
-- series
 - tv series
+- series
 
 ## synonym:starred
-- acted
 - been
+- acted
 
 ## synonym:superman
 - Superman
 
 ## synonym:wrote
-- write
 - written
+- write
