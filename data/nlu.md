@@ -59,6 +59,7 @@
 - tell me about [history](genre) [movies](type:movie) from [2018](DATE)
 - tell me about [comedy](genre) [movies](type:movie) released in [2019](DATE)
 - tell me about [drama](genre) [movies](type:movie) from [2020](DATE)
+- What [action](genre) [movies](type:movie) came out in [2015](DATE)?
 
 ## intent:confirm
 - that's correct
@@ -1493,6 +1494,9 @@
 - tell me about [avatar](title)
 - tell me about the [movie](type) [avatar](title)
 - tell me about the movie [marley and me](title)
+- Tell me about the movie [avengers](title)
+- tell me about the movie [baby driver](title)
+- tell me about the [movie](type) [superman](title)?
 
 ## intent:goodbye
 - bye
@@ -1511,6 +1515,7 @@
 - hey there
 - hello there
 - Hi
+- hello?
 
 ## intent:have_request
 - I have a request
@@ -1831,6 +1836,8 @@
 - Tell me about the [actor](role) [Campbell Newman](PERSON)
 - Who is [Camron Haynes](PERSON)?
 - who is [john stamos](PERSON)?
+- Yeah, who is [ryan brennan](PERSON)
+- who is [ryan brennan](PERSON)?
 
 ## synonym:directed
 - direct
