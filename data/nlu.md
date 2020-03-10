@@ -1838,6 +1838,8 @@
 - who is [john stamos](PERSON)?
 - Yeah, who is [ryan brennan](PERSON)
 - who is [ryan brennan](PERSON)?
+- hey who is [michael keaton](PERSON)?
+- who is [callum baldrick](PERSON)?
 
 ## synonym:directed
 - direct
@@ -1847,8 +1849,8 @@
 
 ## synonym:show
 - tv show
-- series
 - tv series
+- series
 
 ## synonym:starred
 - acted
