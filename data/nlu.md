@@ -1492,6 +1492,7 @@
 - tell me about [deadpool](title)
 - tell me about [avatar](title)
 - tell me about the [movie](type) [avatar](title)
+- tell me about the movie [marley and me](title)
 
 ## intent:goodbye
 - bye
@@ -1839,12 +1840,12 @@
 
 ## synonym:show
 - tv show
-- tv series
 - series
+- tv series
 
 ## synonym:starred
-- been
 - acted
+- been
 
 ## synonym:superman
 - Superman
