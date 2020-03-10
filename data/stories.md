@@ -85,3 +85,7 @@
     - slot{"DATE":"2017"}
     - action_genre_tmdb
     - utter_correct
+
+## say hello
+* greet
+  - utter_greet
