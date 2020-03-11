@@ -23,7 +23,6 @@ entities:
 - PERSON
 - title
 - action
-- movie
 slots:
   DATE:
     type: text

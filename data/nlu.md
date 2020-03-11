@@ -69,6 +69,7 @@
 - yes
 - yes thank you
 - Yes thank you
+- Yes!
 
 ## intent:action_request
 - what [movies](type) has [Aamir Khan](PERSON) [starred](action) in?
@@ -871,6 +872,12 @@
 - What [movies](type) did [Johan Kirkland](PERSON) [write](action)?
 - What [movies](type) did [Johann Kidd](PERSON) [write](action)?
 - What [movies](type) did [Johannes Workman](PERSON) [write](action)?
+- Who [directed](action) [Spirited Away](title:spirited away)
+- Who [directed](action) [The Departed](movie:the departed)?
+- print.out.ln("hello [world");](title)
+- Who [directed](action) [room](title)?
+- Who [directed](action) [birdemic](title)?
+- Who [directed](action) [The Room](title:the room)?
 
 ## intent:date_request
 - what [show](type) came out on the [1st January 2020](DATE)?
@@ -1498,6 +1505,10 @@
 - Tell me about the movie [avengers](title)
 - tell me about the movie [baby driver](title)
 - tell me about the [movie](type) [superman](title)?
+- [Clone wars](title)?
+- [Phantom Menace](title) Star
+- Attack of the clones?
+- [Inception](title)?
 
 ## intent:goodbye
 - bye
@@ -1841,6 +1852,10 @@
 - who is [ryan brennan](PERSON)?
 - hey who is [michael keaton](PERSON)?
 - who is [callum baldrick](PERSON)?
+- Adam [Driver](title:driver)?
+- Adam [Sandler](title:sandler)?
+- Who is[ Robery Hynes](PERSON)
+- Chris Pratt?
 
 ## synonym:directed
 - direct
@@ -1849,13 +1864,13 @@
 - movies
 
 ## synonym:show
-- tv show
 - tv series
+- tv show
 - series
 
 ## synonym:starred
-- acted
 - been
+- acted
 
 ## synonym:superman
 - Superman
