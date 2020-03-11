@@ -60,6 +60,7 @@
 - tell me about [comedy](genre) [movies](type:movie) released in [2019](DATE)
 - tell me about [drama](genre) [movies](type:movie) from [2020](DATE)
 - What [action](genre) [movies](type:movie) came out in [2015](DATE)?
+- what [movies](type:movie) came out in [2020](DATE)?
 
 ## intent:confirm
 - that's correct
