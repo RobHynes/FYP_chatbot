@@ -2146,7 +2146,8 @@
 
 ## synonym:starred
 - acted
-- been
+- been in
+- in
 
 ## synonym:superman
 - Superman
