@@ -5,6 +5,8 @@
 - am I talking to a human?
 - Am I talking to a human
 - are you human
+- what are you?
+- what's your name?
 
 ## intent:complex_request
 - Tell me about [action](genre) [movies](type:movie) from [2017](DATE)
@@ -59,8 +61,6 @@
 - tell me about [history](genre) [movies](type:movie) from [2018](DATE)
 - tell me about [comedy](genre) [movies](type:movie) released in [2019](DATE)
 - tell me about [drama](genre) [movies](type:movie) from [2020](DATE)
-- What [action](genre) [movies](type:movie) came out in [2015](DATE)?
-- what [movies](type:movie) came out in [2020](DATE)?
 
 ## intent:confirm
 - that's correct
@@ -69,9 +69,208 @@
 - yes
 - yes thank you
 - Yes thank you
-- Yes!
 
 ## intent:action_request
+- what was [Vin Diesel](PERSON) [in](action:starred)?
+- what is [Chris Pine](PERSON) [in](action:starred)?
+- what was [Eve Lindley](PERSON) [in](action:starred)?
+- what is [Keanu Reeves](PERSON) [in](action:starred)?
+- what was [Elle Fanning](PERSON) [in](action:starred)?
+- what is [Shailene Woodley](PERSON) [in](action:starred)?
+- what was [Mark Wahlberg](PERSON) [in](action:starred)?
+- what is [Meryl Streep](PERSON) [in](action:starred)?
+- what was [Denzel Washington](PERSON) [in](action:starred)?
+- what is [Blake Lively](PERSON) [in](action:starred)?
+- what was [Vin Diesel](PERSON) [in](action:starred)?
+- what is [Tommy Lee Jones](PERSON) [in](action:starred)?
+- what was [Leonardo DiCaprio](PERSON) [in](action:starred)?
+- what is [Chris Pine](PERSON) [in](action:starred)?
+- what was [Christian Bale](PERSON) [in](action:starred)?
+- what is [Jamie Foxx](PERSON) [in](action:starred)?
+- what was [Jackie Earle Haley](PERSON) [in](action:starred)?
+- what is [Tom Hanks](PERSON) [in](action:starred)?
+- what was [Jennifer Lawrence](PERSON) [in](action:starred)?
+- what is [Emily Blunt](PERSON) [in](action:starred)?
+- what was [Reiko Aylesworth](PERSON) [in](action:starred)?
+- what is [Steve Carell](PERSON) [in](action:starred)?
+- what was [Simon Pegg](PERSON) [in](action:starred)?
+- what is [Sharlto Copley](PERSON) [in](action:starred)?
+- what was [Tom Cruise](PERSON) [in](action:starred)?
+- what is [Kristen Stewart](PERSON) [in](action:starred)?
+- what was [Helen Mirren](PERSON) [in](action:starred)?
+- what is [Daniel Craig](PERSON) [in](action:starred)?
+- what was [Graham Skipper](PERSON) [in](action:starred)?
+- what is [Kristen Bell](PERSON) [in](action:starred)?
+- what was [Gary Oldman](PERSON) [in](action:starred)?
+- what is [Vera Farmiga](PERSON) [in](action:starred)?
+- what was [Renae Zellweger](PERSON) [in](action:starred)?
+- what is [Lily James](PERSON) [in](action:starred)?
+- what was [Taraneh Alidoosti](PERSON) [in](action:starred)?
+- what is [Joe Alwyn](PERSON) [in](action:starred)?
+- what was [Mark Ruffalo](PERSON) [in](action:starred)?
+- what is [Benedict Cumberbatch](PERSON) [in](action:starred)?
+- what was [Joseph Gordon-Levitt](PERSON) [in](action:starred)?
+- what is [Robert Downey Jr.](PERSON) [in](action:starred)?
+- what was [Shailene Woodley](PERSON) [in](action:starred)?
+- what is [James McAvoy](PERSON) [in](action:starred)?
+- what was [Garance Marillier](PERSON) [in](action:starred)?
+- what is [Adam Driver](PERSON) [in](action:starred)?
+- what was [Kristen Wiig](PERSON) [in](action:starred)?
+- what is [Gemma Arterton](PERSON) [in](action:starred)?
+- what was [Dwayne Johnson](PERSON) [in](action:starred)?
+- what is [Vanessa Hudgens](PERSON) [in](action:starred)?
+- what was [Shia LaBeouf](PERSON) [in](action:starred)?
+- what is [Josh Brolin](PERSON) [in](action:starred)?
+- what was [Chris Hemsworth](PERSON) [in](action:starred)?
+- what is [Brenton Thwaites](PERSON) [in](action:starred)?
+- what was [Chris Evans](PERSON) [in](action:starred)?
+- what is [Lucas Till](PERSON) [in](action:starred)?
+- what was [Mark Huberman](PERSON) [in](action:starred)?
+- what is [Aaron Taylor-Johnson](PERSON) [in](action:starred)?
+- what was [Sharlto Copley](PERSON) [in](action:starred)?
+- what is [Owen Wilson](PERSON) [in](action:starred)?
+- what was [Maika Monroe](PERSON) [in](action:starred)?
+- what is [Daniel Craig](PERSON) [in](action:starred)?
+- what was [Jason Sudeikis](PERSON) [in](action:starred)?
+- what is [Sasha Lane](PERSON) [in](action:starred)?
+- what was [Colin Farrell](PERSON) [in](action:starred)?
+- what is [Adrien Brody](PERSON) [in](action:starred)?
+- what was [Angelina Jolie](PERSON) [in](action:starred)?
+- what is [Noomi Rapace](PERSON) [in](action:starred)?
+- what was [Ivana Baquero](PERSON) [in](action:starred)?
+- what is [Patrick Wilson](PERSON) [in](action:starred)?
+- what was [Gerardo Taracena](PERSON) [in](action:starred)?
+- what is [Tom Cruise](PERSON) [in](action:starred)?
+- what was [Chris Hemsworth](PERSON) [in](action:starred)?
+- what is [Logan Lerman](PERSON) [in](action:starred)?
+- what was [Natalie Portman](PERSON) [in](action:starred)?
+- what is [Kate Beckinsale](PERSON) [in](action:starred)?
+- what was [Ralph Fiennes](PERSON) [in](action:starred)?
+- what is [Saoirse Ronan](PERSON) [in](action:starred)?
+- what was [Brad Pitt](PERSON) [in](action:starred)?
+- what is [Amy Poehler](PERSON) [in](action:starred)?
+- what was [Luke Wilson](PERSON) [in](action:starred)?
+- what is [Arnold Schwarzenegger](PERSON) [in](action:starred)?
+- what was [Logan Lerman](PERSON) [in](action:starred)?
+- what is [Hugh Jackman](PERSON) [in](action:starred)?
+- what was [Julianne Moore](PERSON) [in](action:starred)?
+- what is [Annette Bening](PERSON) [in](action:starred)?
+- what was [Melissa McCarthy](PERSON) [in](action:starred)?
+- what is [FranÃƒÂ§ois Cluzet](PERSON) [in](action:starred)?
+- what was [Diane Lane](PERSON) [in](action:starred)?
+- what is [Christos Stergioglou](PERSON) [in](action:starred)?
+- what was [O'Shea Jackson Jr.](PERSON) [in](action:starred)?
+- what is [Andrew Garfield](PERSON) [in](action:starred)?
+- what was [Patrick Wilson](PERSON) [in](action:starred)?
+- what is [Zach Galifianakis](PERSON) [in](action:starred)?
+- what was [Alexander Skarsgard](PERSON) [in](action:starred)?
+- what is [James Franco](PERSON) [in](action:starred)?
+- what was [Teresa Palmer](PERSON) [in](action:starred)?
+- what is [Richard Gere](PERSON) [in](action:starred)?
+- what was [Michael Keaton](PERSON) [in](action:starred)?
+- what is [Natalie Portman](PERSON) [in](action:starred)?
+- what was [Tyler James Williams](PERSON) [in](action:starred)?
+- what is [Charlotte Gainsbourg](PERSON) [in](action:starred)?
+- who was [in](action:starred) [There Will Be Blood](title)?
+- what actor was [in](action:starred) [The Equalizer](title)?
+- who was [in](action:starred) [Lone Survivor](title)?
+- what actor was [in](action:starred) [The Cabin in the Woods](title)?
+- who was [in](action:starred) [The House Bunny](title)?
+- what actor was [in](action:starred) [She's Out of My League](title)?
+- who was [in](action:starred) [Inherent Vice](title)?
+- what actor was [in](action:starred) [Alice Through the Looking Glass](title)?
+- who was [in](action:starred) [Vincent N Roxxy](title)?
+- what actor was [in](action:starred) [The Fast and the Furious: Tokyo Drift](title)?
+- who was [in](action:starred) [How to Be Single](title)?
+- what actor was [in](action:starred) [The Blind Side](title)?
+- who was [in](action:starred) [Gravity](title)?
+- what actor was [in](action:starred) [The Babadook](title)?
+- who was [in](action:starred) [The Hobbit: The Battle of the Five Armies](title)?
+- what actor was [in](action:starred) [Harry Potter and the Order of the Phoenix](title)?
+- who was [in](action:starred) [Snowpiercer](title)?
+- what actor was [in](action:starred) [The 5th Wave](title)?
+- who was [in](action:starred) [The Stakelander](title)?
+- what actor was [in](action:starred) [The Visit](title)?
+- who was [in](action:starred) [Fast Five](title)?
+- what actor was [in](action:starred) [Step Up](title)?
+- who was [in](action:starred) [Lovesong](title)?
+- what actor was [in](action:starred) [RocknRolla](title)?
+- who was [in](action:starred) [In Time](title)?
+- what actor was [in](action:starred) [The Social Network](title)?
+- who was [in](action:starred) [The Last Witch Hunter](title)?
+- what actor was [in](action:starred) [Victor Frankenstein](title)?
+- who was [in](action:starred) [A Street Cat Named Bob](title)?
+- what actor was [in](action:starred) [Green Room](title)?
+- who was [in](action:starred) [Blackhat](title)?
+- what actor was [in](action:starred) [Storks](title)?
+- who was [in](action:starred) [American Sniper](title)?
+- what actor was [in](action:starred) [Dallas Buyers Club](title)?
+- who was [in](action:starred) [Lincoln](title)?
+- what actor was [in](action:starred) [Rush](title)?
+- who was [in](action:starred) [Before I Wake](title)?
+- what actor was [in](action:starred) [Silver Linings Playbook](title)?
+- who was [in](action:starred) [Tracktown](title)?
+- what actor was [in](action:starred) [The Fault in Our Stars](title)?
+- who was [in](action:starred) [Blended](title)?
+- what actor was [in](action:starred) [Fast & Furious](title)?
+- who was [in](action:starred) [Looper](title)?
+- what actor was [in](action:starred) [White House Down](title)?
+- who was [in](action:starred) [Pete's Dragon](title)?
+- what actor was [in](action:starred) [Spider-Man 3](title)?
+- who was [in](action:starred) [The Three Musketeers](title)?
+- what actor was [in](action:starred) [Stardust](title)?
+- who was [in](action:starred) [American Hustle](title)?
+- what actor was [in](action:starred) [Jennifer's Body](title)?
+- who was [in](action:starred) [Midnight in Paris](title)?
+- what actor was [in](action:starred) [Lady Macbeth](title)?
+- who was [in](action:starred) [Joy](title)?
+- what actor was [in](action:starred) [The Dressmaker](title)?
+- who was [in](action:starred) [CafÃ© Society](title)?
+- what actor was [in](action:starred) [Insurgent](title)?
+- who was [in](action:starred) [Seventh Son](title)?
+- what actor was [in](action:starred) [Demain tout commence](title)?
+- who was [in](action:starred) [The Theory of Everything](title)?
+- what actor was [in](action:starred) [This Is the End](title)?
+- who was [in](action:starred) [About Time](title)?
+- what actor was [in](action:starred) [Step Brothers](title)?
+- who was [in](action:starred) [Clown](title)?
+- what actor was [in](action:starred) [Star Trek Into Darkness](title)?
+- who was [in](action:starred) [Zombieland](title)?
+- what actor was [in](action:starred) [Hail, Caesar!](title)?
+- who was [in](action:starred) [Slumdog Millionaire](title)?
+- what actor was [in](action:starred) [The Twilight Saga: Breaking Dawn - Part 2](title)?
+- who was [in](action:starred) [American Wrestler: The Wizard](title)?
+- what actor was [in](action:starred) [The Amazing Spider-Man](title)?
+- who was [in](action:starred) [Ben-Hur](title)?
+- what actor was [in](action:starred) [Sleight](title)?
+- who was [in](action:starred) [The Maze Runner](title)?
+- what actor was [in](action:starred) [Criminal](title)?
+- who was [in](action:starred) [Wanted](title)?
+- what actor was [in](action:starred) [Florence Foster Jenkins](title)?
+- who was [in](action:starred) [Collide](title)?
+- what actor was [in](action:starred) [Black Mass](title)?
+- who was [in](action:starred) [Creed](title)?
+- what actor was [in](action:starred) [Swiss Army Man](title)?
+- who was [in](action:starred) [The Expendables 3](title)?
+- what actor was [in](action:starred) [What We Do in the Shadows](title)?
+- who was [in](action:starred) [Southpaw](title)?
+- what actor was [in](action:starred) [Hush](title)?
+- who was [in](action:starred) [Bridge of Spies](title)?
+- what actor was [in](action:starred) [The Lego Movie](title)?
+- who was [in](action:starred) [Everest](title)?
+- what actor was [in](action:starred) [Pixels](title)?
+- who was [in](action:starred) [Robin Hood](title)?
+- what actor was [in](action:starred) [The Wolverine](title)?
+- who was [in](action:starred) [John Carter](title)?
+- what actor was [in](action:starred) [Keanu](title)?
+- who was [in](action:starred) [The Gunman](title)?
+- what actor was [in](action:starred) [Steve Jobs](title)?
+- who was [in](action:starred) [Whisky Galore](title)?
+- what actor was [in](action:starred) [Grown Ups 2](title)?
+- who was [in](action:starred) [The Age of Adaline](title)?
+- what actor was [in](action:starred) [The Incredible Hulk](title)?
+- who was [in](action:starred) [Couples Retreat](title)?
+- what actor was [in](action:starred) [Absolutely Anything](title)?
 - what [movies](type) has [Aamir Khan](PERSON) [starred](action) in?
 - what [movies](type) has [Aaron Eckhart](PERSON) [been](action:starred) in?
 - what [movies](type) has [Aaron Poole](PERSON) [acted](action:starred) in?
@@ -872,11 +1071,6 @@
 - What [movies](type) did [Johan Kirkland](PERSON) [write](action)?
 - What [movies](type) did [Johann Kidd](PERSON) [write](action)?
 - What [movies](type) did [Johannes Workman](PERSON) [write](action)?
-- Who [directed](action) [Spirited Away](title:spirited away)
-- Who [directed](action) [The Departed](movie:the departed)?
-- Who [directed](action) [room](title)?
-- Who [directed](action) [birdemic](title)?
-- Who [directed](action) [The Room](title:the room)?
 
 ## intent:date_request
 - what [show](type) came out on the [1st January 2020](DATE)?
@@ -982,6 +1176,107 @@
 - which [animated](genre) [movie](type) was released on [March 8th 1982](DATE)?
 - what [crime](genre) [series](type:show) came out on [April 9th 1981](DATE)?
 - which [thriller](genre) [tv show](type:show) released on [May 10th 1980](DATE)?
+- when did [Minions](title) release?
+- what date did [The Black Room](title) come out?
+- what year did [Bronson](title) release?
+- when did [Despicable Me](title) come out?
+- what date did [The Best of Me](title) release?
+- what year did [The Invitation](title) come out?
+- when did [Zero Dark Thirty](title) release?
+- what date did [Tangled](title) come out?
+- what year did [The Hunger Games: Mockingjay - Part 2](title) release?
+- when did [Vacation](title) come out?
+- what date did [Taken](title) release?
+- what year did [Pitch Perfect 2](title) come out?
+- when did [Monsters University](title) release?
+- what date did [Elle](title) come out?
+- what year did [Mechanic: Resurrection](title) release?
+- when did [Tusk](title) come out?
+- what date did [The Headhunter's Calling](title) release?
+- what year did [Atonement](title) come out?
+- when did [Harry Potter and the Deathly Hallows: Part 1](title) release?
+- what date did [Shame](title) come out?
+- what year did [Hanna](title) release?
+- when did [The Babysitters](title) come out?
+- what date did [Pride and Prejudice and Zombies](title) release?
+- what year did [300: Rise of an Empire](title) come out?
+- when did [London Has Fallen](title) release?
+- what date did [The Curious Case of Benjamin Button](title) come out?
+- what year did [Sin City: A Dame to Kill For](title) release?
+- when did [The Bourne Ultimatum](title) come out?
+- what date did [Srpski film](title) release?
+- what year did [The Purge: Election Year](title) come out?
+- when did [3 Idiots](title) release?
+- what date did [Zoolander 2](title) come out?
+- what year did [World War Z](title) release?
+- when did [Mission: Impossible - Ghost Protocol](title) come out?
+- what date did [Let Me Make You a Martyr](title) release?
+- what year did [Filth](title) come out?
+- when did [The Longest Ride](title) release?
+- what date did [The imposible](title) come out?
+- what year did [Kick-Ass 2](title) release?
+- when did [Folk Hero & Funny Guy](title) come out?
+- what date did [Oz the Great and Powerful](title) release?
+- what year did [Brooklyn](title) come out?
+- when did [Coraline](title) release?
+- what date did [Blue Valentine](title) come out?
+- what year did [The Thinning](title) release?
+- when did [Silent Hill](title) come out?
+- what date did [Dredd](title) release?
+- what year did [Hunt for the Wilderpeople](title) come out?
+- when did [Big Hero 6](title) release?
+- what date did [Carrie](title) come out?
+- what year did [Iron Man 2](title) release?
+- when did [Demolition](title) come out?
+- what date did [Pandorum](title) release?
+- what year did [Olympus Has Fallen](title) come out?
+- when did [I Am Number Four](title) release?
+- what date did [Jagten](title) come out?
+- what year did [The Proposal](title) release?
+- when did [Get Hard](title) come out?
+- what date did [Just Go with It](title) release?
+- what year did [Revolutionary Road](title) come out?
+- when did [The Town](title) release?
+- what date did [The Boy](title) come out?
+- what year did [Denial](title) release?
+- when did [Predestination](title) come out?
+- what date did [Goosebumps](title) release?
+- what year did [Sherlock Holmes: A Game of Shadows](title) come out?
+- when did [Salt](title) release?
+- what date did [Enemy](title) come out?
+- what year did [District 9](title) release?
+- when did [The Other Guys](title) come out?
+- what date did [American Gangster](title) release?
+- what year did [Marie Antoinette](title) come out?
+- when did [2012](title) release?
+- what date did [Harry Potter and the Half-Blood Prince](title) come out?
+- what year did [Argo](title) release?
+- when did [Eddie the Eagle](title) come out?
+- what date did [The Lives of Others](title) release?
+- what year did [Pet](title) come out?
+- when did [Paint It Black](title) release?
+- what date did [Macbeth](title) come out?
+- what year did [Forgetting Sarah Marshall](title) release?
+- when did [The Giver](title) come out?
+- what date did [Triple 9](title) release?
+- what year did [Perfetti sconosciuti](title) come out?
+- when did [Angry Birds](title) release?
+- what date did [Moonrise Kingdom](title) come out?
+- what year did [Hairspray](title) release?
+- when did [Safe Haven](title) come out?
+- what date did [Focus](title) release?
+- what year did [Ratatouille](title) come out?
+- when did [Stake Land](title) release?
+- what date did [The Book of Eli](title) come out?
+- what year did [Cloverfield](title) release?
+- when did [Point Break](title) come out?
+- what date did [Under the Skin](title) release?
+- what year did [I Am Legend](title) come out?
+- when did [Men in Black 3](title) release?
+- what date did [Super 8](title) come out?
+- what year did [Law Abiding Citizen](title) release?
+- when did [Up](title) come out?
+
 
 ## intent:deny
 - that's wrong
@@ -1500,14 +1795,6 @@
 - tell me about [deadpool](title)
 - tell me about [avatar](title)
 - tell me about the [movie](type) [avatar](title)
-- tell me about the movie [marley and me](title)
-- Tell me about the movie [avengers](title)
-- tell me about the movie [baby driver](title)
-- tell me about the [movie](type) [superman](title)?
-- [Clone wars](title)?
-- [Phantom Menace](title) Star
-- [Attack of the clones](title)?
-- [Inception](title)?
 
 ## intent:goodbye
 - bye
@@ -1526,7 +1813,6 @@
 - hey there
 - hello there
 - Hi
-- hello?
 
 ## intent:have_request
 - I have a request
@@ -1603,7 +1889,6 @@
 - Tell me about the [writer](role) [Alistair Cook](PERSON)
 - Tell me about the [actor](role) [Alister Morgan](PERSON)
 - Who is [Allan Bell](PERSON)?
-- What does [Allen Murphy](PERSON) do?
 - Is [Alvin Bailey](PERSON) an actor?
 - Is [Aly Rivera](PERSON) a writer?
 - Is [Aman Cooper](PERSON) a director?
@@ -1847,14 +2132,6 @@
 - Tell me about the [actor](role) [Campbell Newman](PERSON)
 - Who is [Camron Haynes](PERSON)?
 - who is [john stamos](PERSON)?
-- Yeah, who is [ryan brennan](PERSON)
-- who is [ryan brennan](PERSON)?
-- hey who is [michael keaton](PERSON)?
-- who is [callum baldrick](PERSON)?
-- Adam [Driver](title:driver)?
-- Adam [Sandler](title:sandler)?
-- Who is[ Robery Hynes](PERSON)
-- Chris Pratt?
 
 ## synonym:directed
 - direct
@@ -1863,19 +2140,17 @@
 - movies
 
 ## synonym:show
-- tv series
 - tv show
 - series
+- tv series
 
 ## synonym:starred
-- been in
 - acted
-- is in
-- appears in
+- been
 
 ## synonym:superman
 - Superman
 
 ## synonym:wrote
-- written
 - write
+- written
