@@ -874,7 +874,6 @@
 - What [movies](type) did [Johannes Workman](PERSON) [write](action)?
 - Who [directed](action) [Spirited Away](title:spirited away)
 - Who [directed](action) [The Departed](movie:the departed)?
-- print.out.ln("hello [world");](title)
 - Who [directed](action) [room](title)?
 - Who [directed](action) [birdemic](title)?
 - Who [directed](action) [The Room](title:the room)?
@@ -1507,7 +1506,7 @@
 - tell me about the [movie](type) [superman](title)?
 - [Clone wars](title)?
 - [Phantom Menace](title) Star
-- Attack of the clones?
+- [Attack of the clones](title)?
 - [Inception](title)?
 
 ## intent:goodbye
