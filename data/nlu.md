@@ -69,6 +69,7 @@
 - yes
 - yes thank you
 - Yes thank you
+- Yes!
 
 ## intent:action_request
 - what was [Vin Diesel](PERSON) [in](action:starred)?
@@ -970,107 +971,112 @@
 - who [wrote](action) [Elle](movie)?
 - who [wrote](action) [Mechanic: Resurrection](movie)?
 - who [wrote](action) [Tusk](movie)?
-- What [movies](type) did [Jaime Bonner](PERSON) [write](action)?
-- What [movies](type) did [Jairus Cotton](PERSON) [write](action)?
-- What [movies](type) did [Jaiveer Holder](PERSON) [write](action)?
-- What [movies](type) did [Jaivin Stark](PERSON) [write](action)?
-- What [movies](type) did [Jake Ferrell](PERSON) [write](action)?
-- What [movies](type) did [Jakob Cantrell](PERSON) [write](action)?
-- What [movies](type) did [Jakub Fulton](PERSON) [write](action)?
-- What [movies](type) did [Jalen Lynn](PERSON) [write](action)?
-- What [movies](type) did [Jamal Lott](PERSON) [write](action)?
-- What [movies](type) did [James Calderon](PERSON) [write](action)?
-- What [movies](type) did [Jameson Rosa](PERSON) [write](action)?
-- What [movies](type) did [Jamey Pollard](PERSON) [write](action)?
-- What [movies](type) did [Jamie Hooper](PERSON) [write](action)?
-- What [movies](type) did [Jamieson Burch](PERSON) [write](action)?
-- What [movies](type) did [Jamison Mullen](PERSON) [write](action)?
-- What [movies](type) did [Jan Fry](PERSON) [write](action)?
-- What [movies](type) did [Jared Riddle](PERSON) [write](action)?
-- What [movies](type) did [Jaret Levy](PERSON) [write](action)?
-- What [movies](type) did [Jarett David](PERSON) [write](action)?
-- What [movies](type) did [Jarod Duke](PERSON) [write](action)?
-- What [movies](type) did [Jaron Odonnell](PERSON) [write](action)?
-- What [movies](type) did [Jarred Guy](PERSON) [write](action)?
-- What [movies](type) did [Jarret Michael](PERSON) [write](action)?
-- What [movies](type) did [Jarrett Britt](PERSON) [write](action)?
-- What [movies](type) did [Jarrod Frederick](PERSON) [write](action)?
-- What [movies](type) did [Jasbir Daugherty](PERSON) [write](action)?
-- What [movies](type) did [Jasdeep Berger](PERSON) [write](action)?
-- What [movies](type) did [Jase Dillard](PERSON) [write](action)?
-- What [movies](type) did [Jasen Alston](PERSON) [write](action)?
-- What [movies](type) did [Jashan Jarvis](PERSON) [write](action)?
-- What [movies](type) did [Jaskaran Frye](PERSON) [write](action)?
-- What [movies](type) did [Jaskarn Riggs](PERSON) [write](action)?
-- What [movies](type) did [Jaskirat Chaney](PERSON) [write](action)?
-- What [movies](type) did [Jasman Odom](PERSON) [write](action)?
-- What [movies](type) did [Jasmeet Duffy](PERSON) [write](action)?
-- What [movies](type) did [Jason Fitzpatrick](PERSON) [write](action)?
-- What [movies](type) did [Jaspal Valenzuela](PERSON) [write](action)?
-- What [movies](type) did [Jasper Merrill](PERSON) [write](action)?
-- What [movies](type) did [Jaspreet Mayer](PERSON) [write](action)?
-- What [movies](type) did [Jasraj Alford](PERSON) [write](action)?
-- What [movies](type) did [Jasvinder Mcpherson](PERSON) [write](action)?
-- What [movies](type) did [Jatinder Acevedo](PERSON) [write](action)?
-- What [movies](type) did [Javier Donovan](PERSON) [write](action)?
-- What [movies](type) did [Jax Barrera](PERSON) [write](action)?
-- What [movies](type) did [Jaxen Albert](PERSON) [write](action)?
-- What [movies](type) did [Jaxon Cote](PERSON) [write](action)?
-- What [movies](type) did [Jaxson Reilly](PERSON) [write](action)?
-- What [movies](type) did [Jaxton Compton](PERSON) [write](action)?
-- What [movies](type) did [Jaxx Raymond](PERSON) [write](action)?
-- What [movies](type) did [Jaxxon Mooney](PERSON) [write](action)?
-- What [movies](type) did [Jay Mcgowan](PERSON) [write](action)?
-- What [movies](type) did [Jayce Craft](PERSON) [write](action)?
-- What [movies](type) did [Jayden Cleveland](PERSON) [write](action)?
-- What [movies](type) did [Jaydon Clemons](PERSON) [write](action)?
-- What [movies](type) did [Jaylen Wynn](PERSON) [write](action)?
-- What [movies](type) did [Jayme Nielsen](PERSON) [write](action)?
-- What [movies](type) did [Jayson Baird](PERSON) [write](action)?
-- What [movies](type) did [Jean Stanton](PERSON) [write](action)?
-- What [movies](type) did [Jean-luc Snider](PERSON) [write](action)?
-- What [movies](type) did [Jean-paul Rosales](PERSON) [write](action)?
-- What [movies](type) did [Jeevan Bright](PERSON) [write](action)?
-- What [movies](type) did [Jeff Witt](PERSON) [write](action)?
-- What [movies](type) did [Jeffery Stuart](PERSON) [write](action)?
-- What [movies](type) did [Jeffrey Hays](PERSON) [write](action)?
-- What [movies](type) did [Jeffry Holden](PERSON) [write](action)?
-- What [movies](type) did [Jensen Rutledge](PERSON) [write](action)?
-- What [movies](type) did [Jenson Kinney](PERSON) [write](action)?
-- What [movies](type) did [Jerald Clements](PERSON) [write](action)?
-- What [movies](type) did [Jeremey Castaneda](PERSON) [write](action)?
-- What [movies](type) did [Jeremiah Slater](PERSON) [write](action)?
-- What [movies](type) did [Jeremy Hahn](PERSON) [write](action)?
-- What [movies](type) did [Jericho Emerson](PERSON) [write](action)?
-- What [movies](type) did [Jermaine Conrad](PERSON) [write](action)?
-- What [movies](type) did [Jerod Burks](PERSON) [write](action)?
-- What [movies](type) did [Jerome Delaney](PERSON) [write](action)?
-- What [movies](type) did [Jeromy Pate](PERSON) [write](action)?
-- What [movies](type) did [Jerry Lancaster](PERSON) [write](action)?
-- What [movies](type) did [Jess Sweet](PERSON) [write](action)?
-- What [movies](type) did [Jesse Justice](PERSON) [write](action)?
-- What [movies](type) did [Jessie Tyson](PERSON) [write](action)?
-- What [movies](type) did [Jessy Sharpe](PERSON) [write](action)?
-- What [movies](type) did [Jet Whitfield](PERSON) [write](action)?
-- What [movies](type) did [Jethro Talley](PERSON) [write](action)?
-- What [movies](type) did [Jett Macias](PERSON) [write](action)?
-- What [movies](type) did [Jia Irwin](PERSON) [write](action)?
-- What [movies](type) did [Jigar Burris](PERSON) [write](action)?
-- What [movies](type) did [Jim Ratliff](PERSON) [write](action)?
-- What [movies](type) did [Jimmie Mccray](PERSON) [write](action)?
-- What [movies](type) did [Jimmy Madden](PERSON) [write](action)?
-- What [movies](type) did [Joao Kaufman](PERSON) [write](action)?
-- What [movies](type) did [Joaquin Beach](PERSON) [write](action)?
-- What [movies](type) did [Joban Goff](PERSON) [write](action)?
-- What [movies](type) did [Jodh Cash](PERSON) [write](action)?
-- What [movies](type) did [Jody Bolton](PERSON) [write](action)?
-- What [movies](type) did [Joe Mcfadden](PERSON) [write](action)?
-- What [movies](type) did [Joel Levine](PERSON) [write](action)?
-- What [movies](type) did [Joesph Good](PERSON) [write](action)?
-- What [movies](type) did [Joey Byers](PERSON) [write](action)?
-- What [movies](type) did [Johan Kirkland](PERSON) [write](action)?
-- What [movies](type) did [Johann Kidd](PERSON) [write](action)?
-- What [movies](type) did [Johannes Workman](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaime Bonner](PERSON) [write](action)?
+- What [movies](type:movie) did [Jairus Cotton](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaiveer Holder](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaivin Stark](PERSON) [write](action)?
+- What [movies](type:movie) did [Jake Ferrell](PERSON) [write](action)?
+- What [movies](type:movie) did [Jakob Cantrell](PERSON) [write](action)?
+- What [movies](type:movie) did [Jakub Fulton](PERSON) [write](action)?
+- What [movies](type:movie) did [Jalen Lynn](PERSON) [write](action)?
+- What [movies](type:movie) did [Jamal Lott](PERSON) [write](action)?
+- What [movies](type:movie) did [James Calderon](PERSON) [write](action)?
+- What [movies](type:movie) did [Jameson Rosa](PERSON) [write](action)?
+- What [movies](type:movie) did [Jamey Pollard](PERSON) [write](action)?
+- What [movies](type:movie) did [Jamie Hooper](PERSON) [write](action)?
+- What [movies](type:movie) did [Jamieson Burch](PERSON) [write](action)?
+- What [movies](type:movie) did [Jamison Mullen](PERSON) [write](action)?
+- What [movies](type:movie) did [Jan Fry](PERSON) [write](action)?
+- What [movies](type:movie) did [Jared Riddle](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaret Levy](PERSON) [write](action)?
+- What [movies](type:movie) did [Jarett David](PERSON) [write](action)?
+- What [movies](type:movie) did [Jarod Duke](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaron Odonnell](PERSON) [write](action)?
+- What [movies](type:movie) did [Jarred Guy](PERSON) [write](action)?
+- What [movies](type:movie) did [Jarret Michael](PERSON) [write](action)?
+- What [movies](type:movie) did [Jarrett Britt](PERSON) [write](action)?
+- What [movies](type:movie) did [Jarrod Frederick](PERSON) [write](action)?
+- What [movies](type:movie) did [Jasbir Daugherty](PERSON) [write](action)?
+- What [movies](type:movie) did [Jasdeep Berger](PERSON) [write](action)?
+- What [movies](type:movie) did [Jase Dillard](PERSON) [write](action)?
+- What [movies](type:movie) did [Jasen Alston](PERSON) [write](action)?
+- What [movies](type:movie) did [Jashan Jarvis](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaskaran Frye](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaskarn Riggs](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaskirat Chaney](PERSON) [write](action)?
+- What [movies](type:movie) did [Jasman Odom](PERSON) [write](action)?
+- What [movies](type:movie) did [Jasmeet Duffy](PERSON) [write](action)?
+- What [movies](type:movie) did [Jason Fitzpatrick](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaspal Valenzuela](PERSON) [write](action)?
+- What [movies](type:movie) did [Jasper Merrill](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaspreet Mayer](PERSON) [write](action)?
+- What [movies](type:movie) did [Jasraj Alford](PERSON) [write](action)?
+- What [movies](type:movie) did [Jasvinder Mcpherson](PERSON) [write](action)?
+- What [movies](type:movie) did [Jatinder Acevedo](PERSON) [write](action)?
+- What [movies](type:movie) did [Javier Donovan](PERSON) [write](action)?
+- What [movies](type:movie) did [Jax Barrera](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaxen Albert](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaxon Cote](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaxson Reilly](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaxton Compton](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaxx Raymond](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaxxon Mooney](PERSON) [write](action)?
+- What [movies](type:movie) did [Jay Mcgowan](PERSON) [write](action)?
+- What [movies](type:movie) did [Jayce Craft](PERSON) [write](action)?
+- What [movies](type:movie) did [Jayden Cleveland](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaydon Clemons](PERSON) [write](action)?
+- What [movies](type:movie) did [Jaylen Wynn](PERSON) [write](action)?
+- What [movies](type:movie) did [Jayme Nielsen](PERSON) [write](action)?
+- What [movies](type:movie) did [Jayson Baird](PERSON) [write](action)?
+- What [movies](type:movie) did [Jean Stanton](PERSON) [write](action)?
+- What [movies](type:movie) did [Jean-luc Snider](PERSON) [write](action)?
+- What [movies](type:movie) did [Jean-paul Rosales](PERSON) [write](action)?
+- What [movies](type:movie) did [Jeevan Bright](PERSON) [write](action)?
+- What [movies](type:movie) did [Jeff Witt](PERSON) [write](action)?
+- What [movies](type:movie) did [Jeffery Stuart](PERSON) [write](action)?
+- What [movies](type:movie) did [Jeffrey Hays](PERSON) [write](action)?
+- What [movies](type:movie) did [Jeffry Holden](PERSON) [write](action)?
+- What [movies](type:movie) did [Jensen Rutledge](PERSON) [write](action)?
+- What [movies](type:movie) did [Jenson Kinney](PERSON) [write](action)?
+- What [movies](type:movie) did [Jerald Clements](PERSON) [write](action)?
+- What [movies](type:movie) did [Jeremey Castaneda](PERSON) [write](action)?
+- What [movies](type:movie) did [Jeremiah Slater](PERSON) [write](action)?
+- What [movies](type:movie) did [Jeremy Hahn](PERSON) [write](action)?
+- What [movies](type:movie) did [Jericho Emerson](PERSON) [write](action)?
+- What [movies](type:movie) did [Jermaine Conrad](PERSON) [write](action)?
+- What [movies](type:movie) did [Jerod Burks](PERSON) [write](action)?
+- What [movies](type:movie) did [Jerome Delaney](PERSON) [write](action)?
+- What [movies](type:movie) did [Jeromy Pate](PERSON) [write](action)?
+- What [movies](type:movie) did [Jerry Lancaster](PERSON) [write](action)?
+- What [movies](type:movie) did [Jess Sweet](PERSON) [write](action)?
+- What [movies](type:movie) did [Jesse Justice](PERSON) [write](action)?
+- What [movies](type:movie) did [Jessie Tyson](PERSON) [write](action)?
+- What [movies](type:movie) did [Jessy Sharpe](PERSON) [write](action)?
+- What [movies](type:movie) did [Jet Whitfield](PERSON) [write](action)?
+- What [movies](type:movie) did [Jethro Talley](PERSON) [write](action)?
+- What [movies](type:movie) did [Jett Macias](PERSON) [write](action)?
+- What [movies](type:movie) did [Jia Irwin](PERSON) [write](action)?
+- What [movies](type:movie) did [Jigar Burris](PERSON) [write](action)?
+- What [movies](type:movie) did [Jim Ratliff](PERSON) [write](action)?
+- What [movies](type:movie) did [Jimmie Mccray](PERSON) [write](action)?
+- What [movies](type:movie) did [Jimmy Madden](PERSON) [write](action)?
+- What [movies](type:movie) did [Joao Kaufman](PERSON) [write](action)?
+- What [movies](type:movie) did [Joaquin Beach](PERSON) [write](action)?
+- What [movies](type:movie) did [Joban Goff](PERSON) [write](action)?
+- What [movies](type:movie) did [Jodh Cash](PERSON) [write](action)?
+- What [movies](type:movie) did [Jody Bolton](PERSON) [write](action)?
+- What [movies](type:movie) did [Joe Mcfadden](PERSON) [write](action)?
+- What [movies](type:movie) did [Joel Levine](PERSON) [write](action)?
+- What [movies](type:movie) did [Joesph Good](PERSON) [write](action)?
+- What [movies](type:movie) did [Joey Byers](PERSON) [write](action)?
+- What [movies](type:movie) did [Johan Kirkland](PERSON) [write](action)?
+- What [movies](type:movie) did [Johann Kidd](PERSON) [write](action)?
+- What [movies](type:movie) did [Johannes Workman](PERSON) [write](action)?
+- Who [directed](action) [Spirited Away](title:spirited away)
+- Who [directed](action) [The Departed](movie:the departed)?
+- Who [directed](action) [room](title)?
+- Who [directed](action) [birdemic](title)?
+- Who [directed](action) [The Room](title:the room)?
 
 ## intent:date_request
 - what [show](type) came out on the [1st January 2020](DATE)?
@@ -1276,7 +1282,8 @@
 - what date did [Super 8](title) come out?
 - what year did [Law Abiding Citizen](title) release?
 - when did [Up](title) come out?
-
+- What [action](genre) [movies](type:movie) came out in [2015](DATE)?
+- what [movies](type:movie) came out in [2020](DATE)?
 
 ## intent:deny
 - that's wrong
@@ -1795,6 +1802,15 @@
 - tell me about [deadpool](title)
 - tell me about [avatar](title)
 - tell me about the [movie](type) [avatar](title)
+- [Clone wars](title)?
+- [Phantom Menace](title) Star
+- Attack of the clones?
+- [Attack of the clones](title)?
+- [Inception](title)?
+- tell me about the movie [marley and me](title)
+- Tell me about the movie [avengers](title)
+- tell me about the movie [baby driver](title)
+- tell me about the [movie](type) [superman](title)?
 
 ## intent:goodbye
 - bye
@@ -1813,6 +1829,7 @@
 - hey there
 - hello there
 - Hi
+- hello?
 
 ## intent:have_request
 - I have a request
@@ -1889,6 +1906,7 @@
 - Tell me about the [writer](role) [Alistair Cook](PERSON)
 - Tell me about the [actor](role) [Alister Morgan](PERSON)
 - Who is [Allan Bell](PERSON)?
+- What does [Allen Murphy](PERSON) do?
 - Is [Alvin Bailey](PERSON) an actor?
 - Is [Aly Rivera](PERSON) a writer?
 - Is [Aman Cooper](PERSON) a director?
@@ -2132,6 +2150,14 @@
 - Tell me about the [actor](role) [Campbell Newman](PERSON)
 - Who is [Camron Haynes](PERSON)?
 - who is [john stamos](PERSON)?
+- Yeah, who is [ryan brennan](PERSON)
+- who is [ryan brennan](PERSON)?
+- hey who is [michael keaton](PERSON)?
+- who is [callum baldrick](PERSON)?
+- [Adam Driver](PERSON)?
+- [Adam Sandler](PERSON)?
+- Who is [Robert Hynes](PERSON)
+- [Chris Pratt](PERSON)?
 
 ## synonym:directed
 - direct
@@ -2146,6 +2172,7 @@
 
 ## synonym:starred
 - acted
+- is in
 - been in
 - in
 
