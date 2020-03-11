@@ -1,5 +1,5 @@
 session_config:
-  session_expiration_time: 0
+  session_expiration_time: 0.0
   carry_over_slots_to_new_session: true
 intents:
 - greet
@@ -23,6 +23,7 @@ entities:
 - PERSON
 - title
 - action
+- movie
 slots:
   DATE:
     type: text
@@ -70,21 +71,18 @@ responses:
   - text: Bye
   - text: Goodbye
   utter_iamabot:
-  - text: I am a bot, powered by Rasa.
+  - text: My name is RobBot. I am a movie Q&A bot, powered by Rasa.
+  - text: I am RobBot. I am a movie Q&A bot, powered by Rasa.
   utter_what_question:
   - text: What is your question?
-  utter_correct:
-  - text: Is that what you were looking for?
-  - text: Does that answer your question?
-  - text: Did that answer your question?
   utter_help:
-  - text: I can answer your questions on movies and tv shows. You can ask me about
-      people, movies, tv, genres and release dates
+  - text: I am a movie Q&A bot. I can answer your questions on movies and tv shows.
+      You can ask me about people, movies, tv, genres and release dates
   utter_any_more_questions:
   - text: Do you have any more questions?
   - text: Do you have more questions?
   - text: Anything else I can help you with?
-  utter_don't_understand:
+  utter_dont_understand:
   - text: I'm sorry, I don't understand your question. Try asking again
 actions:
 - utter_greet
