@@ -1869,8 +1869,10 @@
 - series
 
 ## synonym:starred
-- been
+- been in
 - acted
+- is in
+- appears in
 
 ## synonym:superman
 - Superman
