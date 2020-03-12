@@ -1320,6 +1320,7 @@
 - no that's not it
 - no?
 - No
+- No, it didn't
 
 ## intent:gen_request
 - Tell me about the [movie](type) [batman](title)
@@ -1882,6 +1883,7 @@
 - help me
 - Help
 - What do you do?
+- Yes, what can I ask you
 
 ## intent:person_request
 - Tell me about the [director](role) [Christopher Nolan](PERSON)

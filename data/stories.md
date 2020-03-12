@@ -57,17 +57,6 @@
 * greet
   - utter_greet
 
-## New Story
-
-* greet
-    - utter_greet
-* action_request{"genre":"action","type":"movie","DATE":"2015"}
-    - slot{"DATE":"2015"}
-    - slot{"genre":"action"}
-    - slot{"type":"movie"}
-    - action_genre_tmdb
-    - utter_correct
-
 ## Genre, Type, Date, date_request
 
 * date_request{"genre":"comedy","type":"show","DATE":"30th March"}
