@@ -7,6 +7,7 @@
 - are you human
 - what are you?
 - what's your name?
+- What is your name?
 
 ## intent:complex_request
 - Tell me about [action](genre) [movies](type:movie) from [2017](DATE)
@@ -64,6 +65,7 @@
 - what [movies](type:movie) were released in [2010](DATE)
 - tell me about [movies](type) from 2010
 - what [movies](type) were released in [2010](DATE)?
+- what [horror](genre) [films](type) came out in 2019
 
 ## intent:confirm
 - that's correct
@@ -74,6 +76,8 @@
 - Yes thank you
 - Yes!
 - thank you!
+- Yes, thank you
+- Yes
 
 ## intent:action_request
 - what was [Vin Diesel](PERSON) [in](action:starred)?
@@ -1081,6 +1085,19 @@
 - who [directed](action) [The Avengers](title:the avengers)?
 - who [directed](action) [avengers](movie)
 - tell me who [directed](action) [avengers](title)?
+- Who is in [The Irishman](title:the irishman)?
+- Who is in ["Help I'm a Fish"](title:"help i'm a fish")?
+- Who [starred](action) in [Kung Fury](title:kung fury)
+- Who is in [Deep Impact](title:deep impact)?
+- Who [directed](action) [Jojo Rabbit](movie:jojo rabbit)
+- Who [starred](action) in [Star Wars: The Phantom Menace](title:star wars: the phantom menace)
+- who [is in](action) [the social network](title)?
+- who [directed](action) [the last jedi](title)?
+- who [directed](action) [star wars](title)
+- who [directed](action) [game of thrones](title)
+- Who [starred](action) in [Star Wars: Phantom Menace](title:star wars: phantom menace)
+- What [movies](type:movie) does [Aaron Paul](PERSON:aaron paul) [appear](action) in?
+- Who [directed](action) [help im a fish](title)
 
 ## intent:date_request
 - what [show](type) came out on the [1st January 2020](DATE)?
@@ -1291,6 +1308,8 @@
 - when was Bolt released?
 - when was[ toy story](title) released?
 - when was [toy story](title) made?
+- What year did [Shrek come](PERSON:shrek come) out?
+- What year did Jaws come out?
 
 ## intent:deny
 - that's wrong
@@ -1299,6 +1318,8 @@
 - no
 - nope
 - no that's not it
+- no?
+- No
 
 ## intent:gen_request
 - Tell me about the [movie](type) [batman](title)
@@ -1823,6 +1844,9 @@
 - [big hero 6](title)?
 - tell me about [Big Hero six](title:big hero six)
 - Tell me about [Arrietty](title:arrietty)
+- yes, tell me about [Full House](title:full house)
+- ok what is Tom Holland in?
+- Tell me about [Contagion](title:contagion)
 
 ## intent:goodbye
 - bye
@@ -1842,6 +1866,7 @@
 - hello there
 - Hi
 - hello?
+- Hello
 
 ## intent:have_request
 - I have a request
@@ -1855,6 +1880,8 @@
 - what can you do?
 - help
 - help me
+- Help
+- What do you do?
 
 ## intent:person_request
 - Tell me about the [director](role) [Christopher Nolan](PERSON)
@@ -2176,12 +2203,20 @@
 - tell me about Dante Bosco?
 - what is matt Damon in?
 - What is Matt Damon in?
+- what is [matt damon](PERSON) in?
+- Who is [Robery Hynes](PERSON:robery hynes)
+- Who is [Robert Hynes](PERSON:robert hynes)?
+- who is [tom holland](PERSON)
+- tell me about [matt damon](PERSON)
+- Matthew Moore
+- Who is [Callum Baldrick](PERSON:callum baldrick)?
 
 ## synonym:directed
 - direct
 
 ## synonym:movie
 - movies
+- films
 
 ## synonym:show
 - tv show
@@ -2197,6 +2232,7 @@
 - in
 - been in
 - is in
+- appear
 
 ## synonym:superman
 - Superman
