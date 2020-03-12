@@ -61,6 +61,9 @@
 - tell me about [history](genre) [movies](type:movie) from [2018](DATE)
 - tell me about [comedy](genre) [movies](type:movie) released in [2019](DATE)
 - tell me about [drama](genre) [movies](type:movie) from [2020](DATE)
+- what [movies](type:movie) were released in [2010](DATE)
+- tell me about [movies](type) from 2010
+- what [movies](type) were released in [2010](DATE)?
 
 ## intent:confirm
 - that's correct
@@ -70,6 +73,7 @@
 - yes thank you
 - Yes thank you
 - Yes!
+- thank you!
 
 ## intent:action_request
 - what was [Vin Diesel](PERSON) [in](action:starred)?
@@ -82,10 +86,8 @@
 - what is [Meryl Streep](PERSON) [in](action:starred)?
 - what was [Denzel Washington](PERSON) [in](action:starred)?
 - what is [Blake Lively](PERSON) [in](action:starred)?
-- what was [Vin Diesel](PERSON) [in](action:starred)?
 - what is [Tommy Lee Jones](PERSON) [in](action:starred)?
 - what was [Leonardo DiCaprio](PERSON) [in](action:starred)?
-- what is [Chris Pine](PERSON) [in](action:starred)?
 - what was [Christian Bale](PERSON) [in](action:starred)?
 - what is [Jamie Foxx](PERSON) [in](action:starred)?
 - what was [Jackie Earle Haley](PERSON) [in](action:starred)?
@@ -131,7 +133,6 @@
 - what was [Sharlto Copley](PERSON) [in](action:starred)?
 - what is [Owen Wilson](PERSON) [in](action:starred)?
 - what was [Maika Monroe](PERSON) [in](action:starred)?
-- what is [Daniel Craig](PERSON) [in](action:starred)?
 - what was [Jason Sudeikis](PERSON) [in](action:starred)?
 - what is [Sasha Lane](PERSON) [in](action:starred)?
 - what was [Colin Farrell](PERSON) [in](action:starred)?
@@ -142,7 +143,6 @@
 - what is [Patrick Wilson](PERSON) [in](action:starred)?
 - what was [Gerardo Taracena](PERSON) [in](action:starred)?
 - what is [Tom Cruise](PERSON) [in](action:starred)?
-- what was [Chris Hemsworth](PERSON) [in](action:starred)?
 - what is [Logan Lerman](PERSON) [in](action:starred)?
 - what was [Natalie Portman](PERSON) [in](action:starred)?
 - what is [Kate Beckinsale](PERSON) [in](action:starred)?
@@ -1077,6 +1077,10 @@
 - Who [directed](action) [room](title)?
 - Who [directed](action) [birdemic](title)?
 - Who [directed](action) [The Room](title:the room)?
+- Who is the [director](role) of The Avengers?
+- who [directed](action) [The Avengers](title:the avengers)?
+- who [directed](action) [avengers](movie)
+- tell me who [directed](action) [avengers](title)?
 
 ## intent:date_request
 - what [show](type) came out on the [1st January 2020](DATE)?
@@ -1284,6 +1288,9 @@
 - when did [Up](title) come out?
 - What [action](genre) [movies](type:movie) came out in [2015](DATE)?
 - what [movies](type:movie) came out in [2020](DATE)?
+- when was Bolt released?
+- when was[ toy story](title) released?
+- when was [toy story](title) made?
 
 ## intent:deny
 - that's wrong
@@ -1811,6 +1818,11 @@
 - Tell me about the movie [avengers](title)
 - tell me about the movie [baby driver](title)
 - tell me about the [movie](type) [superman](title)?
+- The [Avengers](title:avengers)?
+- [toy story](title)?
+- [big hero 6](title)?
+- tell me about [Big Hero six](title:big hero six)
+- Tell me about [Arrietty](title:arrietty)
 
 ## intent:goodbye
 - bye
@@ -2158,6 +2170,12 @@
 - [Adam Sandler](PERSON)?
 - Who is [Robert Hynes](PERSON)
 - [Chris Pratt](PERSON)?
+- who is [matt damon](PERSON)?
+- tell me about Todd HaberKorn
+- tell me about Dante Basco?
+- tell me about Dante Bosco?
+- what is matt Damon in?
+- What is Matt Damon in?
 
 ## synonym:directed
 - direct
@@ -2170,15 +2188,25 @@
 - series
 - tv series
 
+## synonym:spirited away
+- Spirited Away
+
 ## synonym:starred
+- been
 - acted
-- is in
-- been in
 - in
+- been in
+- is in
 
 ## synonym:superman
 - Superman
 
+## synonym:the departed
+- The Departed
+
+## synonym:the room
+- The Room
+
 ## synonym:wrote
-- write
 - written
+- write
