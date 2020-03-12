@@ -1855,6 +1855,7 @@
 - tell me about [the lord of the rings](title)
 - tell me about [frozen](title)
 - tell me about [frozen I](title:frozen i)
+- tell me about [FPGA](title:fpga)
 
 ## intent:goodbye
 - bye
@@ -2220,6 +2221,8 @@
 - tell me about [matt damon](PERSON)
 - Matthew Moore
 - Who is Callum Baldrick?
+- tell me about [Michael SCHUKAT](title:michael schukat)
+- tell me about [Jason isaacs](title:jason isaacs)
 
 ## synonym:directed
 - direct
