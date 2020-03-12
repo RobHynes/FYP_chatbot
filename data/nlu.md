@@ -2211,7 +2211,7 @@
 - who is [tom holland](PERSON)
 - tell me about [matt damon](PERSON)
 - Matthew Moore
-- Who is [Callum Baldrick](PERSON:callum baldrick)?
+- Who is Callum Baldrick?
 
 ## synonym:directed
 - direct
