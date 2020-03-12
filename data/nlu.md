@@ -1856,6 +1856,11 @@
 - tell me about [frozen](title)
 - tell me about [frozen I](title:frozen i)
 - tell me about [FPGA](title:fpga)
+- tell me about [superman](title)
+- [king kong](title)
+- who is [mulan](title)
+- tell me about [mulan](title)
+- tell me about [king kong](title)
 
 ## intent:goodbye
 - bye
