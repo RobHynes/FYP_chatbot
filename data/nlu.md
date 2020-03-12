@@ -1321,6 +1321,8 @@
 - no?
 - No
 - No, it didn't
+- NO
+- Not yet
 
 ## intent:gen_request
 - Tell me about the [movie](type) [batman](title)
@@ -1848,6 +1850,11 @@
 - yes, tell me about [Full House](title:full house)
 - ok what is Tom Holland in?
 - Tell me about [Contagion](title:contagion)
+- tell me about [dinosaurs](title)
+- Tell me about [the Bee Movie](title:the bee movie)
+- tell me about [the lord of the rings](title)
+- tell me about [frozen](title)
+- tell me about [frozen I](title:frozen i)
 
 ## intent:goodbye
 - bye
@@ -1868,6 +1875,7 @@
 - Hi
 - hello?
 - Hello
+- Greetings
 
 ## intent:have_request
 - I have a request
