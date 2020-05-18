@@ -1,9 +1,3 @@
-# This files contains your custom actions which can be used to run
-# custom Python code.
-#
-# See this guide on how to implement these action:
-# https://rasa.com/docs/rasa/core/actions/#custom-actions/
-
 from typing import Any, Text, Dict, List
 
 import json
@@ -18,22 +12,8 @@ import re
 
 
 # Actor/writer/director question: "Who is Robert Downey Jr?" / "Who is Quentin Tarantino?"
-# Complex Query: "How much money did the movie avatar make?" / "Which movie made more money, avatar or avengers"
 
-
-def main():
-    tmdb.API_KEY = "5ce7e4a66621977d06b1c0e75961699b"
-    search = tmdb.Search()
-
-    response = search.person(query="jared padilecki")
-
-    if not response['results']:
-        print("geh")
-    else:
-        print(response)
-
-
-class TmdbAction(Action):  # A                    DONE
+class TmdbAction(Action):
 
     def name(self) -> Text:
         return "action_tmdb_api_call"  # "Tell me about the movie Superman" / "Who directed the movie Superman?"
@@ -102,7 +82,7 @@ class TmdbAction(Action):  # A                    DONE
         return []
 
 
-class TmdbPersonAction(Action):  # A                  DONE
+class TmdbPersonAction(Action):
 
     def name(self) -> Text:
         return "action_person_tmdb"  # "Tell me about the movie Superman" / "Who directed the movie Superman?"
@@ -163,7 +143,7 @@ class TmdbDateAction(Action):
         movies = []
 
         if tracker.get_slot("DATE") is not None:  # what movies released on x date
-            date = next(tracker.get_latest_entity_values("DATE"))  # ADD CODE TO REPLACE/REMOVE THINGS LIKE , ?
+            date = next(tracker.get_latest_entity_values("DATE"))
 
             date = date.replace("the ", "")
             date = date.replace("of ", "")
@@ -296,16 +276,12 @@ class TmdbRoleAction(Action):
                             name = person["name"]
                             break
 
-                dispatcher.utter_message(name + " " + action + " " + title)  # Who stars in X? Y PERSON stars in X
+                dispatcher.utter_message(name + " " + action + " " + title)  # Who stars in X? PERSON stars in X
 
             elif tracker.get_slot("PERSON") is not None:
                 name = next(tracker.get_latest_entity_values("PERSON"))
                 response = search.person(query=name)
                 role = response['results'][0]['known_for_department']
-                # movie = response['results'][0]['known_for'][0]['title']
-                #
-                # movie_credits = movie.credits()
-                # crew = movie_credits['crew']
 
                 movies = [response['results'][0]['known_for'][0]['title'],
                           response['results'][0]['known_for'][1]['title'],
@@ -313,19 +289,10 @@ class TmdbRoleAction(Action):
 
                 if action == 'starred':
                     action = 'starring in'
-                    # name = movie_credits['cast'][0]['name']
                 elif action == 'directed':
                     action = 'directing'
-                    # for person in crew:
-                        # if person["department"] == "Directing":
-                            # name = person["name"]
-                            # break
                 elif action == 'wrote':
                     action = 'writing'
-                    # for person in crew:
-                        # if person["department"] == "Writing":
-                            # name = person["name"]
-                            # break
 
                 # what movies has PERSON starred in? they have starred in xyz
                 dispatcher.utter_message(
@@ -375,7 +342,7 @@ class TmdbGenreAction(Action):  # tell me about action movies from 2018
             genreID = list(gen_dict.keys())[list(gen_dict.values()).index(genre)]
 
             if tracker.get_slot("DATE") is not None:
-                date = next(tracker.get_latest_entity_values("DATE"))  # ADD CODE TO REPLACE/REMOVE THINGS LIKE , ?
+                date = next(tracker.get_latest_entity_values("DATE"))
 
                 p = re.compile(
                     '\\s[0-9]{1,2}st')  # matches 1 or 2 digits from 1 to 9 followed by st, occuring anywhere in string
@@ -437,12 +404,7 @@ class TmdbGenreAction(Action):  # tell me about action movies from 2018
                 else:
                     dispatcher.utter_message("The most popular " + genre + " movies from that date were " + titles)
 
-                # maybe include line in help response from bot listing possible genres?
-
         else:  # genre, date, type
             dispatcher.utter_message("I don't understand your question")  # tell me about action movies from 2018
         return []
-
-
-main()
 
