@@ -2226,37 +2226,102 @@
 - tell me about [matt damon](PERSON)
 - Matthew Moore
 - Who is Callum Baldrick?
-- tell me about [Michael SCHUKAT](title:michael schukat)
 - tell me about [Jason isaacs](title:jason isaacs)
+
+## synonym:"help i'm a fish"
+- "Help I'm a Fish"
+
+## synonym:aaron paul
+- Aaron Paul
+
+## synonym:arrietty
+- Arrietty
+
+## synonym:avengers
+- Avengers
+
+## synonym:big hero six
+- Big Hero six
+
+## synonym:contagion
+- Contagion
+
+## synonym:deep impact
+- Deep Impact
 
 ## synonym:directed
 - direct
 
+## synonym:fpga
+- FPGA
+
+## synonym:frozen i
+- frozen I
+
+## synonym:full house
+- Full House
+
+## synonym:jason isaacs
+- Jason isaacs
+
+## synonym:jojo rabbit
+- Jojo Rabbit
+
+## synonym:kung fury
+- Kung Fury
+
+## synonym:michael schukat
+- Michael SCHUKAT
+
 ## synonym:movie
 - movies
 - films
+
+## synonym:robert hynes
+- Robert Hynes
+
+## synonym:robery hynes
+- Robery Hynes
 
 ## synonym:show
 - tv show
 - series
 - tv series
 
+## synonym:shrek come
+- Shrek come
+
 ## synonym:spirited away
 - Spirited Away
+
+## synonym:star wars: phantom menace
+- Star Wars: Phantom Menace
+
+## synonym:star wars: the phantom menace
+- Star Wars: The Phantom Menace
 
 ## synonym:starred
 - been
 - acted
+- appear
 - in
 - been in
 - is in
-- appear
 
 ## synonym:superman
 - Superman
 
+## synonym:the avengers
+- The Avengers
+
+## synonym:the bee movie
+- the Bee Movie
+
 ## synonym:the departed
 - The Departed
+
+## synonym:the irishman
+- The Irishman
 
 ## synonym:the room
 - The Room
