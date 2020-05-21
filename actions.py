@@ -85,7 +85,7 @@ class TmdbAction(Action):
 class TmdbPersonAction(Action):
 
     def name(self) -> Text:
-        return "action_person_tmdb"  # "Tell me about the movie Superman" / "Who directed the movie Superman?"
+        return "action_person_tmdb"  # "Who directed the movie Superman?"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
