@@ -25,7 +25,7 @@
     - slot{"DATE":"2013"}
     - action_genre_tmdb
 
-## Role, Person
+## Role, Person, person_request
 
 * person_request{"role":"actor","PERSON":"Matt Damon"}
     - slot{"role":"actor"}
@@ -69,3 +69,10 @@
 
 * help
 	- utter_help
+
+## Role, Person, action_request
+
+* action_request{"role":"writer","PERSON":"Phil Lord"}
+    - slot{"role":"writer"}
+    - slot{"PERSON":"Phil Lord"}
+    - action_role_tmdb
