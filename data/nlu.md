@@ -1098,6 +1098,25 @@
 - Who [starred](action) in [Star Wars: Phantom Menace](title:star wars: phantom menace)
 - What [movies](type:movie) does [Aaron Paul](PERSON:aaron paul) [appear](action) in?
 - Who [directed](action) [help im a fish](title)
+- What was he in?
+- What was she in?
+- What is he in?
+- What is she in?
+- Who was in that?
+- Who was in that movie?
+- Who is in that?
+- Who is in that movie?
+- Who [starred](action) in that movie?
+- Who [directed](action) in that movie?
+- Who [wrote](action) in that movie?
+- Who [starred](action) in that?
+- Who [directed](action) that?
+- Who [wrote](action) that?
+- Who [starred](action) in it?
+- Who [directed](action) it?
+- Who [wrote](action) it?
+- What actor was in that?
+- What actor was in that movie?
 
 ## intent:date_request
 - what [show](type) came out on the [1st January 2020](DATE)?
