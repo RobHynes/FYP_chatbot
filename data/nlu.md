@@ -1119,6 +1119,15 @@
 - What actor was in that movie?
 - Who voiced [Shrek](title)
 - Who plays[ Aquaman](title)?
+- who [starred](action) in the movie [the avengers](title)
+- Who [directed](action) it
+- Who [directed](action) [the avengers](title)
+- who [directed](action) [deadpool](title)
+- Who [directed](action) [deadpool](title)?
+- who [directed](action) [deadpool 2](title)
+- Who [directed](action) [deadpool](movie)
+- who [directed](action) [deadpool](title)?
+- who [wrote](action) [deadpool 2](movie)
 
 ## intent:date_request
 - what [show](type) came out on the [1st January 2020](DATE)?
@@ -1891,6 +1900,8 @@
 - Tell me more about [Shrek](title:shrek)
 - tell me about [Michael SCHUKAT](title:michael schukat)
 - tell me about [the simpsons movie](title)
+- What is [deadpool](title)
+- what is [deadpool 2](title)
 
 ## intent:goodbye
 - bye
@@ -2265,6 +2276,8 @@
 - Jason Momoa
 - Why is [Jason Momoa](PERSON:jason momoa)?
 - Who is [Jason Momoa](PERSON:jason momoa)?
+- Who is [ryan reynolds](PERSON)
+- Who is [james mcavoy](PERSON)
 
 ## synonym:"help i'm a fish"
 - "Help I'm a Fish"
