@@ -26,6 +26,8 @@ class TmdbAction(Action):
         s = ["Did that answer your question?", "I hope that answered your question",
              "Is that what you were looking for?"]
 
+        dispatcher.utter_message("If you see this then the server is updating the python code from github correctly (I hope)")
+        
         gen_dict = {28: 'an action',
                     12: 'an adventure',
                     16: 'an animation',
