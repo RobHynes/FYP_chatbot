@@ -1923,6 +1923,7 @@
 - hello?
 - Hello
 - Greetings
+- Hey
 
 ## intent:have_request
 - I have a request
@@ -2315,11 +2316,17 @@
 ## synonym:jason isaacs
 - Jason isaacs
 
+## synonym:jason momoa
+- Jason Momoa
+
 ## synonym:jojo rabbit
 - Jojo Rabbit
 
 ## synonym:kung fury
 - Kung Fury
+
+## synonym:matt damon
+- Matt Damon
 
 ## synonym:michael schukat
 - Michael SCHUKAT
@@ -2335,9 +2342,12 @@
 - Robery Hynes
 
 ## synonym:show
-- tv show
-- series
 - tv series
+- series
+- tv show
+
+## synonym:shrek
+- Shrek
 
 ## synonym:shrek come
 - Shrek come
@@ -2354,10 +2364,10 @@
 ## synonym:starred
 - been
 - acted
-- appear
-- in
 - been in
+- in
 - is in
+- appear
 
 ## synonym:superman
 - Superman

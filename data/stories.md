@@ -72,14 +72,14 @@
 
 ## Role, Person, action_request
 
-* action_request{"role":"writer","PERSON":"Phil Lord"}
-    - slot{"role":"writer"}
+* action_request{"action":"wrote","PERSON":"Phil Lord"}
+    - slot{"action":"wrote"}
     - slot{"PERSON":"Phil Lord"}
     - action_role_tmdb
 
 ## Role, Title, action_request
 
-* action_request{"role":"actor","title":"the Avengers"}
-    - slot{"role":"actor"}
+* action_request{"action":"starred","title":"the Avengers"}
+    - slot{"action":"starred"}
     - slot{"title":"the Avengers"}
     - action_role_tmdb
