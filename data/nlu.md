@@ -1117,6 +1117,8 @@
 - Who [wrote](action) it?
 - What actor was in that?
 - What actor was in that movie?
+- Who voiced [Shrek](title)
+- Who plays[ Aquaman](title)?
 
 ## intent:date_request
 - what [show](type) came out on the [1st January 2020](DATE)?
@@ -1880,6 +1882,14 @@
 - who is [mulan](title)
 - tell me about [mulan](title)
 - tell me about [king kong](title)
+- tell me about [the last airbender](title)
+- tell me about [avatar the last airbender](title)
+- tell me about [spiderman homecoming](title)
+- tell me about [spiderman](title)
+- tell me about [the avengers](title)
+- tell me about [infinity war](title)
+- Tell me more about [Shrek](title:shrek)
+- tell me about [Michael SCHUKAT](title:michael schukat)
 
 ## intent:goodbye
 - bye
@@ -2246,6 +2256,14 @@
 - Matthew Moore
 - Who is Callum Baldrick?
 - tell me about [Jason isaacs](title:jason isaacs)
+- Who is the [director](role)
+- Sam Raimi
+- Who is [chri evans](PERSON)
+- Who is [Matt Damon](PERSON:matt damon)?
+- Do you know about John Cleese?
+- Jason Momoa
+- Why is [Jason Momoa](PERSON:jason momoa)?
+- Who is [Jason Momoa](PERSON:jason momoa)?
 
 ## synonym:"help i'm a fish"
 - "Help I'm a Fish"
