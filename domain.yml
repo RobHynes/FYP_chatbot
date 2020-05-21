@@ -24,6 +24,8 @@ entities:
 - title
 - action
 - movie
+- ORG
+- PRODUCT
 slots:
   DATE:
     type: text
@@ -97,3 +99,4 @@ actions:
 - utter_dont_understand
 - action_genre_tmdb
 - action_date_tmdb
+- action_role_tmdb
