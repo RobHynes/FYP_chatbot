@@ -82,6 +82,7 @@ class TmdbAction(Action):
             dispatcher.utter_message(title + " is " + genre + " movie starring " + actor + " and directed by " +
                                      director + ". It was released on " + release + "\nSummary: " + plot)
             dispatcher.utter_message(random.choice(s))
+            dispatcher.utter_message("If you see this then the server is updating the python code from github correctly (I hope)")
         else:
             dispatcher.utter_message(
                 "I don't understand your question. You can ask for help to see what kinds of questions you can ask")
