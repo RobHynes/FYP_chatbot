@@ -1890,6 +1890,7 @@
 - tell me about [infinity war](title)
 - Tell me more about [Shrek](title:shrek)
 - tell me about [Michael SCHUKAT](title:michael schukat)
+- tell me about [the simpsons movie](title)
 
 ## intent:goodbye
 - bye
