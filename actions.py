@@ -9,9 +9,11 @@ import omdb
 import tmdbsimple as tmdb
 from datetime import datetime
 import re
+import random
 
 
 # Actor/writer/director question: "Who is Robert Downey Jr?" / "Who is Quentin Tarantino?"
+# Complex Query: "How much money did the movie avatar make?" / "Which movie made more money, avatar or avengers"
 
 class TmdbAction(Action):
 
@@ -20,6 +22,9 @@ class TmdbAction(Action):
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        s = ["Did that answer your question?", "I hope that answered your question",
+             "Is that what you were looking for?"]
 
         gen_dict = {28: 'an action',
                     12: 'an adventure',
@@ -74,10 +79,12 @@ class TmdbAction(Action):
                     director = person["name"]
                     break
 
-            dispatcher.utter_message(
-                title + " is " + genre + " movie starring " + actor + " and directed by " + director + ". It was released on " + release + "\nSummary: " + plot)
+            dispatcher.utter_message(title + " is " + genre + " movie starring " + actor + " and directed by " +
+                                     director + ". It was released on " + release + "\nSummary: " + plot)
+            dispatcher.utter_message(random.choice(s))
         else:
-            dispatcher.utter_message("I don't understand your question")
+            dispatcher.utter_message(
+                "I don't understand your question. You can ask for help to see what kinds of questions you can ask")
 
         return []
 
@@ -85,7 +92,10 @@ class TmdbAction(Action):
 class TmdbPersonAction(Action):
 
     def name(self) -> Text:
-        return "action_person_tmdb"  # "Who directed the movie Superman?"
+        return "action_person_tmdb"  # "Tell me about the movie Superman" / "Who directed the movie Superman?"
+
+    s = ["Did that answer your question?", "I hope that answered your question", "Is that what you were looking for?"]
+    # after deny response, have a response like "sorry, try asking your question another way"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
@@ -120,10 +130,13 @@ class TmdbPersonAction(Action):
                 name = response['results'][0]['name']
 
                 dispatcher.utter_message(name + " is " + role + " known for " + movies[0] + ", " + movies[1] + " and " + movies[2])
+                dispatcher.utter_message(random.choice(s))
             else:
-                dispatcher.utter_message("I don't understand your question")
+                dispatcher.utter_message(
+                    "I don't understand your question. You can ask for help to see what kinds of questions you can ask")
         else:
-            dispatcher.utter_message("I don't understand your question")
+            dispatcher.utter_message(
+                "I don't understand your question. You can ask for help to see what kinds of questions you can ask")
 
         return []
 
@@ -138,6 +151,9 @@ class TmdbDateAction(Action):
 
         tmdb.API_KEY = "5ce7e4a66621977d06b1c0e75961699b"
         discover = tmdb.Discover()
+
+        s = ["Did that answer your question?", "I hope that answered your question",
+             "Is that what you were looking for?"]
 
         is_year = False
         movies = []
@@ -165,23 +181,18 @@ class TmdbDateAction(Action):
             try:
                 date_object = datetime.strptime(date, '%d %B %Y').date()
                 is_year = False
-                print("1")
             except ValueError:
                 try:
                     date_object = datetime.strptime(date, '%B %d %Y').date()
                     is_year = False
-                    print("2")
                 except ValueError:
                     try:
                         date_object = datetime.strptime(date, '%Y').date()
                         is_year = True
-                        print("3")
                     except ValueError:
-                        print(date)
                         dispatcher.utter_message("I don't understand your question")
-                        dispatcher.utter_message(
-                            'If you are asking about a date, try it in the format of "1st January 2020" or "January 1st 2020"')
-                        print("4")
+                        dispatcher.utter_message('If you are asking about a date, '
+                                                 'try it in the format of "1st January 2020" or "January 1st 2020"')
                         return []
 
             if is_year:
@@ -215,11 +226,13 @@ class TmdbDateAction(Action):
                     dispatcher.utter_message("The most popular " + genre + " movies from that year were " + titles)
                 else:
                     dispatcher.utter_message("The most popular " + genre + " movies from that date were " + titles)
+                dispatcher.utter_message(random.choice(s))
             else:
                 if is_year:
                     dispatcher.utter_message("The most popular movies from that year were " + titles)
                 else:
                     dispatcher.utter_message("The most popular movies from that date were " + titles)
+                dispatcher.utter_message(random.choice(s))
 
         elif tracker.get_slot("title") is not None:  # what date did x movie release
             title = next(tracker.get_latest_entity_values("title"))
@@ -229,8 +242,10 @@ class TmdbDateAction(Action):
             title = response['results'][0]['title']
             release = movie.info()['release_date']
             dispatcher.utter_message(title + "was released on " + release)
+            dispatcher.utter_message(random.choice(s))
         else:
-            dispatcher.utter_message("I don't understand your question")
+            dispatcher.utter_message(
+                "I don't understand your question. You can ask for help to see what kinds of questions you can ask")
         return []
 
 
@@ -245,6 +260,9 @@ class TmdbRoleAction(Action):
         tmdb.API_KEY = "5ce7e4a66621977d06b1c0e75961699b"
         search = tmdb.Search()
         # movie_credits = None
+
+        s = ["Did that answer your question?", "I hope that answered your question",
+             "Is that what you were looking for?"]
 
         if tracker.get_slot("action") is not None:
 
@@ -277,6 +295,7 @@ class TmdbRoleAction(Action):
                             break
 
                 dispatcher.utter_message(name + " " + action + " " + title)  # Who stars in X? PERSON stars in X
+                dispatcher.utter_message(random.choice(s))
 
             elif tracker.get_slot("PERSON") is not None:
                 name = next(tracker.get_latest_entity_values("PERSON"))
@@ -297,8 +316,10 @@ class TmdbRoleAction(Action):
                 # what movies has PERSON starred in? they have starred in xyz
                 dispatcher.utter_message(
                     name + " is known for " + action + " " + movies[0] + ", " + movies[1] + " and " + movies[2])
+                dispatcher.utter_message(random.choice(s))
         else:
-            dispatcher.utter_message("I don't understand your question")
+            dispatcher.utter_message(
+                "I don't understand your question. You can ask for help to see what kinds of questions you can ask")
         return []
 
 
@@ -312,6 +333,9 @@ class TmdbGenreAction(Action):  # tell me about action movies from 2018
 
         tmdb.API_KEY = "5ce7e4a66621977d06b1c0e75961699b"
         discover = tmdb.Discover()
+
+        s = ["Did that answer your question?", "I hope that answered your question",
+             "Is that what you were looking for?"]
 
         gen_dict = {28: 'action',
                     12: 'adventure',
@@ -401,10 +425,15 @@ class TmdbGenreAction(Action):  # tell me about action movies from 2018
                 # the most popular GENRE movies released IN YEAR/ ON JANUARY 1ST YEAR/ ON
                 if is_year:
                     dispatcher.utter_message("The most popular " + genre + " movies from that year were " + titles)
+                    dispatcher.utter_message(random.choice(s))
                 else:
                     dispatcher.utter_message("The most popular " + genre + " movies from that date were " + titles)
+                    dispatcher.utter_message(random.choice(s))
 
         else:  # genre, date, type
-            dispatcher.utter_message("I don't understand your question")  # tell me about action movies from 2018
+            dispatcher.utter_message(
+                "I don't understand your question. You can ask for help to see what kinds of questions you can ask")
+            # tell me about action movies from 2018
         return []
+
 
